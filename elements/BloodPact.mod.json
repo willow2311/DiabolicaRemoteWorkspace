@@ -1,0 +1,26 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Blood Pact",
+    "icon": "realpentagon.png",
+    "color": {
+      "value": -11532023,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "BloodPactEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "BloodPactActiveTickCondition"
+    },
+    "onExpired": {
+      "name": "BloodPactEffectExpires"
+    }
+  }
+}

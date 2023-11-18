@@ -1,0 +1,117 @@
+{
+  "_fv": 47,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 197,
+    "height": 201,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_devils_contract",
+          "text": {
+            "fixedValue": "DEVILS CONTRACT"
+          },
+          "color": {
+            "value": -10092544,
+            "falpha": 0.0
+          },
+          "x": 172,
+          "y": 27
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "realpentagon.png",
+          "use1Xscale": false,
+          "x": 150,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sign_and_recieve_my_guarantee_of",
+          "text": {
+            "fixedValue": "Sign and recieve my guarantee of"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 128,
+          "y": 41
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_destruction_upon_using_the_idol",
+          "text": {
+            "fixedValue": "destruction upon use of the Idol."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 128,
+          "y": 52
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_but_prepare_for_the_consequences",
+          "text": {
+            "fixedValue": "But prepare for the consequences."
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 126,
+          "y": 204
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_check",
+          "image": "check.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "CheckCLicked"
+          },
+          "x": 124,
+          "y": 120
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_x",
+          "image": "x.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "XCLicked"
+          },
+          "x": 287,
+          "y": 120
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

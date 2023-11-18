@@ -1,0 +1,7 @@
+{
+  "parent": "diabolica:custom/blue_axefiffffffnal",
+  "textures": {
+    "0": "diabolica:block/blue_axe",
+    "particle": "diabolica:item/image"
+  }
+}

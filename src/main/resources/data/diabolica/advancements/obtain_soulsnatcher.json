@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "diabolica:soulsnatcher"
+    },
+    "title": {
+      "translate": "advancements.obtain_soulsnatcher.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_soulsnatcher.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_soulsnatcher": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diabolica:soulsnatcher"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "diabolica:root"
+}

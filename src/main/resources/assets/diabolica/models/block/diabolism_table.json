@@ -1,0 +1,9 @@
+{
+  "parent": "diabolica:custom/eldritch_workbench",
+  "textures": {
+    "all": "diabolica:block/eldritch_workbench",
+    "particle": "diabolica:block/eldritch_workbench",
+    "3": "diabolica:block/eldritch_workbench"
+  },
+  "render_type": "cutout"
+}

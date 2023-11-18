@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="diabolica"
+version="1.0.0"
+displayName="Diabolica"
+credits="StatDefender for everything except Autumnly retextures and modeled the Table of Diabolism."
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+authors="StatDefender"
+description="A vanilla-plus dark magic mod"
+
+[[dependencies.diabolica]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

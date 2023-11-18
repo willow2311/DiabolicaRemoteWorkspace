@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "diabolica:diabolism_table"
+    },
+    "title": {
+      "translate": "advancements.obtain_diablism_table.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_diablism_table.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_diablism_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diabolica:diabolism_table"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "diabolica:root"
+}

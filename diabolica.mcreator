@@ -1,0 +1,2490 @@
+{
+  "mod_elements": [
+    {
+      "name": "G",
+      "type": "function",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/functions/g.mcfunction"
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "Gu",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/GuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "SPin",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s_pin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SPinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "KillCircle",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_circle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/KillCircleProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "RaisePlayer",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raise_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RaisePlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "LevitatePlayer",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "levitate_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/LevitatePlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "HoverPlayer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hover_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/HoverPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "Gub",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "accursed_idol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/GubItem.java",
+          "src/main/resources/assets/diabolica/models/item/accursed_idol.json"
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "GubItemInHandTick",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gub_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/GubItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "TotemEffects",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/TotemEffectsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "DevilsContract",
+      "type": "gui",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devils_contract",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/network/DevilsContractButtonMessage.java",
+          "src/main/java/net/mcreator/diabolica/client/gui/DevilsContractScreen.java",
+          "src/main/java/net/mcreator/diabolica/world/inventory/DevilsContractMenu.java"
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "DevilsContractItemRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devils_contract_item_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/DevilsContractItemRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "DevilsContractItem",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devils_contract",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/DevilsContractItemItem.java",
+          "src/main/resources/assets/diabolica/models/item/devils_contract.json"
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "XCLicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xc_licked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/XCLickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "RedBoom",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_boom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/client/particle/RedBoomParticle.java",
+          "src/main/resources/assets/diabolica/particles/red_boom.json"
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "CheckCLicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "check_c_licked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CheckCLickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "BloodPact",
+      "type": "potioneffect",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/potion/BloodPactMobEffect.java"
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "ApplyBloodPact",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apply_blood_pact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ApplyBloodPactProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "LimboBiome",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/worldgen/biome/limbo_biome.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "Stasis",
+      "type": "dimension",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stasis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/eviladdons/dimension/stasis.json",
+          "src/main/resources/data/eviladdons/dimension_type/stasis.json",
+          "src/main/java/net/mcreator/eviladdons/world/dimension/StasisDimension.java"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "LimboBlock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/limbo_block.json",
+          "src/main/resources/assets/diabolica/models/item/limbo_block.json",
+          "src/main/resources/assets/diabolica/models/block/limbo_block.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "ExitLimbo",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_limbo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ExitLimboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "VoidParcel",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_parcel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/void_parcel.json",
+          "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java"
+        ]
+      },
+      "path": "~/Unused"
+    },
+    {
+      "name": "SpellOfRecombobulation",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_of_discombobulation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/spell_of_discombobulation.json",
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecombobulationItem.java"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "Soul",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/SoulItem.java",
+          "src/main/resources/assets/diabolica/models/item/soul.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "Buttonpressed",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buttonpressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ButtonpressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/idk"
+    },
+    {
+      "name": "SpellOfRecombobulationRightclicked",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_of_recombobulation_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SpellOfRecombobulationRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "RecombTooltip",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recomb_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RecombTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "MysticCrystal",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented_tear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/MysticCrystalItem.java",
+          "src/main/resources/assets/diabolica/models/item/augmented_tear.json"
+        ]
+      },
+      "path": "~/TearOfAugmentation"
+    },
+    {
+      "name": "UpgradeTooltip",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgrade_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/UpgradeTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/TearOfAugmentation"
+    },
+    {
+      "name": "EnhcancedCraftingTable",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabolism_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/EnhcancedCraftingTableBlock.java",
+          "src/main/java/net/mcreator/diabolica/block/entity/EnhcancedCraftingTableBlockEntity.java",
+          "src/main/resources/assets/diabolica/blockstates/diabolism_table.json",
+          "src/main/resources/assets/diabolica/models/item/diabolism_table.json",
+          "src/main/resources/assets/diabolica/models/block/diabolism_table.json"
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "MysticCrystalRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mystic_crystal_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/MysticCrystalRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/TearOfAugmentation"
+    },
+    {
+      "name": "EnhancedCraftGUI",
+      "type": "gui",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enhanced_craft_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/client/gui/EnhancedCraftGUIScreen.java",
+          "src/main/java/net/mcreator/diabolica/world/inventory/EnhancedCraftGUIMenu.java",
+          "src/main/java/net/mcreator/diabolica/network/EnhancedCraftGUISlotMessage.java"
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "RemoveItemFromOutput",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_item_from_output",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RemoveItemFromOutputProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "WhenGUIClosed",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_gui_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/WhenGUIClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "EhancedGUIUpdateTick",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ehanced_gui_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/EhancedGUIUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "AnythingRecipe",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anything_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AnythingRecipeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "ItemUpgradeProcedure",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_upgrade_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ItemUpgradeProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "ItemTakenSLot1",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_taken_s_lot_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ItemTakenSLot1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "ColorRarityTrue",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color_rarity_true",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ColorRarityTrueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "ColorRarityFalses",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "color_rarity_falses",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ColorRarityFalsesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "SpellofDiscombobulation",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_of_recombobulation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/SpellofDiscombobulationItem.java",
+          "src/main/resources/assets/diabolica/models/item/spell_of_recombobulation.json"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "CraftRecom",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_recom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftRecomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "CraftDecomb",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_decomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftDecombProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "DropSoul",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_soul",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/DropSoulProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "BloodPactActiveTickCondition",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pact_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/BloodPactActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "BloodPactEffectExpires",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pact_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/BloodPactEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "BloodPactEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_pact_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/BloodPactEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "WitherLoot",
+      "type": "loottable",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/wither.json"
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "AugmentedEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AugmentedEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "AugmentedEffectExpired",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented_effect_expired",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AugmentedEffectExpiredProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "Augmented",
+      "type": "potioneffect",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/potion/AugmentedMobEffect.java"
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "SpawnAugmentedMob",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_augmented_mob",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SpawnAugmentedMobProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "Lachrymose",
+      "type": "enchantment",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lachrymose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/enchantment/LachrymoseEnchantment.java"
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "AugmentedKilledByLachrymose",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented_killed_by_lachrymose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AugmentedKilledByLachrymoseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "SoulHovered",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_hovered",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SoulHoveredProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "Emptyidol",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_accursed_idol",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/empty_accursed_idol.json",
+          "src/main/java/net/mcreator/diabolica/item/EmptyidolItem.java"
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "ChargeIdol",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charge_idol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/ChargeIdolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "EvilParticle",
+      "type": "particle",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evil_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/particles/evil_particle.json",
+          "src/main/java/net/mcreator/diabolica/client/particle/EvilParticleParticle.java"
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "EmptyIdolTooltip",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_idol_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/EmptyIdolTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "CraftIdol",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_idol",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftIdolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "Soulsnatcher",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsnatcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/SoulsnatcherItem.java",
+          "src/main/resources/assets/diabolica/models/item/soulsnatcher.json"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "SnatcherHit",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snatcher_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SnatcherHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "LaunchingEnchant",
+      "type": "enchantment",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launching_enchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/enchantment/LaunchingEnchantEnchantment.java"
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "LaunchingProc",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "launching_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/LaunchingProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "PlayerLeaves",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PlayerLeavesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soul"
+    },
+    {
+      "name": "SpellOfRecall",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spell_of_recall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/spell_of_recall.json",
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecallItem.java"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "PlayerClicksBed",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_clicks_bed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PlayerClicksBedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "RecallCasted",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recall_casted",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RecallCastedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "Beds",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/blocks/beds.json"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "PlayerJoins",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_joins",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PlayerJoinsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/scroll.json",
+          "src/main/java/net/mcreator/diabolica/item/ScrollItem.java"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "CraftScroll",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_scroll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftScrollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "CraftRecall",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_recall",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftRecallProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "PaperTooltip",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_tooltip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PaperTooltipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "DropSoulsnatcher",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_soulsnatcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/DropSoulsnatcherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AugmentMobs"
+    },
+    {
+      "name": "CancelContractProc",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cancel_contract_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CancelContractProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/DevilsContract"
+    },
+    {
+      "name": "RecallTag",
+      "type": "tag",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recall_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/recall_spell.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Discombtag",
+      "type": "tag",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "discombtag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/spell_of_discombobulation.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Recombtag",
+      "type": "tag",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recombtag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/spell_of_recombobulation.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ContractTag",
+      "type": "tag",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contract_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/devils_contract.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "EmptyIdolTag",
+      "type": "tag",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_idol_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/empty_accursed_idol.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IdolTag",
+      "type": "tag",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idol_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/accursed_idol.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SoulsnatcherTag",
+      "type": "tag",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulsnatcher_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/soulsnatcher.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Soultag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soultag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/soul.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AugmentedTearTag",
+      "type": "tag",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "augmented_tear_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/augmented_tear.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DiabolismTableBlockTag",
+      "type": "tag",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabolism_table_block_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/blocks/diabolism_table.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DiabolismTableItemTag",
+      "type": "tag",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diabolism_table_item_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/diabolism_table.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ScrollTag",
+      "type": "tag",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scroll_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/scroll.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Candles",
+      "type": "tag",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/blocks/candles.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DragonKilled",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_killed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/DragonKilledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EraseThird",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "erase_third",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/EraseThirdProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "DiablismRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diablism_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/diablism_recipe.json"
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "SkullTagItem",
+      "type": "tag",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_tag_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/skull_of_the_forgotten.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SkullTagBlock",
+      "type": "tag",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skull_tag_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/blocks/skull_of_the_forgotten.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ObtainSkull",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_skull",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/obtain_skull.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ObtainDiablismTable",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_diablism_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/obtain_diablism_table.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Root",
+      "type": "achievement",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/root.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ObtainSoulsnatcher",
+      "type": "achievement",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_soulsnatcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/obtain_soulsnatcher.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ObtainIdol",
+      "type": "achievement",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obtain_idol",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/obtain_idol.json"
+        ]
+      },
+      "path": "~/Idol of Thanatos"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "x",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "z",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "player_levitating",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "player_hovering",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "player_used_totem",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "player_used_totem2",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "contract_signed",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "dimension",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "send_away",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "buttonpressed",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "health",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "20.0"
+    },
+    {
+      "name": "plyer",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "yubgub",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "colorRarityNames",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "true"
+    },
+    {
+      "name": "attack_dmg",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "recentkill",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "killa",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "launch_used",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "spawn_x",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spawn_y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "spawn_z",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dragon_killed",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "quest_one_completed",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "quest_two_completed",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "wind_gust",
+      "files": [
+        "mixkit-ending-wind-swoosh-1482"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "ashes_fall",
+      "files": [
+        "ashes"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "open_contract",
+      "files": [
+        "page-flip-03"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "chimes",
+      "files": [
+        "wind-chimes-bells-115747"
+      ],
+      "category": "block",
+      "subtitle": ""
+    },
+    {
+      "name": "boing",
+      "files": [
+        "boing-6222"
+      ],
+      "category": "player",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "biome.diabolica.limbo_biome": "Limbo",
+      "entity.eviladdons.dark_guide": "Dark Trader",
+      "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
+      "block.eviladdons.limbo_block": "Limbo Block",
+      "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
+      "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
+      "item.eviladdons.soulsnatcher": "Soulsnatcher",
+      "block.diabolicaa.diabolism_table": "Table of Diabolism",
+      "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
+      "item.eviladdons.scroll": "Scroll",
+      "item.eviladdons.soul": "Soul",
+      "advancements.obtain_soulsnatcher.descr": "Or have I?",
+      "item.diabolicaa.spell_of_recombobulation": "Spell Of Recombobulation",
+      "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
+      "enchantment.eviladdons.launching_enchant": "Launching",
+      "item.diabolicaa.spell_of_recall": "Spell Of Recall",
+      "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "enchantment.eviladdons.lachrymose": "Lachrymose",
+      "item.diabolica.augmented_tear": "Augmented Tear",
+      "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "item.diabolica.soulsnatcher": "Soulsnatcher",
+      "gui.diabolicaa.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
+      "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
+      "item.diabolicaa.empty_accursed_idol": "Inactive Accursed Idol",
+      "gui.diabolicaa.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "gui.diabolicaa.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
+      "block.diabolica.diabolism_table": "Table of Diabolism",
+      "gui.diabolicaa.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
+      "subtitles.chimes": "",
+      "effect.eviladdons.augmented": "Augmented",
+      "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
+      "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
+      "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "biome.eviladdons.limbo_biome": "Limbo",
+      "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
+      "gui.eviladdons.devils_contract.button_empty1": " ",
+      "item.diabolica.void_parcel": "Void Parcel",
+      "item.diabolica.scroll": "Scroll",
+      "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "block.diabolicaa.limbo_block": "Limbo Block",
+      "gui.diabolicaa.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
+      "gui.diabolicaa.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
+      "advancements.obtain_soulsnatcher.title": "I Have Become Death",
+      "enchantment.diabolicaa.lachrymose": "Lachrymose",
+      "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
+      "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
+      "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
+      "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
+      "item.eviladdons.accursed_idol": "Accursed Idol",
+      "block.eviladdons.forgotten_one_skull": "The Forgotten One",
+      "advancements.root.descr": "The Diabolica mod",
+      "advancements.obtain_skull.descr": "Obtain the skull of the Forgotten One",
+      "gui.diabolicaa.quest_2.label_dark_trader": "Dark Trader",
+      "enchantment.diabolica.lachrymose": "Lachrymose",
+      "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "gui.diabolica.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "gui.diabolica.devils_contract.label_devils_contract": "DEVILS CONTRACT",
+      "block.eviladdons.diabolism_table": "Table of Diabolism",
+      "gui.eviladdons.devils_contract.button_empty": " ",
+      "gui.eviladdons.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "block.diabolica.limbo_block": "Limbo Block",
+      "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "effect.diabolicaa.augmented": "Augmented",
+      "effect.diabolica.augmented": "Augmented",
+      "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
+      "subtitles.wind_gust": "",
+      "item.eviladdons.spell_of_recall": "Spell Of Recall",
+      "biome.diabolicaa.limbo_biome": "Limbo",
+      "advancements.root.title": "Diablica",
+      "item.diabolica.devils_contract": "Devil\u0027s Contract ",
+      "enchantment.diabolica.launching_enchant": "Launching",
+      "item.eviladdons.augmented_tear": "Augmented Tear",
+      "advancements.obtain_skull.title": "The Forgotten One",
+      "item.diabolicaa.soul": "Soul",
+      "item.diabolicaa.void_parcel": "Void Parcel",
+      "gui.eviladdons.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
+      "effect.diabolicaa.blood_pact": "Blood Pact",
+      "item.eviladdons.void_parcel": "Void Parcel",
+      "effect.diabolica.blood_pact": "Blood Pact",
+      "item.diabolicaa.scroll": "Scroll",
+      "gui.eviladdons.quest_2.label_dark_trader": "Dark Trader",
+      "item.diabolicaa.accursed_idol": "Accursed Idol",
+      "gui.diabolica.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "advancements.obtain_diablism_table.descr": "Craft the Table of Diabolism",
+      "subtitles.open_contract": "",
+      "subtitles.boing": "",
+      "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
+      "advancements.obtain_idol.title": "Final Gambit",
+      "advancements.obtain_diablism_table.title": "Diabolica!",
+      "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
+      "enchantment.diabolicaa.launching_enchant": "Launching",
+      "entity.diabolicaa.dark_guide": "Dark Trader",
+      "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
+      "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
+      "item.diabolicaa.augmented_tear": "Augmented Tear",
+      "item.diabolica.soul": "Soul",
+      "gui.eviladdons.dark_guide_first_quest.label_dark_trader": "Dark Trader",
+      "effect.eviladdons.blood_pact": "Blood Pact",
+      "item.diabolica.spell_of_recall": "Spell Of Recall",
+      "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
+      "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
+      "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "item.diabolica.accursed_idol": "Accursed Idol",
+      "item.diabolicaa.soulsnatcher": "Soulsnatcher",
+      "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
+      "gui.eviladdons.void_pardel_gui.button_send": "SEND",
+      "subtitles.ashes_fall": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "CustomCraft",
+        "children": []
+      },
+      {
+        "name": "AugmentMobs",
+        "children": []
+      },
+      {
+        "name": "DevilsContract",
+        "children": []
+      },
+      {
+        "name": "Unused",
+        "children": []
+      },
+      {
+        "name": "Idol of Thanatos",
+        "children": []
+      },
+      {
+        "name": "Limbo",
+        "children": []
+      },
+      {
+        "name": "Spells",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Soul",
+        "children": []
+      },
+      {
+        "name": "TearOfAugmentation",
+        "children": []
+      },
+      {
+        "name": "idk",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "diabolica",
+    "modName": "Diabolica",
+    "version": "1.0.0",
+    "description": "A vanilla-plus dark magic mod",
+    "author": "StatDefender",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "diabolicafinal",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "StatDefender for everything except Autumnly retextures and modeled the Table of Diabolism.",
+    "modElementsPackage": "net.mcreator.diabolica",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "diabolica:block/diabolism_table"
+    },
+    "facing=east": {
+      "model": "diabolica:block/diabolism_table",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "diabolica:block/diabolism_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "diabolica:block/diabolism_table",
+      "y": 270
+    }
+  }
+}

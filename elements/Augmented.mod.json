@@ -1,0 +1,23 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Augmented",
+    "icon": "augmented_eff.png",
+    "color": {
+      "value": -26113,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "onStarted": {
+      "name": "AugmentedEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "AugmentedEffectExpired"
+    }
+  }
+}

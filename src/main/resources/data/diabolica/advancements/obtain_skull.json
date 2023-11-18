@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "diabolica:forgotten_one_skull"
+    },
+    "title": {
+      "translate": "advancements.obtain_skull.title"
+    },
+    "description": {
+      "translate": "advancements.obtain_skull.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "diabolica:forgotten_one_skull"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "diabolica:root"
+}

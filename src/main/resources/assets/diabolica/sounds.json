@@ -1,0 +1,42 @@
+{
+  "wind_gust": {
+    "sounds": [
+      {
+        "name": "diabolica:mixkit-ending-wind-swoosh-1482",
+        "stream": false
+      }
+    ]
+  },
+  "ashes_fall": {
+    "sounds": [
+      {
+        "name": "diabolica:ashes",
+        "stream": false
+      }
+    ]
+  },
+  "open_contract": {
+    "sounds": [
+      {
+        "name": "diabolica:page-flip-03",
+        "stream": false
+      }
+    ]
+  },
+  "chimes": {
+    "sounds": [
+      {
+        "name": "diabolica:wind-chimes-bells-115747",
+        "stream": false
+      }
+    ]
+  },
+  "boing": {
+    "sounds": [
+      {
+        "name": "diabolica:boing-6222",
+        "stream": false
+      }
+    ]
+  }
+}

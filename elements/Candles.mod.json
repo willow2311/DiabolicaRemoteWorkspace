@@ -1,0 +1,66 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "Blocks.CANDLE#0"
+      },
+      {
+        "value": "Blocks.CANDLE#1"
+      },
+      {
+        "value": "Blocks.CANDLE#2"
+      },
+      {
+        "value": "Blocks.CANDLE#3"
+      },
+      {
+        "value": "Blocks.CANDLE#4"
+      },
+      {
+        "value": "Blocks.CANDLE#5"
+      },
+      {
+        "value": "Blocks.CANDLE#6"
+      },
+      {
+        "value": "Blocks.CANDLE#7"
+      },
+      {
+        "value": "Blocks.CANDLE#8"
+      },
+      {
+        "value": "Blocks.CANDLE#9"
+      },
+      {
+        "value": "Blocks.CANDLE#10"
+      },
+      {
+        "value": "Blocks.CANDLE#11"
+      },
+      {
+        "value": "Blocks.CANDLE#12"
+      },
+      {
+        "value": "Blocks.CANDLE#13"
+      },
+      {
+        "value": "Blocks.CANDLE#14"
+      },
+      {
+        "value": "Blocks.CANDLE#15"
+      },
+      {
+        "value": "Blocks.CANDLE#16"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "candles",
+    "namespace": "mod"
+  }
+}
