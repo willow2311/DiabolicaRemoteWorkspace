@@ -34,7 +34,7 @@ public class SpellOfRecombobulationItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
-		SpellOfRecombobulationRightclickedProcedure.execute(world, x, y, z, entity);
+		SpellOfRecombobulationRightclickedProcedure.execute(world, x, y, z, entity, itemstack);
 		return ar;
 	}
 }

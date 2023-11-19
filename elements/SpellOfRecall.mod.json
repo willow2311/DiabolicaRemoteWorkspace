@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "recall_tex",
+    "texture": "recall_spell",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

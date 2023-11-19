@@ -38,5 +38,22 @@
         "stream": false
       }
     ]
+  },
+  "ambience.stasis.static_wind": {
+    "subtitle": "subtitles.ambience.stasis.static_wind",
+    "sounds": [
+      {
+        "name": "diabolica:static_wind",
+        "stream": false
+      }
+    ]
+  },
+  "music.stasis.liminality": {
+    "sounds": [
+      {
+        "name": "diabolica:liminality",
+        "stream": true
+      }
+    ]
   }
 }

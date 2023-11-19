@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "diabolica:limbo_block",
-    "minecraft:andesite"
+    "diabolica:limbo_block"
   ]
 }

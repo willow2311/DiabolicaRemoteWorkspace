@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "diabolica:liminal_road_3",
+  "step": "surface_structures"
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "diabolica:item/image9"
+    "layer0": "diabolica:item/void_parcel_2"
   }
 }

@@ -35,6 +35,7 @@ import net.mcreator.diabolica.init.DiabolicaModParticleTypes;
 import net.mcreator.diabolica.init.DiabolicaModMobEffects;
 import net.mcreator.diabolica.init.DiabolicaModMenus;
 import net.mcreator.diabolica.init.DiabolicaModItems;
+import net.mcreator.diabolica.init.DiabolicaModFeatures;
 import net.mcreator.diabolica.init.DiabolicaModEnchantments;
 import net.mcreator.diabolica.init.DiabolicaModBlocks;
 import net.mcreator.diabolica.init.DiabolicaModBlockEntities;
@@ -63,7 +64,7 @@ public class DiabolicaMod {
 
 		DiabolicaModEnchantments.REGISTRY.register(bus);
 		DiabolicaModTabs.REGISTRY.register(bus);
-
+		DiabolicaModFeatures.REGISTRY.register(bus);
 		DiabolicaModMobEffects.REGISTRY.register(bus);
 
 		DiabolicaModParticleTypes.REGISTRY.register(bus);

@@ -40,6 +40,10 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> SOULSNATCHER = REGISTRY.register("soulsnatcher", () -> new SoulsnatcherItem());
 	public static final RegistryObject<Item> SPELL_OF_RECALL = REGISTRY.register("spell_of_recall", () -> new SpellOfRecallItem());
 	public static final RegistryObject<Item> SCROLL = REGISTRY.register("scroll", () -> new ScrollItem());
+	public static final RegistryObject<Item> LIMINAL_ROAD = block(DiabolicaModBlocks.LIMINAL_ROAD);
+	public static final RegistryObject<Item> STRIPED_LIMINAL_ROAD = block(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD);
+	public static final RegistryObject<Item> ROAD_PLACER = block(DiabolicaModBlocks.ROAD_PLACER);
+	public static final RegistryObject<Item> ROAD_PLACER_2 = block(DiabolicaModBlocks.ROAD_PLACER_2);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

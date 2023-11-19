@@ -4,38 +4,38 @@
   "definition": {
     "name": "Limbo",
     "groundBlock": {
-      "value": "Blocks.STONE#5"
+      "value": "CUSTOM:LimboBlock"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#5"
+      "value": "CUSTOM:LimboBlock"
     },
     "underwaterBlock": {
-      "value": "Blocks.STONE#5"
+      "value": "CUSTOM:LimboBlock"
     },
     "airColor": {
-      "value": -1,
+      "value": -8492198,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:ambience.stasis.static_wind"
     },
     "additionsSound": {
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:music.stasis.liminality"
     },
     "moodSound": {
-      "value": "ambient.cave"
+      "value": ""
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "SOUL"
+      "value": "WHITE_ASH"
     },
-    "particlesProbability": 0.01,
+    "particlesProbability": 4.0,
     "rainingPossibility": 0.5,
-    "temperature": 0.5,
+    "temperature": 0.3,
     "spawnBiome": false,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -53,7 +53,7 @@
     },
     "genErosion": {
       "min": -0.5,
-      "max": 0.5
+      "max": 2.0
     },
     "genWeirdness": {
       "min": -1.0,

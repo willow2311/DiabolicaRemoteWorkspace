@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class LimboBlockBlock extends Block {
 	public LimboBlockBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.NONE).sound(SoundType.EMPTY).strength(-1, 3600000));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.NONE).sound(SoundType.SNOW).strength(-1, 3600000));
 	}
 
 	@Override

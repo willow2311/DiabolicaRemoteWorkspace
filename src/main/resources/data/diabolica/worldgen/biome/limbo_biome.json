@@ -1,24 +1,25 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
+  "temperature": 0.3,
   "downfall": 0.5,
   "effects": {
-    "mood_sound": {
-      "sound": "ambient.cave",
-      "tick_delay": 6000,
-      "offset": 8,
-      "block_search_extent": 2
+    "ambient_sound": "diabolica:ambience.stasis.static_wind",
+    "music": {
+      "sound": "diabolica:music.stasis.liminality",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": true
     },
     "particle": {
       "options": {
-        "type": "soul"
+        "type": "white_ash"
       },
-      "probability": 0.0001
+      "probability": 0.04
     },
     "foliage_color": 10387789,
     "grass_color": 9470285,
-    "sky_color": -1,
-    "fog_color": -1,
+    "sky_color": -8492198,
+    "fog_color": -8492198,
     "water_color": 4159204,
     "water_fog_color": 329011
   },

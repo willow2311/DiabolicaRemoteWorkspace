@@ -322,8 +322,8 @@
       "registry_name": "devils_contract",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/network/DevilsContractButtonMessage.java",
           "src/main/java/net/mcreator/diabolica/client/gui/DevilsContractScreen.java",
+          "src/main/java/net/mcreator/diabolica/network/DevilsContractButtonMessage.java",
           "src/main/java/net/mcreator/diabolica/world/inventory/DevilsContractMenu.java"
         ]
       },
@@ -409,8 +409,8 @@
       "registry_name": "red_boom",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/client/particle/RedBoomParticle.java",
-          "src/main/resources/assets/diabolica/particles/red_boom.json"
+          "src/main/resources/assets/diabolica/particles/red_boom.json",
+          "src/main/java/net/mcreator/diabolica/client/particle/RedBoomParticle.java"
         ]
       },
       "path": "~/DevilsContract"
@@ -508,9 +508,9 @@
       "registry_name": "stasis",
       "metadata": {
         "files": [
-          "src/main/resources/data/eviladdons/dimension/stasis.json",
-          "src/main/resources/data/eviladdons/dimension_type/stasis.json",
-          "src/main/java/net/mcreator/eviladdons/world/dimension/StasisDimension.java"
+          "src/main/java/net/mcreator/diabolica/world/dimension/StasisDimension.java",
+          "src/main/resources/data/diabolica/dimension_type/stasis.json",
+          "src/main/resources/data/diabolica/dimension/stasis.json"
         ]
       },
       "path": "~/Limbo"
@@ -524,10 +524,10 @@
       "registry_name": "limbo_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/limbo_block.json",
           "src/main/resources/assets/diabolica/models/item/limbo_block.json",
-          "src/main/resources/assets/diabolica/models/block/limbo_block.json"
+          "src/main/resources/assets/diabolica/models/block/limbo_block.json",
+          "src/main/resources/assets/diabolica/blockstates/limbo_block.json",
+          "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java"
         ]
       },
       "path": "~/Limbo"
@@ -577,8 +577,8 @@
       "registry_name": "void_parcel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/void_parcel.json",
-          "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java"
+          "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java",
+          "src/main/resources/assets/diabolica/models/item/void_parcel.json"
         ]
       },
       "path": "~/Unused"
@@ -592,8 +592,8 @@
       "registry_name": "spell_of_discombobulation",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/spell_of_discombobulation.json",
-          "src/main/java/net/mcreator/diabolica/item/SpellOfRecombobulationItem.java"
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecombobulationItem.java",
+          "src/main/resources/assets/diabolica/models/item/spell_of_discombobulation.json"
         ]
       },
       "path": "~/Spells"
@@ -607,8 +607,8 @@
       "registry_name": "soul",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/item/SoulItem.java",
-          "src/main/resources/assets/diabolica/models/item/soul.json"
+          "src/main/resources/assets/diabolica/models/item/soul.json",
+          "src/main/java/net/mcreator/diabolica/item/SoulItem.java"
         ]
       },
       "path": "~/Soul"
@@ -648,6 +648,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -741,11 +745,11 @@
       "registry_name": "diabolism_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/EnhcancedCraftingTableBlock.java",
           "src/main/java/net/mcreator/diabolica/block/entity/EnhcancedCraftingTableBlockEntity.java",
-          "src/main/resources/assets/diabolica/blockstates/diabolism_table.json",
           "src/main/resources/assets/diabolica/models/item/diabolism_table.json",
-          "src/main/resources/assets/diabolica/models/block/diabolism_table.json"
+          "src/main/resources/assets/diabolica/models/block/diabolism_table.json",
+          "src/main/java/net/mcreator/diabolica/block/EnhcancedCraftingTableBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/diabolism_table.json"
         ]
       },
       "path": "~/CustomCraft"
@@ -1345,8 +1349,8 @@
       "registry_name": "evil_particle",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/particles/evil_particle.json",
-          "src/main/java/net/mcreator/diabolica/client/particle/EvilParticleParticle.java"
+          "src/main/java/net/mcreator/diabolica/client/particle/EvilParticleParticle.java",
+          "src/main/resources/assets/diabolica/particles/evil_particle.json"
         ]
       },
       "path": "~/Idol of Thanatos"
@@ -1404,8 +1408,8 @@
       "registry_name": "soulsnatcher",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/item/SoulsnatcherItem.java",
-          "src/main/resources/assets/diabolica/models/item/soulsnatcher.json"
+          "src/main/resources/assets/diabolica/models/item/soulsnatcher.json",
+          "src/main/java/net/mcreator/diabolica/item/SoulsnatcherItem.java"
         ]
       },
       "path": "~/Soul"
@@ -1513,8 +1517,8 @@
       "registry_name": "spell_of_recall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/spell_of_recall.json",
-          "src/main/java/net/mcreator/diabolica/item/SpellOfRecallItem.java"
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecallItem.java",
+          "src/main/resources/assets/diabolica/models/item/spell_of_recall.json"
         ]
       },
       "path": "~/Spells"
@@ -2104,6 +2108,226 @@
         ]
       },
       "path": "~/Idol of Thanatos"
+    },
+    {
+      "name": "LiminalRoad",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_road",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/LiminalRoadBlock.java",
+          "src/main/resources/assets/diabolica/models/item/liminal_road.json",
+          "src/main/resources/assets/diabolica/blockstates/liminal_road.json",
+          "src/main/resources/assets/diabolica/models/block/liminal_road.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "StripedLiminalRoad",
+      "type": "block",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_liminal_road",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/striped_liminal_road.json",
+          "src/main/resources/assets/diabolica/models/block/striped_liminal_road.json",
+          "src/main/java/net/mcreator/diabolica/block/StripedLiminalRoadBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/striped_liminal_road.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "LiminalRoad1",
+      "type": "structure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_road_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad1Feature.java",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_1.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_1_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_1.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "RoadPlacer",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_placer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/road_placer.json",
+          "src/main/java/net/mcreator/diabolica/block/RoadPlacerBlock.java",
+          "src/main/resources/assets/diabolica/models/item/road_placer.json",
+          "src/main/resources/assets/diabolica/blockstates/road_placer.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "RoadPlacerUpdateTick",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_placer_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RoadPlacerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "LiminalRoad2",
+      "type": "structure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_road_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad2Feature.java",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_2.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_2.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_2_biome_modifier.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "LiminalRoad3",
+      "type": "structure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_road_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_3_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_3.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_3.json",
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad3Feature.java"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "RoadPlacer2",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_placer_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/RoadPlacer2Block.java",
+          "src/main/resources/assets/diabolica/models/item/road_placer_2.json",
+          "src/main/resources/assets/diabolica/models/block/road_placer_2.json",
+          "src/main/resources/assets/diabolica/blockstates/road_placer_2.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "RoadPlacer2UpdateTick",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_placer_2_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RoadPlacer2UpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "BusStop",
+      "type": "structure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bus_stop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/world/features/BusStopFeature.java",
+          "src/main/resources/data/diabolica/forge/biome_modifier/bus_stop_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/bus_stop.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/bus_stop.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "StasisPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_player_enters_dimension",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/StasisPlayerEntersDimensionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo"
     }
   ],
   "variable_elements": [
@@ -2256,6 +2480,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "StasisLoaded",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -2298,6 +2528,22 @@
       ],
       "category": "player",
       "subtitle": ""
+    },
+    {
+      "name": "ambience.stasis.static_wind",
+      "files": [
+        "static_wind"
+      ],
+      "category": "ambient",
+      "subtitle": "Wind Howling"
+    },
+    {
+      "name": "music.stasis.liminality",
+      "files": [
+        "liminality"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2308,6 +2554,7 @@
       "block.eviladdons.limbo_block": "Limbo Block",
       "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
+      "subtitles.ambience.stasis.static_wind": "Wind Howling",
       "item.eviladdons.soulsnatcher": "Soulsnatcher",
       "block.diabolicaa.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
@@ -2336,6 +2583,7 @@
       "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "subtitles.music.stasis.liminality": "",
       "biome.eviladdons.limbo_biome": "Limbo",
       "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
       "gui.eviladdons.devils_contract.button_empty1": " ",
@@ -2350,6 +2598,7 @@
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
       "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
       "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
+      "block.diabolica.road_placer_2": "Road Placer",
       "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
       "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
       "item.eviladdons.accursed_idol": "Accursed Idol",
@@ -2364,12 +2613,13 @@
       "block.eviladdons.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.devils_contract.button_empty": " ",
       "gui.eviladdons.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
-      "block.diabolica.limbo_block": "Limbo Block",
+      "block.diabolica.limbo_block": "Static Snow",
       "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "effect.diabolicaa.augmented": "Augmented",
       "effect.diabolica.augmented": "Augmented",
       "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
+      "block.diabolica.liminal_road": "Liminal Road",
       "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
       "advancements.root.title": "Diablica",
@@ -2394,6 +2644,7 @@
       "advancements.obtain_idol.title": "Final Gambit",
       "advancements.obtain_diablism_table.title": "Diabolica!",
       "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
+      "block.diabolica.road_placer": "Road Placer",
       "enchantment.diabolicaa.launching_enchant": "Launching",
       "entity.diabolicaa.dark_guide": "Dark Trader",
       "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
@@ -2406,6 +2657,7 @@
       "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
       "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
       "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "block.diabolica.striped_liminal_road": "Striped Liminal Road",
       "item.diabolica.accursed_idol": "Accursed Idol",
       "item.diabolicaa.soulsnatcher": "Soulsnatcher",
       "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",

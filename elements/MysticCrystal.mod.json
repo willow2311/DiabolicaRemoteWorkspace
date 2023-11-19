@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "image11",
+    "texture": "augmented_tear",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

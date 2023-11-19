@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "emptyidol",
+    "texture": "empty_idol",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

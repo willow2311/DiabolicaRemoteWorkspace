@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "diabolica:item/emptyidol"
+    "layer0": "diabolica:item/empty_idol"
   }
 }

@@ -15,12 +15,12 @@
       "value": "CUSTOM:LimboBlock"
     },
     "airColor": {
-      "value": -1,
+      "value": -6911888,
       "falpha": 0.0
     },
     "canRespawnHere": false,
     "hasFog": true,
-    "isDark": false,
+    "isDark": true,
     "doesWaterVaporize": true,
     "sleepResult": "DENY",
     "hasSkyLight": false,

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "diabolica:item/devilscontract"
+    "layer0": "diabolica:item/devils_contract"
   }
 }

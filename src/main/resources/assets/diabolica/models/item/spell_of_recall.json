@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "diabolica:item/recall_tex"
+    "layer0": "diabolica:item/recall_spell"
   }
 }

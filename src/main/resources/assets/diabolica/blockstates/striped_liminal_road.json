@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "diabolica:block/striped_liminal_road"
+    },
+    "facing=east": {
+      "model": "diabolica:block/striped_liminal_road",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "diabolica:block/striped_liminal_road",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "diabolica:block/striped_liminal_road",
+      "y": 270
+    }
+  }
+}

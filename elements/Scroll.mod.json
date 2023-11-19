@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "scrolltex",
+    "texture": "scroll",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

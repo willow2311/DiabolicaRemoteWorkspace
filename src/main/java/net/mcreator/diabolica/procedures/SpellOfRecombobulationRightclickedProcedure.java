@@ -2,16 +2,13 @@ package net.mcreator.diabolica.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
@@ -27,7 +24,7 @@ import net.minecraft.core.BlockPos;
 import net.mcreator.diabolica.network.DiabolicaModVariables;
 
 public class SpellOfRecombobulationRightclickedProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
 		{
@@ -105,16 +102,10 @@ public class SpellOfRecombobulationRightclickedProcedure {
 		}
 		{
 			Entity _ent = entity;
-			_ent.teleportTo(0, (-63), 0);
+			_ent.teleportTo(0, 0, 0);
 			if (_ent instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.connection.teleport(0, (-63), 0, _ent.getYRot(), _ent.getXRot());
+				_serverPlayer.connection.teleport(0, 0, 0, _ent.getYRot(), _ent.getXRot());
 		}
-		if (entity instanceof LivingEntity _entity) {
-			ItemStack _setstack = new ItemStack(Blocks.AIR);
-			_setstack.setCount(1);
-			_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-			if (_entity instanceof Player _player)
-				_player.getInventory().setChanged();
-		}
+		itemstack.shrink(1);
 	}
 }

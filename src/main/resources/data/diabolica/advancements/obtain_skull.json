@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "diabolica:forgotten_one_skull"
+      "item": "diabolica:deleted_mod_element"
     },
     "title": {
       "translate": "advancements.obtain_skull.title"
@@ -21,7 +21,7 @@
         "items": [
           {
             "items": [
-              "diabolica:forgotten_one_skull"
+              "diabolica:deleted_mod_element"
             ],
             "count": {
               "min": 1,

@@ -21,7 +21,7 @@ public class StasisDimension {
 			DimensionSpecialEffects customEffect = new DimensionSpecialEffects(Float.NaN, true, DimensionSpecialEffects.SkyType.NONE, false, false) {
 				@Override
 				public Vec3 getBrightnessDependentFogColor(Vec3 color, float sunHeight) {
-					return new Vec3(1, 1, 1);
+					return new Vec3(0.5882352941, 0.5333333333, 0.4392156863);
 				}
 
 				@Override

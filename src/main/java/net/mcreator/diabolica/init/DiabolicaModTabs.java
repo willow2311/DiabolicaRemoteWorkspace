@@ -22,6 +22,11 @@ public class DiabolicaModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+			tabData.accept(DiabolicaModBlocks.LIMINAL_ROAD.get().asItem());
+			tabData.accept(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DiabolicaModBlocks.DIABOLISM_TABLE.get().asItem());
 		}
