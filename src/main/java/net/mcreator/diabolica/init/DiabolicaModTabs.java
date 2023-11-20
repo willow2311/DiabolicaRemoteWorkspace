@@ -48,10 +48,5 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECALL.get());
 		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
-			tabData.accept(DiabolicaModItems.CANNED_HUMMUS.get());
-			tabData.accept(DiabolicaModItems.HUMMUS_SANDWICH.get());
-		}
 	}
 }

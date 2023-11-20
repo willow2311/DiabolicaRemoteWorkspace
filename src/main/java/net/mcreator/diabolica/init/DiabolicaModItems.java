@@ -20,11 +20,9 @@ import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
 import net.mcreator.diabolica.item.ScrollItem;
 import net.mcreator.diabolica.item.MysticCrystalItem;
-import net.mcreator.diabolica.item.HummusSandwichItem;
 import net.mcreator.diabolica.item.GubItem;
 import net.mcreator.diabolica.item.EmptyidolItem;
 import net.mcreator.diabolica.item.DevilsContractItemItem;
-import net.mcreator.diabolica.item.CannedHummusItem;
 import net.mcreator.diabolica.DiabolicaMod;
 
 public class DiabolicaModItems {
@@ -46,8 +44,6 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> STRIPED_LIMINAL_ROAD = block(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD);
 	public static final RegistryObject<Item> ROAD_PLACER = block(DiabolicaModBlocks.ROAD_PLACER);
 	public static final RegistryObject<Item> ROAD_PLACER_2 = block(DiabolicaModBlocks.ROAD_PLACER_2);
-	public static final RegistryObject<Item> CANNED_HUMMUS = REGISTRY.register("canned_hummus", () -> new CannedHummusItem());
-	public static final RegistryObject<Item> HUMMUS_SANDWICH = REGISTRY.register("hummus_sandwich", () -> new HummusSandwichItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
