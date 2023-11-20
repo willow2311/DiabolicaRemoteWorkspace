@@ -90,6 +90,7 @@ public class DiabolicaModVariables {
 			clone.spawn_z = original.spawn_z;
 			clone.quest_one_completed = original.quest_one_completed;
 			clone.quest_two_completed = original.quest_two_completed;
+			clone.in_stasis = original.in_stasis;
 			if (!event.isWasDeath()) {
 				clone.player_levitating = original.player_levitating;
 				clone.player_hovering = original.player_hovering;
@@ -288,6 +289,7 @@ public class DiabolicaModVariables {
 		public double spawn_z = 0;
 		public boolean quest_one_completed = false;
 		public boolean quest_two_completed = false;
+		public boolean in_stasis = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -320,6 +322,7 @@ public class DiabolicaModVariables {
 			nbt.putDouble("spawn_z", spawn_z);
 			nbt.putBoolean("quest_one_completed", quest_one_completed);
 			nbt.putBoolean("quest_two_completed", quest_two_completed);
+			nbt.putBoolean("in_stasis", in_stasis);
 			return nbt;
 		}
 
@@ -349,6 +352,7 @@ public class DiabolicaModVariables {
 			spawn_z = nbt.getDouble("spawn_z");
 			quest_one_completed = nbt.getBoolean("quest_one_completed");
 			quest_two_completed = nbt.getBoolean("quest_two_completed");
+			in_stasis = nbt.getBoolean("in_stasis");
 		}
 	}
 
@@ -397,6 +401,7 @@ public class DiabolicaModVariables {
 					variables.spawn_z = message.data.spawn_z;
 					variables.quest_one_completed = message.data.quest_one_completed;
 					variables.quest_two_completed = message.data.quest_two_completed;
+					variables.in_stasis = message.data.in_stasis;
 				}
 			});
 			context.setPacketHandled(true);

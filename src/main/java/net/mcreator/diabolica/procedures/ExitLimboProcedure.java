@@ -64,6 +64,12 @@ public class ExitLimboProcedure {
 				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.removeAllEffects();
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.setRespawnPosition(_serverPlayer.level().dimension(),
+							BlockPos.containing((entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).x,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).y,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).z),
+							_serverPlayer.getYRot(), true, false);
 				if (entity instanceof LivingEntity _entity) {
 					ItemStack _setstack = new ItemStack(Blocks.AIR);
 					_setstack.setCount(1);
@@ -106,6 +112,12 @@ public class ExitLimboProcedure {
 				}
 				if (entity instanceof LivingEntity _entity)
 					_entity.removeAllEffects();
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.setRespawnPosition(_serverPlayer.level().dimension(),
+							BlockPos.containing((entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).x,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).y,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).z),
+							_serverPlayer.getYRot(), true, false);
 				if (entity instanceof LivingEntity _entity) {
 					ItemStack _setstack = new ItemStack(Blocks.AIR);
 					_setstack.setCount(1);
@@ -139,6 +151,12 @@ public class ExitLimboProcedure {
 								((entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).y),
 								((entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).z), _ent.getYRot(), _ent.getXRot());
 				}
+				if (entity instanceof ServerPlayer _serverPlayer)
+					_serverPlayer.setRespawnPosition(_serverPlayer.level().dimension(),
+							BlockPos.containing((entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).x,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).y,
+									(entity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).z),
+							_serverPlayer.getYRot(), true, false);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.enderman.teleport")), SoundSource.NEUTRAL, 1, 1);

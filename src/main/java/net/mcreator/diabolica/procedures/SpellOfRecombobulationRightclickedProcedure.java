@@ -5,9 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
@@ -82,10 +80,6 @@ public class SpellOfRecombobulationRightclickedProcedure {
 				_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.enderman.teleport")), SoundSource.NEUTRAL, 1, 1, false);
 			}
 		}
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, -1, 255, false, false));
-		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SATURATION, -1, 255, false, false));
 		if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 			ResourceKey<Level> destinationType = ResourceKey.create(Registries.DIMENSION, new ResourceLocation("diabolica:stasis"));
 			if (_player.level().dimension() == destinationType)
@@ -106,6 +100,8 @@ public class SpellOfRecombobulationRightclickedProcedure {
 			if (_ent instanceof ServerPlayer _serverPlayer)
 				_serverPlayer.connection.teleport(0, 0, 0, _ent.getYRot(), _ent.getXRot());
 		}
+		if (entity instanceof ServerPlayer _serverPlayer)
+			_serverPlayer.setRespawnPosition(_serverPlayer.level().dimension(), new BlockPos(0, 0, 0), _serverPlayer.getYRot(), true, false);
 		itemstack.shrink(1);
 	}
 }
