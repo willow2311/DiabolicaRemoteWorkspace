@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "diabolica:pool_zedco",
+  "step": "surface_structures"
+}

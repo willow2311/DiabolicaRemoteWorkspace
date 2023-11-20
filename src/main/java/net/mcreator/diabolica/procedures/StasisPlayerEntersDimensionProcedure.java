@@ -43,8 +43,8 @@ public class StasisPlayerEntersDimensionProcedure {
 					template.placeInWorld(_serverworld, new BlockPos(10, -1, -6), new BlockPos(10, -1, -6), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.FRONT_BACK).setIgnoreEntities(false), _serverworld.random, 3);
 				}
 			}
-			world.setBlock(new BlockPos(0, 0, 0), DiabolicaModBlocks.ROAD_PLACER.get().defaultBlockState(), 3);
 			world.setBlock(new BlockPos(0, 0, -1), DiabolicaModBlocks.ROAD_PLACER_2.get().defaultBlockState(), 3);
+			world.setBlock(new BlockPos(0, 0, 0), DiabolicaModBlocks.ROAD_PLACER.get().defaultBlockState(), 3);
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(new BlockPos(4, 0, 0), _level.getBlockState(new BlockPos(4, 0, 0)).getBlock());
 			if (world instanceof Level _level)

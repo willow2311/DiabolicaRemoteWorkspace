@@ -20,6 +20,7 @@ import net.mcreator.diabolica.item.SpellOfRecallItem;
 import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
 import net.mcreator.diabolica.item.ScrollItem;
+import net.mcreator.diabolica.item.PoolWaterItem;
 import net.mcreator.diabolica.item.MysticCrystalItem;
 import net.mcreator.diabolica.item.MagicSnifferEggItem;
 import net.mcreator.diabolica.item.HummusSandwichItem;
@@ -114,6 +115,7 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> EMPTY_ACCURSED_IDOL = REGISTRY.register("empty_accursed_idol", () -> new EmptyidolItem());
 	public static final RegistryObject<Item> ROAD_PLACER = block(DiabolicaModBlocks.ROAD_PLACER);
 	public static final RegistryObject<Item> ROAD_PLACER_2 = block(DiabolicaModBlocks.ROAD_PLACER_2);
+	public static final RegistryObject<Item> POOL_WATER_BUCKET = REGISTRY.register("pool_water_bucket", () -> new PoolWaterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

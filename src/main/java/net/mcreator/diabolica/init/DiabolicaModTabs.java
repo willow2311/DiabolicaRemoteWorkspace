@@ -110,6 +110,7 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECALL.get());
 			tabData.accept(DiabolicaModItems.SPELLOF_RESURRECTION.get());
+			tabData.accept(DiabolicaModItems.POOL_WATER_BUCKET.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

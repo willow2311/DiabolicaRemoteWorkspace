@@ -3652,6 +3652,177 @@
         ]
       },
       "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PoolWater",
+      "type": "fluid",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_water",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/fluid/types/PoolWaterFluidType.java",
+          "src/main/resources/assets/diabolica/models/block/pool_water.json",
+          "src/main/resources/assets/diabolica/blockstates/pool_water.json",
+          "src/main/resources/assets/diabolica/models/item/pool_water_bucket.json",
+          "src/main/java/net/mcreator/diabolica/block/PoolWaterBlock.java",
+          "src/main/java/net/mcreator/diabolica/fluid/PoolWaterFluid.java",
+          "src/main/java/net/mcreator/diabolica/item/PoolWaterItem.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "Pools",
+      "type": "dimension",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/dimension/pools.json",
+          "src/main/java/net/mcreator/diabolica/world/dimension/PoolsDimension.java",
+          "src/main/resources/data/diabolica/dimension_type/pools.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "StaticPools",
+      "type": "biome",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "static_pools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/worldgen/biome/static_pools.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolLamp",
+      "type": "structure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_lamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_lamp_biome_modifier.json",
+          "src/main/java/net/mcreator/diabolica/world/features/PoolLampFeature.java",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_lamp.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_lamp.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolTower",
+      "type": "structure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_tower.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_tower_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_tower.json",
+          "src/main/java/net/mcreator/diabolica/world/features/PoolTowerFeature.java"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolAquaduct",
+      "type": "structure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_aquaduct",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_aquaduct.json",
+          "src/main/java/net/mcreator/diabolica/world/features/PoolAquaductFeature.java",
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_aquaduct_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_aquaduct.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolZedco",
+      "type": "structure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_zedco",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_zedco_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_zedco.json",
+          "src/main/java/net/mcreator/diabolica/world/features/PoolZedcoFeature.java",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_zedco.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "StasisPoolsEntrance",
+      "type": "structure",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stasis_pools_entrance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/worldgen/placed_feature/stasis_pools_entrance.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/stasis_pools_entrance.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/stasis_pools_entrance_biome_modifier.json",
+          "src/main/java/net/mcreator/diabolica/world/features/StasisPoolsEntranceFeature.java"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolWaterMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_water_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PoolWaterMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
     }
   ],
   "variable_elements": [
@@ -3888,6 +4059,14 @@
       ],
       "category": "block",
       "subtitle": "Light Buzzing"
+    },
+    {
+      "name": "ambience.pools",
+      "files": [
+        "pools_ambience"
+      ],
+      "category": "ambient",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -3904,8 +4083,8 @@
       "block.eviladdons.limbo_block": "Limbo Block",
       "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "block.diabolica.fluorescent_light_u": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_v": "Fluorescent Light",
       "block.diabolica.white_tile_slab": "White Tile Slab",
+      "block.diabolica.fluorescent_light_v": "Fluorescent Light",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.fluorescent_light_o": "Fluorescent Light",
       "block.diabolica.fluorescent_light_p": "Fluorescent Light",
@@ -3947,11 +4126,13 @@
       "block.diabolica.diabolism_table": "Table of Diabolism",
       "gui.diabolicaa.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
       "subtitles.chimes": "",
+      "block.diabolica.pool_water": "Pool Water",
       "effect.eviladdons.augmented": "Augmented",
       "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
       "advancements.enter_stasis.title": "A Soft Void",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "fluid.diabolica.pool_water": "Pool Water",
       "subtitles.music.stasis.liminality": "",
       "biome.eviladdons.limbo_biome": "Limbo",
       "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
@@ -3960,6 +4141,7 @@
       "item.diabolica.scroll": "Scroll",
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "item.diabolica.spellof_resurrection": "Spell of Resurrection",
+      "subtitles.ambience.pools": "",
       "block.diabolicaa.limbo_block": "Limbo Block",
       "gui.diabolicaa.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
       "block.diabolica.hummus_can": "Hummus Can",
@@ -4043,6 +4225,7 @@
       "entity.diabolicaa.dark_guide": "Dark Trader",
       "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
       "item.diabolica.canned_hummus": "Canned Hummus",
+      "item.diabolica.pool_water_bucket": "Bucket of Pool Water",
       "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.diabolica.tiles": "Tiles",
       "block.diabolica.dingy_tiles": "Dingy Tiles",
@@ -4063,6 +4246,7 @@
       "item.diabolicaa.soulsnatcher": "Soulsnatcher",
       "block.diabolica.fluorescent_light_i": "Fluorescent Light",
       "block.diabolica.fluorescent_light_j": "Fluorescent Light",
+      "biome.diabolica.static_pools": "Static Pools",
       "block.diabolica.fluorescent_light_c": "Fluorescent Light",
       "block.diabolica.fluorescent_light": "Fluorescent Light",
       "block.diabolica.fluorescent_light_d": "Fluorescent Light",

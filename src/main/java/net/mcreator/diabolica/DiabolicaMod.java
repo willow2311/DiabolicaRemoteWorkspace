@@ -35,6 +35,8 @@ import net.mcreator.diabolica.init.DiabolicaModParticleTypes;
 import net.mcreator.diabolica.init.DiabolicaModMobEffects;
 import net.mcreator.diabolica.init.DiabolicaModMenus;
 import net.mcreator.diabolica.init.DiabolicaModItems;
+import net.mcreator.diabolica.init.DiabolicaModFluids;
+import net.mcreator.diabolica.init.DiabolicaModFluidTypes;
 import net.mcreator.diabolica.init.DiabolicaModFeatures;
 import net.mcreator.diabolica.init.DiabolicaModEnchantments;
 import net.mcreator.diabolica.init.DiabolicaModBlocks;
@@ -70,6 +72,8 @@ public class DiabolicaMod {
 		DiabolicaModParticleTypes.REGISTRY.register(bus);
 
 		DiabolicaModMenus.REGISTRY.register(bus);
+		DiabolicaModFluids.REGISTRY.register(bus);
+		DiabolicaModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

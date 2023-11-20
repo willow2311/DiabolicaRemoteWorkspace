@@ -19,6 +19,7 @@ import net.mcreator.diabolica.block.TileSlabBlock;
 import net.mcreator.diabolica.block.StripedLiminalRoadBlock;
 import net.mcreator.diabolica.block.RoadPlacerBlock;
 import net.mcreator.diabolica.block.RoadPlacer2Block;
+import net.mcreator.diabolica.block.PoolWaterBlock;
 import net.mcreator.diabolica.block.PlasterBlock;
 import net.mcreator.diabolica.block.LiminalRoadBlock;
 import net.mcreator.diabolica.block.LimboBlockBlock;
@@ -150,4 +151,5 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> LIMBO_BLOCK = REGISTRY.register("limbo_block", () -> new LimboBlockBlock());
 	public static final RegistryObject<Block> ROAD_PLACER = REGISTRY.register("road_placer", () -> new RoadPlacerBlock());
 	public static final RegistryObject<Block> ROAD_PLACER_2 = REGISTRY.register("road_placer_2", () -> new RoadPlacer2Block());
+	public static final RegistryObject<Block> POOL_WATER = REGISTRY.register("pool_water", () -> new PoolWaterBlock());
 }

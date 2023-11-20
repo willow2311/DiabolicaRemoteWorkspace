@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "diabolica:limbo_block"
+    "diabolica:limbo_block",
+    "diabolica:white_tiles"
   ]
 }
