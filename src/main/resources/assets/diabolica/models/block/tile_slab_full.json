@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "diabolica:block/tiles",
+    "top": "diabolica:block/tiles",
+    "side": "diabolica:block/tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "diabolica:block/tiles",
+    "top": "diabolica:block/tiles",
+    "side": "diabolica:block/tiles"
+  },
+  "render_type": "solid"
+}

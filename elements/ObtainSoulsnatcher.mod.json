@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "I Have Become Death",
-    "achievementDescription": "Or have I?",
+    "achievementDescription": "Obtain the Soulsnatcher",
     "achievementIcon": {
       "value": "CUSTOM:Soulsnatcher"
     },

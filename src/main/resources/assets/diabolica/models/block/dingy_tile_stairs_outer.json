@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "diabolica:block/dingy_tiles",
+    "top": "diabolica:block/dingy_tiles",
+    "side": "diabolica:block/dingy_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "diabolica:block/black_tiles",
+    "top": "diabolica:block/black_tiles",
+    "side": "diabolica:block/black_tiles"
+  },
+  "render_type": "solid"
+}

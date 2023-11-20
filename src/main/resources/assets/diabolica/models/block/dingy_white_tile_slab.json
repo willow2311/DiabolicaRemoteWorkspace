@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "diabolica:block/dingy_white_tiles",
+    "top": "diabolica:block/dingy_white_tiles",
+    "side": "diabolica:block/dingy_white_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "diabolica:block/dingy_tile_slab"
+    },
+    "type=top": {
+      "model": "diabolica:block/dingy_tile_slab_top"
+    },
+    "type=double": {
+      "model": "diabolica:block/dingy_tile_slab_full"
+    }
+  }
+}

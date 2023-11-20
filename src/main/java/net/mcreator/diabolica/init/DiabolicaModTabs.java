@@ -25,10 +25,26 @@ public class DiabolicaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(DiabolicaModBlocks.LIMINAL_ROAD.get().asItem());
 			tabData.accept(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD.get().asItem());
-			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT.get().asItem());
 			tabData.accept(DiabolicaModBlocks.PLASTER.get().asItem());
-			tabData.accept(DiabolicaModBlocks.DINGY_TILES.get().asItem());
 			tabData.accept(DiabolicaModBlocks.TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.WHITE_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.WHITE_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.WHITE_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_WHITE_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_WHITE_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_WHITE_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.BLACK_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.BLACK_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.BLACK_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_A.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_B.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_C.get().asItem());
@@ -98,8 +114,8 @@ public class DiabolicaModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
 			tabData.accept(DiabolicaModItems.CANNED_HUMMUS.get());
-			tabData.accept(DiabolicaModItems.HUMMUS_SANDWICH.get());
 			tabData.accept(DiabolicaModBlocks.HUMMUS_CAN.get().asItem());
+			tabData.accept(DiabolicaModItems.HUMMUS_SANDWICH.get());
 		}
 	}
 }

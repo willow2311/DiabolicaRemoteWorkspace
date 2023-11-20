@@ -3,7 +3,7 @@
     {
       "name": "G",
       "type": "function",
-      "sortid": 21,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g",
@@ -17,7 +17,7 @@
     {
       "name": "Gu",
       "type": "procedure",
-      "sortid": 2,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gu",
@@ -53,7 +53,7 @@
     {
       "name": "SPin",
       "type": "procedure",
-      "sortid": 1,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "s_pin",
@@ -85,7 +85,7 @@
     {
       "name": "KillCircle",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_circle",
@@ -117,7 +117,7 @@
     {
       "name": "RaisePlayer",
       "type": "procedure",
-      "sortid": 6,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raise_player",
@@ -153,7 +153,7 @@
     {
       "name": "LevitatePlayer",
       "type": "procedure",
-      "sortid": 7,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitate_player",
@@ -189,7 +189,7 @@
     {
       "name": "HoverPlayer",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hover_player",
@@ -225,7 +225,7 @@
     {
       "name": "Gub",
       "type": "item",
-      "sortid": 13,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "accursed_idol",
@@ -240,7 +240,7 @@
     {
       "name": "GubItemInHandTick",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gub_item_in_hand_tick",
@@ -280,7 +280,7 @@
     {
       "name": "TotemEffects",
       "type": "procedure",
-      "sortid": 10,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "totem_effects",
@@ -316,7 +316,7 @@
     {
       "name": "DevilsContract",
       "type": "gui",
-      "sortid": 23,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devils_contract",
@@ -332,7 +332,7 @@
     {
       "name": "DevilsContractItemRightclicked",
       "type": "procedure",
-      "sortid": 11,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devils_contract_item_rightclicked",
@@ -368,7 +368,7 @@
     {
       "name": "DevilsContractItem",
       "type": "item",
-      "sortid": 12,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devils_contract",
@@ -383,7 +383,7 @@
     {
       "name": "XCLicked",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xc_licked",
@@ -403,7 +403,7 @@
     {
       "name": "RedBoom",
       "type": "particle",
-      "sortid": 24,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_boom",
@@ -418,7 +418,7 @@
     {
       "name": "CheckCLicked",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_c_licked",
@@ -454,7 +454,7 @@
     {
       "name": "BloodPact",
       "type": "potioneffect",
-      "sortid": 25,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact",
@@ -468,7 +468,7 @@
     {
       "name": "ApplyBloodPact",
       "type": "procedure",
-      "sortid": 16,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apply_blood_pact",
@@ -488,7 +488,7 @@
     {
       "name": "LimboBiome",
       "type": "biome",
-      "sortid": 26,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_biome",
@@ -497,12 +497,12 @@
           "src/main/resources/data/diabolica/worldgen/biome/limbo_biome.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "Stasis",
       "type": "dimension",
-      "sortid": 27,
+      "sortid": 4,
       "compiles": true,
       "locked_code": true,
       "registry_name": "stasis",
@@ -513,12 +513,12 @@
           "src/main/resources/data/diabolica/dimension/stasis.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "LimboBlock",
       "type": "block",
-      "sortid": 17,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_block",
@@ -530,12 +530,12 @@
           "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "ExitLimbo",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exit_limbo",
@@ -566,12 +566,12 @@
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "VoidParcel",
       "type": "item",
-      "sortid": 20,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "void_parcel",
@@ -586,7 +586,7 @@
     {
       "name": "SpellOfRecombobulation",
       "type": "item",
-      "sortid": 29,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_of_discombobulation",
@@ -601,7 +601,7 @@
     {
       "name": "Soul",
       "type": "item",
-      "sortid": 30,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul",
@@ -616,7 +616,7 @@
     {
       "name": "Buttonpressed",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttonpressed",
@@ -636,7 +636,7 @@
     {
       "name": "SpellOfRecombobulationRightclicked",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_of_recombobulation_rightclicked",
@@ -676,7 +676,7 @@
     {
       "name": "RecombTooltip",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recomb_tooltip",
@@ -700,7 +700,7 @@
     {
       "name": "MysticCrystal",
       "type": "item",
-      "sortid": 38,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_tear",
@@ -715,7 +715,7 @@
     {
       "name": "UpgradeTooltip",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgrade_tooltip",
@@ -739,7 +739,7 @@
     {
       "name": "EnhcancedCraftingTable",
       "type": "block",
-      "sortid": 40,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table",
@@ -757,7 +757,7 @@
     {
       "name": "MysticCrystalRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 41,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mystic_crystal_rightclicked_on_block",
@@ -772,7 +772,7 @@
     {
       "name": "EnhancedCraftGUI",
       "type": "gui",
-      "sortid": 42,
+      "sortid": 105,
       "compiles": true,
       "locked_code": true,
       "registry_name": "enhanced_craft_gui",
@@ -788,7 +788,7 @@
     {
       "name": "RemoveItemFromOutput",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remove_item_from_output",
@@ -808,7 +808,7 @@
     {
       "name": "WhenGUIClosed",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "when_gui_closed",
@@ -844,7 +844,7 @@
     {
       "name": "EhancedGUIUpdateTick",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ehanced_gui_update_tick",
@@ -864,7 +864,7 @@
     {
       "name": "AnythingRecipe",
       "type": "procedure",
-      "sortid": 46,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anything_recipe",
@@ -884,7 +884,7 @@
     {
       "name": "ItemUpgradeProcedure",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_upgrade_procedure",
@@ -908,7 +908,7 @@
     {
       "name": "ItemTakenSLot1",
       "type": "procedure",
-      "sortid": 48,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_taken_s_lot_1",
@@ -928,7 +928,7 @@
     {
       "name": "ColorRarityTrue",
       "type": "procedure",
-      "sortid": 49,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "color_rarity_true",
@@ -948,7 +948,7 @@
     {
       "name": "ColorRarityFalses",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "color_rarity_falses",
@@ -968,7 +968,7 @@
     {
       "name": "SpellofDiscombobulation",
       "type": "item",
-      "sortid": 52,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_of_recombobulation",
@@ -983,7 +983,7 @@
     {
       "name": "CraftRecom",
       "type": "procedure",
-      "sortid": 53,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_recom",
@@ -1003,7 +1003,7 @@
     {
       "name": "CraftDecomb",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_decomb",
@@ -1023,7 +1023,7 @@
     {
       "name": "DropSoul",
       "type": "procedure",
-      "sortid": 55,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_soul",
@@ -1063,7 +1063,7 @@
     {
       "name": "BloodPactActiveTickCondition",
       "type": "procedure",
-      "sortid": 56,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_active_tick_condition",
@@ -1083,7 +1083,7 @@
     {
       "name": "BloodPactEffectExpires",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_effect_expires",
@@ -1103,7 +1103,7 @@
     {
       "name": "BloodPactEffectStartedapplied",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_effect_startedapplied",
@@ -1127,7 +1127,7 @@
     {
       "name": "WitherLoot",
       "type": "loottable",
-      "sortid": 59,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wither_loot",
@@ -1141,7 +1141,7 @@
     {
       "name": "AugmentedEffectStartedapplied",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_effect_startedapplied",
@@ -1177,7 +1177,7 @@
     {
       "name": "AugmentedEffectExpired",
       "type": "procedure",
-      "sortid": 61,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_effect_expired",
@@ -1197,7 +1197,7 @@
     {
       "name": "Augmented",
       "type": "potioneffect",
-      "sortid": 62,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented",
@@ -1211,7 +1211,7 @@
     {
       "name": "SpawnAugmentedMob",
       "type": "procedure",
-      "sortid": 63,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawn_augmented_mob",
@@ -1235,7 +1235,7 @@
     {
       "name": "Lachrymose",
       "type": "enchantment",
-      "sortid": 64,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lachrymose",
@@ -1249,7 +1249,7 @@
     {
       "name": "AugmentedKilledByLachrymose",
       "type": "procedure",
-      "sortid": 65,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_killed_by_lachrymose",
@@ -1289,7 +1289,7 @@
     {
       "name": "SoulHovered",
       "type": "procedure",
-      "sortid": 66,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_hovered",
@@ -1304,7 +1304,7 @@
     {
       "name": "Emptyidol",
       "type": "item",
-      "sortid": 67,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_accursed_idol",
@@ -1319,7 +1319,7 @@
     {
       "name": "ChargeIdol",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charge_idol",
@@ -1343,7 +1343,7 @@
     {
       "name": "EvilParticle",
       "type": "particle",
-      "sortid": 69,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "evil_particle",
@@ -1358,7 +1358,7 @@
     {
       "name": "EmptyIdolTooltip",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_idol_tooltip",
@@ -1382,7 +1382,7 @@
     {
       "name": "CraftIdol",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_idol",
@@ -1402,7 +1402,7 @@
     {
       "name": "Soulsnatcher",
       "type": "tool",
-      "sortid": 72,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soulsnatcher",
@@ -1417,7 +1417,7 @@
     {
       "name": "SnatcherHit",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "snatcher_hit",
@@ -1449,7 +1449,7 @@
     {
       "name": "LaunchingEnchant",
       "type": "enchantment",
-      "sortid": 74,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "launching_enchant",
@@ -1463,7 +1463,7 @@
     {
       "name": "LaunchingProc",
       "type": "procedure",
-      "sortid": 75,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "launching_proc",
@@ -1491,7 +1491,7 @@
     {
       "name": "PlayerLeaves",
       "type": "procedure",
-      "sortid": 76,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_leaves",
@@ -1511,7 +1511,7 @@
     {
       "name": "SpellOfRecall",
       "type": "item",
-      "sortid": 77,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_of_recall",
@@ -1526,7 +1526,7 @@
     {
       "name": "PlayerClicksBed",
       "type": "procedure",
-      "sortid": 79,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_clicks_bed",
@@ -1562,7 +1562,7 @@
     {
       "name": "RecallCasted",
       "type": "procedure",
-      "sortid": 80,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recall_casted",
@@ -1598,7 +1598,7 @@
     {
       "name": "Beds",
       "type": "tag",
-      "sortid": 81,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beds",
@@ -1612,7 +1612,7 @@
     {
       "name": "PlayerJoins",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_joins",
@@ -1636,7 +1636,7 @@
     {
       "name": "Scroll",
       "type": "item",
-      "sortid": 83,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll",
@@ -1651,7 +1651,7 @@
     {
       "name": "CraftScroll",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_scroll",
@@ -1671,7 +1671,7 @@
     {
       "name": "CraftRecall",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_recall",
@@ -1691,7 +1691,7 @@
     {
       "name": "PaperTooltip",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_tooltip",
@@ -1715,7 +1715,7 @@
     {
       "name": "DropSoulsnatcher",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_soulsnatcher",
@@ -1755,7 +1755,7 @@
     {
       "name": "CancelContractProc",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cancel_contract_proc",
@@ -1775,7 +1775,7 @@
     {
       "name": "RecallTag",
       "type": "tag",
-      "sortid": 91,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recall_tag",
@@ -1789,7 +1789,7 @@
     {
       "name": "Discombtag",
       "type": "tag",
-      "sortid": 92,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discombtag",
@@ -1803,7 +1803,7 @@
     {
       "name": "Recombtag",
       "type": "tag",
-      "sortid": 93,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recombtag",
@@ -1817,7 +1817,7 @@
     {
       "name": "ContractTag",
       "type": "tag",
-      "sortid": 94,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contract_tag",
@@ -1831,7 +1831,7 @@
     {
       "name": "EmptyIdolTag",
       "type": "tag",
-      "sortid": 95,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_idol_tag",
@@ -1845,7 +1845,7 @@
     {
       "name": "IdolTag",
       "type": "tag",
-      "sortid": 96,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idol_tag",
@@ -1859,7 +1859,7 @@
     {
       "name": "SoulsnatcherTag",
       "type": "tag",
-      "sortid": 97,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soulsnatcher_tag",
@@ -1873,7 +1873,7 @@
     {
       "name": "Soultag",
       "type": "tag",
-      "sortid": 98,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soultag",
@@ -1887,7 +1887,7 @@
     {
       "name": "AugmentedTearTag",
       "type": "tag",
-      "sortid": 99,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_tear_tag",
@@ -1901,7 +1901,7 @@
     {
       "name": "DiabolismTableBlockTag",
       "type": "tag",
-      "sortid": 100,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table_block_tag",
@@ -1915,7 +1915,7 @@
     {
       "name": "DiabolismTableItemTag",
       "type": "tag",
-      "sortid": 101,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table_item_tag",
@@ -1929,7 +1929,7 @@
     {
       "name": "ScrollTag",
       "type": "tag",
-      "sortid": 102,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll_tag",
@@ -1943,7 +1943,7 @@
     {
       "name": "Candles",
       "type": "tag",
-      "sortid": 104,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candles",
@@ -1957,7 +1957,7 @@
     {
       "name": "DragonKilled",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_killed",
@@ -1980,7 +1980,7 @@
     {
       "name": "EraseThird",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erase_third",
@@ -2000,7 +2000,7 @@
     {
       "name": "DiablismRecipe",
       "type": "recipe",
-      "sortid": 113,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diablism_recipe",
@@ -2014,7 +2014,7 @@
     {
       "name": "SkullTagItem",
       "type": "tag",
-      "sortid": 120,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skull_tag_item",
@@ -2028,7 +2028,7 @@
     {
       "name": "SkullTagBlock",
       "type": "tag",
-      "sortid": 121,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skull_tag_block",
@@ -2042,7 +2042,7 @@
     {
       "name": "ObtainDiablismTable",
       "type": "achievement",
-      "sortid": 123,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_diablism_table",
@@ -2056,7 +2056,7 @@
     {
       "name": "Root",
       "type": "achievement",
-      "sortid": 124,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "root",
@@ -2070,7 +2070,7 @@
     {
       "name": "ObtainSoulsnatcher",
       "type": "achievement",
-      "sortid": 125,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_soulsnatcher",
@@ -2084,7 +2084,7 @@
     {
       "name": "ObtainIdol",
       "type": "achievement",
-      "sortid": 126,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_idol",
@@ -2098,7 +2098,7 @@
     {
       "name": "LiminalRoad",
       "type": "block",
-      "sortid": 128,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road",
@@ -2110,12 +2110,12 @@
           "src/main/resources/assets/diabolica/models/block/liminal_road.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "StripedLiminalRoad",
       "type": "block",
-      "sortid": 129,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "striped_liminal_road",
@@ -2127,12 +2127,12 @@
           "src/main/resources/assets/diabolica/blockstates/striped_liminal_road.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "LiminalRoad1",
       "type": "structure",
-      "sortid": 130,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_1",
@@ -2144,12 +2144,12 @@
           "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_1.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "RoadPlacer",
       "type": "block",
-      "sortid": 131,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer",
@@ -2161,12 +2161,12 @@
           "src/main/resources/assets/diabolica/blockstates/road_placer.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "RoadPlacerUpdateTick",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_update_tick",
@@ -2193,12 +2193,12 @@
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "LiminalRoad2",
       "type": "structure",
-      "sortid": 133,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_2",
@@ -2210,12 +2210,12 @@
           "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_2_biome_modifier.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "LiminalRoad3",
       "type": "structure",
-      "sortid": 134,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_3",
@@ -2227,12 +2227,12 @@
           "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad3Feature.java"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "RoadPlacer2",
       "type": "block",
-      "sortid": 135,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_2",
@@ -2244,12 +2244,12 @@
           "src/main/resources/assets/diabolica/blockstates/road_placer_2.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "RoadPlacer2UpdateTick",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_2_update_tick",
@@ -2276,12 +2276,12 @@
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "BusStop",
       "type": "structure",
-      "sortid": 137,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bus_stop",
@@ -2293,12 +2293,12 @@
           "src/main/resources/data/diabolica/worldgen/configured_feature/bus_stop.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "StasisPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stasis_player_enters_dimension",
@@ -2313,12 +2313,12 @@
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "CannedHummus",
       "type": "item",
-      "sortid": 139,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "canned_hummus",
@@ -2328,12 +2328,12 @@
           "src/main/resources/assets/diabolica/models/item/canned_hummus.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Items"
     },
     {
       "name": "HummusSandwich",
       "type": "item",
-      "sortid": 140,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_sandwich",
@@ -2343,12 +2343,12 @@
           "src/main/resources/assets/diabolica/models/item/hummus_sandwich.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Items"
     },
     {
       "name": "ZedcoStoreFlipped",
       "type": "structure",
-      "sortid": 190,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zedco_store_flipped",
@@ -2360,12 +2360,12 @@
           "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFlippedFeature.java"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "HummusCanOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_can_on_block_right_clicked",
@@ -2396,12 +2396,12 @@
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "FluorescentLightUpdateTick",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_update_tick",
@@ -2433,7 +2433,7 @@
     {
       "name": "FluorescentLightQuestion",
       "type": "block",
-      "sortid": 186,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_question",
@@ -2450,7 +2450,7 @@
     {
       "name": "FluorescentLight",
       "type": "block",
-      "sortid": 141,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light",
@@ -2467,7 +2467,7 @@
     {
       "name": "HummusCan",
       "type": "block",
-      "sortid": 187,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_can",
@@ -2479,12 +2479,12 @@
           "src/main/resources/assets/diabolica/models/item/hummus_can.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "Tiles",
       "type": "block",
-      "sortid": 144,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiles",
@@ -2496,12 +2496,12 @@
           "src/main/java/net/mcreator/diabolica/block/TilesBlock.java"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "FluorescentLightPeriod",
       "type": "block",
-      "sortid": 182,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_period",
@@ -2518,7 +2518,7 @@
     {
       "name": "ZedcoStore",
       "type": "structure",
-      "sortid": 189,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zedco_store",
@@ -2530,12 +2530,12 @@
           "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Generation"
     },
     {
       "name": "FluorescentLightZ",
       "type": "block",
-      "sortid": 171,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_z",
@@ -2552,7 +2552,7 @@
     {
       "name": "FluorescentLightDash",
       "type": "block",
-      "sortid": 184,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_dash",
@@ -2569,7 +2569,7 @@
     {
       "name": "FluorescentLightV",
       "type": "block",
-      "sortid": 167,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_v",
@@ -2586,7 +2586,7 @@
     {
       "name": "FluorescentLightW",
       "type": "block",
-      "sortid": 168,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_w",
@@ -2603,7 +2603,7 @@
     {
       "name": "FluorescentLightX",
       "type": "block",
-      "sortid": 169,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_x",
@@ -2620,7 +2620,7 @@
     {
       "name": "FluorescentLightY",
       "type": "block",
-      "sortid": 170,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_y",
@@ -2637,7 +2637,7 @@
     {
       "name": "FluorescentLightR",
       "type": "block",
-      "sortid": 163,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_r",
@@ -2654,7 +2654,7 @@
     {
       "name": "Plaster",
       "type": "block",
-      "sortid": 142,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plaster",
@@ -2666,12 +2666,12 @@
           "src/main/resources/assets/diabolica/models/item/plaster.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "FluorescentLightS",
       "type": "block",
-      "sortid": 164,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_s",
@@ -2688,7 +2688,7 @@
     {
       "name": "FluorescentLightT",
       "type": "block",
-      "sortid": 165,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_t",
@@ -2705,7 +2705,7 @@
     {
       "name": "FluorescentLightU",
       "type": "block",
-      "sortid": 166,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_u",
@@ -2722,7 +2722,7 @@
     {
       "name": "FluorescentLightN",
       "type": "block",
-      "sortid": 159,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_n",
@@ -2739,7 +2739,7 @@
     {
       "name": "FluorescentLightO",
       "type": "block",
-      "sortid": 160,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_o",
@@ -2756,7 +2756,7 @@
     {
       "name": "FluorescentLightP",
       "type": "block",
-      "sortid": 161,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_p",
@@ -2773,7 +2773,7 @@
     {
       "name": "FluorescentLightQ",
       "type": "block",
-      "sortid": 162,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_q",
@@ -2790,7 +2790,7 @@
     {
       "name": "FluorescentLightJ",
       "type": "block",
-      "sortid": 155,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_j",
@@ -2807,7 +2807,7 @@
     {
       "name": "FluorescentLightK",
       "type": "block",
-      "sortid": 156,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_k",
@@ -2824,7 +2824,7 @@
     {
       "name": "FluorescentLightL",
       "type": "block",
-      "sortid": 157,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_l",
@@ -2841,7 +2841,7 @@
     {
       "name": "FluorescentLightM",
       "type": "block",
-      "sortid": 158,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_m",
@@ -2858,7 +2858,7 @@
     {
       "name": "FluorescentLightF",
       "type": "block",
-      "sortid": 151,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_f",
@@ -2875,7 +2875,7 @@
     {
       "name": "FluorescentLightG",
       "type": "block",
-      "sortid": 152,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_g",
@@ -2892,7 +2892,7 @@
     {
       "name": "FluorescentLightH",
       "type": "block",
-      "sortid": 153,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_h",
@@ -2909,7 +2909,7 @@
     {
       "name": "FluorescentLightI",
       "type": "block",
-      "sortid": 154,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_i",
@@ -2926,7 +2926,7 @@
     {
       "name": "DingyTiles",
       "type": "block",
-      "sortid": 143,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_tiles",
@@ -2938,12 +2938,12 @@
           "src/main/resources/assets/diabolica/blockstates/dingy_tiles.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Blocks"
     },
     {
       "name": "FluorescentLightB",
       "type": "block",
-      "sortid": 147,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_b",
@@ -2960,7 +2960,7 @@
     {
       "name": "FluorescentLightC",
       "type": "block",
-      "sortid": 148,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_c",
@@ -2977,7 +2977,7 @@
     {
       "name": "FluorescentLightD",
       "type": "block",
-      "sortid": 149,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_d",
@@ -2994,7 +2994,7 @@
     {
       "name": "FluorescentLightE",
       "type": "block",
-      "sortid": 150,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_e",
@@ -3011,7 +3011,7 @@
     {
       "name": "FluorescentLightExclamation",
       "type": "block",
-      "sortid": 185,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_exclamation",
@@ -3028,7 +3028,7 @@
     {
       "name": "FluorescentLightA",
       "type": "block",
-      "sortid": 146,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_a",
@@ -3045,7 +3045,7 @@
     {
       "name": "FluorescentLight6",
       "type": "block",
-      "sortid": 178,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_6",
@@ -3062,7 +3062,7 @@
     {
       "name": "FluorescentLight7",
       "type": "block",
-      "sortid": 179,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_7",
@@ -3079,7 +3079,7 @@
     {
       "name": "FluorescentLight8",
       "type": "block",
-      "sortid": 180,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_8",
@@ -3096,7 +3096,7 @@
     {
       "name": "FluorescentLight9",
       "type": "block",
-      "sortid": 181,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_9",
@@ -3113,7 +3113,7 @@
     {
       "name": "FluorescentLight2",
       "type": "block",
-      "sortid": 174,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_2",
@@ -3130,7 +3130,7 @@
     {
       "name": "FluorescentLight3",
       "type": "block",
-      "sortid": 175,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_3",
@@ -3147,7 +3147,7 @@
     {
       "name": "FluorescentLightComma",
       "type": "block",
-      "sortid": 183,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_comma",
@@ -3164,7 +3164,7 @@
     {
       "name": "FluorescentLight4",
       "type": "block",
-      "sortid": 176,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_4",
@@ -3181,7 +3181,7 @@
     {
       "name": "FluorescentLight5",
       "type": "block",
-      "sortid": 177,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_5",
@@ -3198,7 +3198,7 @@
     {
       "name": "FluorescentLight0",
       "type": "block",
-      "sortid": 172,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_0",
@@ -3215,7 +3215,7 @@
     {
       "name": "FluorescentLight1",
       "type": "block",
-      "sortid": 173,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_1",
@@ -3232,7 +3232,7 @@
     {
       "name": "SpellofResurrection",
       "type": "item",
-      "sortid": 143,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spellof_resurrection",
@@ -3247,7 +3247,7 @@
     {
       "name": "CraftJoeSPell",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_joe_s_pell",
@@ -3267,7 +3267,7 @@
     {
       "name": "MagicSnifferEgg",
       "type": "item",
-      "sortid": 141,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_sniffer_egg",
@@ -3282,7 +3282,7 @@
     {
       "name": "CraftEgg",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_egg",
@@ -3298,6 +3298,360 @@
         ]
       },
       "path": "~/CustomCraft"
+    },
+    {
+      "name": "WhiteTiles",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/white_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/WhiteTilesBlock.java",
+          "src/main/resources/assets/diabolica/models/item/white_tiles.json",
+          "src/main/resources/assets/diabolica/models/block/white_tiles.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyWhiteTiles",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_white_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/DingyWhiteTilesBlock.java",
+          "src/main/resources/assets/diabolica/models/item/dingy_white_tiles.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tiles.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTiles",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/BlackTilesBlock.java",
+          "src/main/resources/assets/diabolica/models/item/black_tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/black_tiles.json",
+          "src/main/resources/assets/diabolica/models/block/black_tiles.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyBlackTiles",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_black_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_black_tiles.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTilesBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "AdventureModeLimbo",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adventure_mode_limbo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AdventureModeLimboProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "SetAdventureModeStasis",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_adventure_mode_stasis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SetAdventureModeStasisProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "dimension",
+            "type": "dimensiontype"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "TileStairs",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/tile_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/block/tile_stairs.json",
+          "src/main/resources/assets/diabolica/blockstates/tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/tile_stairs_outer.json",
+          "src/main/java/net/mcreator/diabolica/block/TileStairsBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "TileSlab",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/tile_slab_full.json",
+          "src/main/resources/assets/diabolica/blockstates/tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/tile_slab_top.json",
+          "src/main/java/net/mcreator/diabolica/block/TileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/block/tile_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyTileStairs",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/dingy_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/dingy_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs_outer.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyTileSlab",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/DingyTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab_top.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "WhiteTileStairs",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/white_tile_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/block/white_tile_stairs_outer.json",
+          "src/main/resources/assets/diabolica/models/item/white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/white_tile_stairs.json",
+          "src/main/java/net/mcreator/diabolica/block/WhiteTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/white_tile_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "WhiteTileSlab",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/white_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/white_tile_slab_top.json",
+          "src/main/java/net/mcreator/diabolica/block/WhiteTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/block/white_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/white_tile_slab.json",
+          "src/main/resources/assets/diabolica/blockstates/white_tile_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "EnterStasis",
+      "type": "achievement",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_stasis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/enter_stasis.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "DingyWhiteTileStairs",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_white_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs_inner.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyWhiteTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs_outer.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyWhiteTileSlab",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_white_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab_top.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_slab.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyWhiteTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTileStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/black_tile_stairs.json",
+          "src/main/java/net/mcreator/diabolica/block/BlackTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_stairs_outer.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/item/black_tile_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTileSlab",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/black_tile_slab.json",
+          "src/main/java/net/mcreator/diabolica/block/BlackTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/black_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab_top.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyBlackTileStairs",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_black_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs_outer.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs_inner.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileStairsBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "DingyBlackTileSlab",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_black_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_slab.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_black_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab_top.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab_full.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
     }
   ],
   "variable_elements": [
@@ -3462,6 +3816,12 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "StasisAdventureMode",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3545,9 +3905,11 @@
       "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "block.diabolica.fluorescent_light_u": "Fluorescent Light",
       "block.diabolica.fluorescent_light_v": "Fluorescent Light",
+      "block.diabolica.white_tile_slab": "White Tile Slab",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.fluorescent_light_o": "Fluorescent Light",
       "block.diabolica.fluorescent_light_p": "Fluorescent Light",
+      "block.diabolica.dingy_white_tile_slab": "Dingy White Tile Slab",
       "block.diabolica.fluorescent_light_q": "Fluorescent Light",
       "subtitles.ambience.stasis.static_wind": "Wind Howling",
       "block.diabolica.fluorescent_light_r": "Fluorescent Light",
@@ -3558,14 +3920,19 @@
       "block.diabolica.fluorescent_light_n": "Fluorescent Light",
       "block.diabolicaa.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
-      "item.eviladdons.scroll": "Scroll",
+      "block.diabolica.black_tiles": "Black Tiles",
       "item.eviladdons.soul": "Soul",
-      "advancements.obtain_soulsnatcher.descr": "Or have I?",
+      "item.eviladdons.scroll": "Scroll",
+      "advancements.obtain_soulsnatcher.descr": "Obtain the Soulsnatcher",
       "item.diabolicaa.spell_of_recombobulation": "Spell Of Recombobulation",
+      "block.diabolica.dingy_tile_stairs": "Dingy Tile Stairs",
       "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
+      "block.diabolica.dingy_white_tiles": "Dingy White Tiles",
+      "block.diabolica.white_tile_stairs": "White Tile Stairs",
       "enchantment.eviladdons.launching_enchant": "Launching",
       "item.diabolicaa.spell_of_recall": "Spell Of Recall",
+      "block.diabolica.dingy_white_tile_stairs": "Dingy White Tile Stairs",
       "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "enchantment.eviladdons.lachrymose": "Lachrymose",
       "item.diabolica.augmented_tear": "Augmented Tear",
@@ -3582,6 +3949,7 @@
       "subtitles.chimes": "",
       "effect.eviladdons.augmented": "Augmented",
       "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
+      "advancements.enter_stasis.title": "A Soft Void",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "subtitles.music.stasis.liminality": "",
@@ -3600,6 +3968,7 @@
       "block.diabolica.fluorescent_light_exclamation": "Fluorescent Light",
       "enchantment.diabolicaa.lachrymose": "Lachrymose",
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
+      "block.diabolica.dingy_black_tile_slab": "Dingy Black Tile Slab",
       "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
       "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
       "block.diabolica.road_placer_2": "Road Placer",
@@ -3612,7 +3981,10 @@
       "enchantment.diabolica.lachrymose": "Lachrymose",
       "block.diabolica.fluorescent_light_question": "Fluorescent Light",
       "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "block.diabolica.black_tile_stairs": "Black Tile Stairs",
+      "block.diabolica.tile_slab": "Tile Slab",
       "gui.diabolica.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "block.diabolica.dingy_black_tiles": "Dingy Black Tiles",
       "gui.diabolica.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.eviladdons.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.devils_contract.button_empty": " ",
@@ -3624,11 +3996,15 @@
       "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
       "item.diabolica.magic_sniffer_egg": "Magic Sniffer Egg",
+      "block.diabolica.dingy_tile_slab": "Dingy Tile Slab",
+      "block.diabolica.tile_stairs": "Tile Stairs",
       "block.diabolica.liminal_road": "Liminal Road",
       "block.diabolica.fluorescent_light_period": "Fluorescent Light",
       "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
-      "advancements.root.title": "Diablica",
+      "block.diabolica.white_tiles": "White Tiles",
+      "block.diabolica.black_tile_slab": "Black Tile Slab",
+      "advancements.root.title": "Diabolica",
       "item.diabolica.devils_contract": "Devil\u0027s Contract ",
       "enchantment.diabolica.launching_enchant": "Launching",
       "item.eviladdons.augmented_tear": "Augmented Tear",
@@ -3636,6 +4012,7 @@
       "item.diabolicaa.void_parcel": "Void Parcel",
       "item.diabolica.hummus_sandwich": "Hummus Sandwich",
       "gui.eviladdons.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
+      "advancements.enter_stasis.descr": "Where Am I?",
       "effect.diabolicaa.blood_pact": "Blood Pact",
       "item.eviladdons.void_parcel": "Void Parcel",
       "effect.diabolica.blood_pact": "Blood Pact",
@@ -3656,7 +4033,7 @@
       "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "advancements.obtain_idol.title": "Final Gambit",
       "block.diabolica.fluorescent_light_6": "Fluorescent Light",
-      "advancements.obtain_diablism_table.title": "Diabolica!",
+      "advancements.obtain_diablism_table.title": "Diabolical",
       "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
       "block.diabolica.fluorescent_light_0": "Fluorescent Light",
       "block.diabolica.road_placer": "Road Placer",
@@ -3676,6 +4053,7 @@
       "item.diabolica.spell_of_recall": "Spell Of Recall",
       "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
       "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
+      "block.diabolica.dingy_black_tile_stairs": "Dingy Black Tile Stairs",
       "block.diabolica.plaster": "Plaster",
       "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "block.diabolica.striped_liminal_road": "Striped Liminal Road",
@@ -3722,6 +4100,18 @@
         "children": [
           {
             "name": "Fluorescent Lights",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Generation",
+            "children": []
+          },
+          {
+            "name": "Items",
             "children": []
           }
         ]

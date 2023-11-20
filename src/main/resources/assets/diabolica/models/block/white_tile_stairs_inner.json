@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "diabolica:block/white_tiles",
+    "top": "diabolica:block/white_tiles",
+    "side": "diabolica:block/white_tiles"
+  },
+  "render_type": "solid"
+}
