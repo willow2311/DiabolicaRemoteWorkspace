@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.diabolica.item.VoidParcelItem;
+import net.mcreator.diabolica.item.SpellofResurrectionItem;
 import net.mcreator.diabolica.item.SpellofDiscombobulationItem;
 import net.mcreator.diabolica.item.SpellOfRecombobulationItem;
 import net.mcreator.diabolica.item.SpellOfRecallItem;
@@ -20,6 +21,7 @@ import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
 import net.mcreator.diabolica.item.ScrollItem;
 import net.mcreator.diabolica.item.MysticCrystalItem;
+import net.mcreator.diabolica.item.MagicSnifferEggItem;
 import net.mcreator.diabolica.item.HummusSandwichItem;
 import net.mcreator.diabolica.item.GubItem;
 import net.mcreator.diabolica.item.EmptyidolItem;
@@ -49,8 +51,10 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> CANNED_HUMMUS = REGISTRY.register("canned_hummus", () -> new CannedHummusItem());
 	public static final RegistryObject<Item> HUMMUS_SANDWICH = REGISTRY.register("hummus_sandwich", () -> new HummusSandwichItem());
 	public static final RegistryObject<Item> FLUORESCENT_LIGHT = block(DiabolicaModBlocks.FLUORESCENT_LIGHT);
+	public static final RegistryObject<Item> MAGIC_SNIFFER_EGG = REGISTRY.register("magic_sniffer_egg", () -> new MagicSnifferEggItem());
 	public static final RegistryObject<Item> PLASTER = block(DiabolicaModBlocks.PLASTER);
 	public static final RegistryObject<Item> DINGY_TILES = block(DiabolicaModBlocks.DINGY_TILES);
+	public static final RegistryObject<Item> SPELLOF_RESURRECTION = REGISTRY.register("spellof_resurrection", () -> new SpellofResurrectionItem());
 	public static final RegistryObject<Item> TILES = block(DiabolicaModBlocks.TILES);
 	public static final RegistryObject<Item> FLUORESCENT_LIGHT_A = block(DiabolicaModBlocks.FLUORESCENT_LIGHT_A);
 	public static final RegistryObject<Item> FLUORESCENT_LIGHT_B = block(DiabolicaModBlocks.FLUORESCENT_LIGHT_B);

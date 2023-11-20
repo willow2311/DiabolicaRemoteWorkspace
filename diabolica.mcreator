@@ -2040,20 +2040,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "ObtainSkull",
-      "type": "achievement",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obtain_skull",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/advancements/obtain_skull.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
       "name": "ObtainDiablismTable",
       "type": "achievement",
       "sortid": 123,
@@ -2360,69 +2346,54 @@
       "path": "~/Limbo"
     },
     {
-      "name": "FluorescentLight",
-      "type": "block",
-      "sortid": 141,
+      "name": "ZedcoStoreFlipped",
+      "type": "structure",
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light",
+      "registry_name": "zedco_store_flipped",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBlock.java"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "Plaster",
-      "type": "block",
-      "sortid": 142,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "plaster",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/PlasterBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/plaster.json",
-          "src/main/resources/assets/diabolica/models/block/plaster.json",
-          "src/main/resources/assets/diabolica/models/item/plaster.json"
+          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store_flipped.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store_flipped.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_flipped_biome_modifier.json",
+          "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFlippedFeature.java"
         ]
       },
       "path": "~/Limbo"
     },
     {
-      "name": "DingyTiles",
-      "type": "block",
-      "sortid": 143,
+      "name": "HummusCanOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dingy_tiles",
+      "registry_name": "hummus_can_on_block_right_clicked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/dingy_tiles.json",
-          "src/main/resources/assets/diabolica/models/item/dingy_tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/DingyTilesBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/dingy_tiles.json"
-        ]
-      },
-      "path": "~/Limbo"
-    },
-    {
-      "name": "Tiles",
-      "type": "block",
-      "sortid": 144,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tiles",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/block/tiles.json",
-          "src/main/resources/assets/diabolica/models/item/tiles.json",
-          "src/main/resources/assets/diabolica/blockstates/tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/TilesBlock.java"
+          "src/main/java/net/mcreator/diabolica/procedures/HummusCanOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       },
       "path": "~/Limbo"
@@ -2460,358 +2431,137 @@
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightA",
+      "name": "FluorescentLightQuestion",
       "type": "block",
-      "sortid": 146,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_a",
+      "registry_name": "fluorescent_light_question",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_a.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightABlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_a.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_a.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_question.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_question.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_question.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQuestionBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightB",
+      "name": "FluorescentLight",
       "type": "block",
-      "sortid": 147,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_b",
+      "registry_name": "fluorescent_light",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_b.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_b.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_b.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightC",
+      "name": "HummusCan",
       "type": "block",
-      "sortid": 148,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_c",
+      "registry_name": "hummus_can",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_c.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightCBlock.java",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_c.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_c.json"
+          "src/main/java/net/mcreator/diabolica/block/HummusCanBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/hummus_can.json",
+          "src/main/resources/assets/diabolica/models/block/hummus_can.json",
+          "src/main/resources/assets/diabolica/models/item/hummus_can.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "Tiles",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/tiles.json",
+          "src/main/resources/assets/diabolica/models/item/tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/TilesBlock.java"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "FluorescentLightPeriod",
+      "type": "block",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_period",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPeriodBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_period.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_period.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_period.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightD",
-      "type": "block",
-      "sortid": 149,
+      "name": "ZedcoStore",
+      "type": "structure",
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_d",
+      "registry_name": "zedco_store",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_d.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_d.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_d.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDBlock.java"
+          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store.json",
+          "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFeature.java",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "FluorescentLightZ",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_z",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightZBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_z.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_z.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_z.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightE",
+      "name": "FluorescentLightDash",
       "type": "block",
-      "sortid": 150,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_e",
+      "registry_name": "fluorescent_light_dash",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_e.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_e.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightEBlock.java",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_e.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightF",
-      "type": "block",
-      "sortid": 151,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_f",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_f.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightFBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_f.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_f.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightG",
-      "type": "block",
-      "sortid": 152,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_g",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightGBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_g.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_g.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_g.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightH",
-      "type": "block",
-      "sortid": 153,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_h",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_h.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_h.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_h.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightHBlock.java"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightI",
-      "type": "block",
-      "sortid": 154,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_i",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightIBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_i.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_i.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_i.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightJ",
-      "type": "block",
-      "sortid": 155,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_j",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_j.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_j.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_j.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightJBlock.java"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightK",
-      "type": "block",
-      "sortid": 156,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_k",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_k.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_k.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightKBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_k.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightL",
-      "type": "block",
-      "sortid": 157,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_l",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightLBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_l.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_l.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_l.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightM",
-      "type": "block",
-      "sortid": 158,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_m",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_m.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightMBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_m.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_m.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightN",
-      "type": "block",
-      "sortid": 159,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_n",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_n.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_n.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightNBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_n.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightO",
-      "type": "block",
-      "sortid": 160,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_o",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_o.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_o.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_o.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightOBlock.java"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightP",
-      "type": "block",
-      "sortid": 161,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_p",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_p.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_p.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_p.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightQ",
-      "type": "block",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_q",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_q.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_q.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_q.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightR",
-      "type": "block",
-      "sortid": 163,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_r.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightRBlock.java",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_r.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_r.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightS",
-      "type": "block",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_s",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_s.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_s.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_s.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightSBlock.java"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightT",
-      "type": "block",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_t",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightTBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_t.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_t.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_t.json"
-        ]
-      },
-      "path": "~/Limbo/Fluorescent Lights"
-    },
-    {
-      "name": "FluorescentLightU",
-      "type": "block",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fluorescent_light_u",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_u.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_u.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightUBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_u.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDashBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_dash.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_dash.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_dash.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2885,120 +2635,409 @@
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightZ",
+      "name": "FluorescentLightR",
       "type": "block",
-      "sortid": 171,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_z",
+      "registry_name": "fluorescent_light_r",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightZBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_z.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_z.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_z.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_r.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightRBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_r.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_r.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight0",
+      "name": "Plaster",
       "type": "block",
-      "sortid": 172,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_0",
+      "registry_name": "plaster",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight0Block.java",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_0.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_0.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_0.json"
+          "src/main/java/net/mcreator/diabolica/block/PlasterBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/plaster.json",
+          "src/main/resources/assets/diabolica/models/block/plaster.json",
+          "src/main/resources/assets/diabolica/models/item/plaster.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "FluorescentLightS",
+      "type": "block",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_s.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_s.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_s.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightSBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight1",
+      "name": "FluorescentLightT",
       "type": "block",
-      "sortid": 173,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_1",
+      "registry_name": "fluorescent_light_t",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_1.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_1.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_1.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight1Block.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightTBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_t.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_t.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_t.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight2",
+      "name": "FluorescentLightU",
       "type": "block",
-      "sortid": 174,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_2",
+      "registry_name": "fluorescent_light_u",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_2.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_2.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight2Block.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_2.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_u.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_u.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightUBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_u.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight3",
+      "name": "FluorescentLightN",
       "type": "block",
-      "sortid": 175,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_3",
+      "registry_name": "fluorescent_light_n",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight3Block.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_3.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_3.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_3.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_n.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_n.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightNBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_n.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight4",
+      "name": "FluorescentLightO",
       "type": "block",
-      "sortid": 176,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_4",
+      "registry_name": "fluorescent_light_o",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_4.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_4.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_4.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight4Block.java"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_o.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_o.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_o.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightOBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLight5",
+      "name": "FluorescentLightP",
       "type": "block",
-      "sortid": 177,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_5",
+      "registry_name": "fluorescent_light_p",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_5.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_5.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight5Block.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_5.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_p.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_p.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_p.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightQ",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_q",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_q.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_q.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_q.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightJ",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_j",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_j.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_j.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_j.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightJBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightK",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_k",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_k.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_k.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightKBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_k.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightL",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_l",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightLBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_l.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_l.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_l.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightM",
+      "type": "block",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_m",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_m.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightMBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_m.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_m.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightF",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_f.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightFBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_f.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_f.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightG",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_g",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightGBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_g.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_g.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_g.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightH",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_h",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_h.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_h.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_h.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightHBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightI",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_i",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightIBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_i.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_i.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_i.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "DingyTiles",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dingy_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/dingy_tiles.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyTilesBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/dingy_tiles.json"
+        ]
+      },
+      "path": "~/Limbo"
+    },
+    {
+      "name": "FluorescentLightB",
+      "type": "block",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_b.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_b.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_b.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightC",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_c.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightCBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_c.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_c.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightD",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_d.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_d.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_d.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightE",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_e",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_e.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_e.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightEBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_e.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightExclamation",
+      "type": "block",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_exclamation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_exclamation.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_exclamation.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightExclamationBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_exclamation.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightA",
+      "type": "block",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_a",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_a.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightABlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_a.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_a.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3072,18 +3111,35 @@
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightPeriod",
+      "name": "FluorescentLight2",
       "type": "block",
-      "sortid": 182,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_period",
+      "registry_name": "fluorescent_light_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPeriodBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_period.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_period.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_period.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_2.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_2.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight2Block.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_2.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLight3",
+      "type": "block",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight3Block.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_3.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_3.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_3.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3106,142 +3162,142 @@
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightDash",
+      "name": "FluorescentLight4",
       "type": "block",
-      "sortid": 184,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_dash",
+      "registry_name": "fluorescent_light_4",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDashBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_dash.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_dash.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_dash.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_4.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_4.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_4.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight4Block.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightExclamation",
+      "name": "FluorescentLight5",
       "type": "block",
-      "sortid": 185,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_exclamation",
+      "registry_name": "fluorescent_light_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_exclamation.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_exclamation.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightExclamationBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_exclamation.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_5.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_5.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight5Block.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_5.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "FluorescentLightQuestion",
+      "name": "FluorescentLight0",
       "type": "block",
-      "sortid": 186,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fluorescent_light_question",
+      "registry_name": "fluorescent_light_0",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_question.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_question.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_question.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQuestionBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight0Block.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_0.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_0.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_0.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "HummusCan",
+      "name": "FluorescentLight1",
       "type": "block",
-      "sortid": 187,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hummus_can",
+      "registry_name": "fluorescent_light_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/HummusCanBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/hummus_can.json",
-          "src/main/resources/assets/diabolica/models/block/hummus_can.json",
-          "src/main/resources/assets/diabolica/models/item/hummus_can.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_1.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_1.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_1.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight1Block.java"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Limbo/Fluorescent Lights"
     },
     {
-      "name": "HummusCanOnBlockRightClicked",
+      "name": "SpellofResurrection",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellof_resurrection",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/spellof_resurrection.json",
+          "src/main/java/net/mcreator/diabolica/item/SpellofResurrectionItem.java"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "CraftJoeSPell",
       "type": "procedure",
-      "sortid": 188,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hummus_can_on_block_right_clicked",
+      "registry_name": "craft_joe_s_pell",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/procedures/HummusCanOnBlockRightClickedProcedure.java"
+          "src/main/java/net/mcreator/diabolica/procedures/CraftJoeSPellProcedure.java"
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/CustomCraft"
     },
     {
-      "name": "ZedcoStore",
-      "type": "structure",
-      "sortid": 189,
+      "name": "MagicSnifferEgg",
+      "type": "item",
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zedco_store",
+      "registry_name": "magic_sniffer_egg",
       "metadata": {
         "files": [
-          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store.json",
-          "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFeature.java",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store.json"
+          "src/main/java/net/mcreator/diabolica/item/MagicSnifferEggItem.java",
+          "src/main/resources/assets/diabolica/models/item/magic_sniffer_egg.json"
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/Joe Biden"
     },
     {
-      "name": "ZedcoStoreFlipped",
-      "type": "structure",
-      "sortid": 190,
+      "name": "CraftEgg",
+      "type": "procedure",
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "zedco_store_flipped",
+      "registry_name": "craft_egg",
       "metadata": {
         "files": [
-          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store_flipped.json",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store_flipped.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_flipped_biome_modifier.json",
-          "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFlippedFeature.java"
+          "src/main/java/net/mcreator/diabolica/procedures/CraftEggProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
         ]
       },
-      "path": "~/Limbo"
+      "path": "~/CustomCraft"
     }
   ],
   "variable_elements": [
@@ -3476,45 +3532,28 @@
   ],
   "language_map": {
     "en_us": {
-      "block.diabolica.fluorescent_light_w": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_x": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_y": "Fluorescent Light",
       "biome.diabolica.limbo_biome": "Limbo",
-      "block.diabolica.fluorescent_light_z": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_s": "Fluorescent Light",
       "entity.eviladdons.dark_guide": "Dark Trader",
       "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
-      "block.diabolica.fluorescent_light_t": "Fluorescent Light",
-      "block.eviladdons.limbo_block": "Limbo Block",
       "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
-      "block.diabolica.fluorescent_light_u": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_v": "Fluorescent Light",
+      "block.eviladdons.limbo_block": "Limbo Block",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
-      "block.diabolica.fluorescent_light_o": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_p": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_q": "Fluorescent Light",
       "subtitles.ambience.stasis.static_wind": "Wind Howling",
-      "block.diabolica.fluorescent_light_r": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_k": "Fluorescent Light",
       "item.eviladdons.soulsnatcher": "Soulsnatcher",
-      "block.diabolica.fluorescent_light_l": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_m": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_n": "Fluorescent Light",
       "block.diabolicaa.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
-      "item.eviladdons.scroll": "Scroll",
       "item.eviladdons.soul": "Soul",
+      "item.eviladdons.scroll": "Scroll",
       "advancements.obtain_soulsnatcher.descr": "Or have I?",
       "item.diabolicaa.spell_of_recombobulation": "Spell Of Recombobulation",
-      "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
-      "enchantment.eviladdons.launching_enchant": "Launching",
+      "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "item.diabolicaa.spell_of_recall": "Spell Of Recall",
+      "enchantment.eviladdons.launching_enchant": "Launching",
       "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "enchantment.eviladdons.lachrymose": "Lachrymose",
       "item.diabolica.augmented_tear": "Augmented Tear",
       "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
-      "block.diabolica.fluorescent_light_dash": "Fluorescent Light",
       "item.diabolica.soulsnatcher": "Soulsnatcher",
       "gui.diabolicaa.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
       "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
@@ -3537,10 +3576,8 @@
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "block.diabolicaa.limbo_block": "Limbo Block",
       "gui.diabolicaa.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
-      "block.diabolica.hummus_can": "Hummus Can",
       "gui.diabolicaa.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "advancements.obtain_soulsnatcher.title": "I Have Become Death",
-      "block.diabolica.fluorescent_light_exclamation": "Fluorescent Light",
       "enchantment.diabolicaa.lachrymose": "Lachrymose",
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
       "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
@@ -3551,10 +3588,8 @@
       "item.eviladdons.accursed_idol": "Accursed Idol",
       "block.eviladdons.forgotten_one_skull": "The Forgotten One",
       "advancements.root.descr": "The Diabolica mod",
-      "advancements.obtain_skull.descr": "Obtain the skull of the Forgotten One",
       "gui.diabolicaa.quest_2.label_dark_trader": "Dark Trader",
       "enchantment.diabolica.lachrymose": "Lachrymose",
-      "block.diabolica.fluorescent_light_question": "Fluorescent Light",
       "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "gui.diabolica.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "gui.diabolica.devils_contract.label_devils_contract": "DEVILS CONTRACT",
@@ -3568,14 +3603,12 @@
       "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
       "block.diabolica.liminal_road": "Liminal Road",
-      "block.diabolica.fluorescent_light_period": "Fluorescent Light",
       "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
       "advancements.root.title": "Diablica",
       "item.diabolica.devils_contract": "Devil\u0027s Contract ",
       "enchantment.diabolica.launching_enchant": "Launching",
       "item.eviladdons.augmented_tear": "Augmented Tear",
-      "advancements.obtain_skull.title": "The Forgotten One",
       "item.diabolicaa.soul": "Soul",
       "item.diabolicaa.void_parcel": "Void Parcel",
       "item.diabolica.hummus_sandwich": "Hummus Sandwich",
@@ -3587,32 +3620,20 @@
       "gui.eviladdons.quest_2.label_dark_trader": "Dark Trader",
       "item.diabolicaa.accursed_idol": "Accursed Idol",
       "gui.diabolica.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
-      "block.diabolica.fluorescent_light_7": "Fluorescent Light",
       "subtitles.block.fluorescent_light.buzz": "Light Buzzing",
-      "block.diabolica.fluorescent_light_8": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_9": "Fluorescent Light",
       "advancements.obtain_diablism_table.descr": "Craft the Table of Diabolism",
-      "block.diabolica.fluorescent_light_3": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_4": "Fluorescent Light",
       "subtitles.open_contract": "",
       "subtitles.boing": "",
-      "block.diabolica.fluorescent_light_5": "Fluorescent Light",
       "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "advancements.obtain_idol.title": "Final Gambit",
-      "block.diabolica.fluorescent_light_6": "Fluorescent Light",
       "advancements.obtain_diablism_table.title": "Diabolica!",
       "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
-      "block.diabolica.fluorescent_light_0": "Fluorescent Light",
       "block.diabolica.road_placer": "Road Placer",
-      "block.diabolica.fluorescent_light_1": "Fluorescent Light",
       "enchantment.diabolicaa.launching_enchant": "Launching",
-      "block.diabolica.fluorescent_light_2": "Fluorescent Light",
       "entity.diabolicaa.dark_guide": "Dark Trader",
       "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
       "item.diabolica.canned_hummus": "Canned Hummus",
       "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
-      "block.diabolica.tiles": "Tiles",
-      "block.diabolica.dingy_tiles": "Dingy Tiles",
       "item.diabolicaa.augmented_tear": "Augmented Tear",
       "item.diabolica.soul": "Soul",
       "gui.eviladdons.dark_guide_first_quest.label_dark_trader": "Dark Trader",
@@ -3620,24 +3641,11 @@
       "item.diabolica.spell_of_recall": "Spell Of Recall",
       "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
       "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
-      "block.diabolica.plaster": "Plaster",
       "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "block.diabolica.striped_liminal_road": "Striped Liminal Road",
-      "block.diabolica.fluorescent_light_g": "Fluorescent Light",
       "item.diabolica.accursed_idol": "Accursed Idol",
-      "block.diabolica.fluorescent_light_h": "Fluorescent Light",
       "item.diabolicaa.soulsnatcher": "Soulsnatcher",
-      "block.diabolica.fluorescent_light_i": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_j": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_c": "Fluorescent Light",
-      "block.diabolica.fluorescent_light": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_d": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_e": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_f": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_comma": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_a": "Fluorescent Light",
       "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
-      "block.diabolica.fluorescent_light_b": "Fluorescent Light",
       "gui.eviladdons.void_pardel_gui.button_send": "SEND",
       "subtitles.ashes_fall": ""
     }
@@ -3646,23 +3654,19 @@
     "name": "~",
     "children": [
       {
-        "name": "CustomCraft",
-        "children": []
-      },
-      {
         "name": "AugmentMobs",
         "children": []
       },
       {
-        "name": "DevilsContract",
+        "name": "Soul",
         "children": []
       },
       {
-        "name": "Unused",
+        "name": "Advancements",
         "children": []
       },
       {
-        "name": "Idol of Thanatos",
+        "name": "TearOfAugmentation",
         "children": []
       },
       {
@@ -3683,11 +3687,15 @@
         "children": []
       },
       {
-        "name": "Soul",
+        "name": "Unused",
         "children": []
       },
       {
-        "name": "TearOfAugmentation",
+        "name": "Joe Biden",
+        "children": []
+      },
+      {
+        "name": "DevilsContract",
         "children": []
       },
       {
@@ -3695,7 +3703,11 @@
         "children": []
       },
       {
-        "name": "Advancements",
+        "name": "CustomCraft",
+        "children": []
+      },
+      {
+        "name": "Idol of Thanatos",
         "children": []
       }
     ]
