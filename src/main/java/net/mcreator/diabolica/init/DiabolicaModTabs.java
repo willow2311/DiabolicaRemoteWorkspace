@@ -38,6 +38,7 @@ public class DiabolicaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DiabolicaModItems.AUGMENTED_TEAR.get());
 			tabData.accept(DiabolicaModItems.SCROLL.get());
+			tabData.accept(DiabolicaModItems.MAGIC_SNIFFER_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -47,6 +48,12 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModItems.SPELL_OF_DISCOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECALL.get());
+			tabData.accept(DiabolicaModItems.SPELLOF_RESURRECTION.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(DiabolicaModItems.CANNED_HUMMUS.get());
+			tabData.accept(DiabolicaModItems.HUMMUS_SANDWICH.get());
 		}
 	}
 }

@@ -2040,20 +2040,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "ObtainSkull",
-      "type": "achievement",
-      "sortid": 122,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "obtain_skull",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/advancements/obtain_skull.json"
-        ]
-      },
-      "path": "~/Advancements"
-    },
-    {
       "name": "ObtainDiablismTable",
       "type": "achievement",
       "sortid": 123,
@@ -2358,6 +2344,76 @@
         ]
       },
       "path": "~/Limbo"
+    },
+    {
+      "name": "MagicSnifferEgg",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_sniffer_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/MagicSnifferEggItem.java",
+          "src/main/resources/assets/diabolica/models/item/magic_sniffer_egg.json"
+        ]
+      },
+      "path": "~/Joe Biden"
+    },
+    {
+      "name": "CraftEgg",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_egg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftEggProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
+    },
+    {
+      "name": "SpellofResurrection",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellof_resurrection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/SpellofResurrectionItem.java",
+          "src/main/resources/assets/diabolica/models/item/spellof_resurrection.json"
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "CraftJoeSPell",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_joe_s_pell",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/CraftJoeSPellProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/CustomCraft"
     }
   ],
   "variable_elements": [
@@ -2626,6 +2682,7 @@
       "item.diabolica.void_parcel": "Void Parcel",
       "item.diabolica.scroll": "Scroll",
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "item.diabolica.spellof_resurrection": "Spell of Resurrection",
       "block.diabolicaa.limbo_block": "Limbo Block",
       "gui.diabolicaa.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
       "gui.diabolicaa.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
@@ -2640,7 +2697,6 @@
       "item.eviladdons.accursed_idol": "Accursed Idol",
       "block.eviladdons.forgotten_one_skull": "The Forgotten One",
       "advancements.root.descr": "The Diabolica mod",
-      "advancements.obtain_skull.descr": "Obtain the skull of the Forgotten One",
       "gui.diabolicaa.quest_2.label_dark_trader": "Dark Trader",
       "enchantment.diabolica.lachrymose": "Lachrymose",
       "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
@@ -2655,6 +2711,7 @@
       "effect.diabolica.augmented": "Augmented",
       "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
+      "item.diabolica.magic_sniffer_egg": "Magic Sniffer Egg",
       "block.diabolica.liminal_road": "Liminal Road",
       "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
@@ -2662,7 +2719,6 @@
       "item.diabolica.devils_contract": "Devil\u0027s Contract ",
       "enchantment.diabolica.launching_enchant": "Launching",
       "item.eviladdons.augmented_tear": "Augmented Tear",
-      "advancements.obtain_skull.title": "The Forgotten One",
       "item.diabolicaa.soul": "Soul",
       "item.diabolicaa.void_parcel": "Void Parcel",
       "item.diabolica.hummus_sandwich": "Hummus Sandwich",
@@ -2752,6 +2808,10 @@
       },
       {
         "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Joe Biden",
         "children": []
       }
     ]
