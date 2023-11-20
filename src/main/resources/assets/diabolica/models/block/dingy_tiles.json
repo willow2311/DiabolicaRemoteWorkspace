@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diabolica:block/dingy_tiles",
+    "particle": "diabolica:block/dingy_tiles"
+  },
+  "render_type": "solid"
+}

@@ -55,5 +55,14 @@
         "stream": true
       }
     ]
+  },
+  "block.fluorescent_light.buzz": {
+    "subtitle": "subtitles.block.fluorescent_light.buzz",
+    "sounds": [
+      {
+        "name": "diabolica:light_buzz",
+        "stream": false
+      }
+    ]
   }
 }

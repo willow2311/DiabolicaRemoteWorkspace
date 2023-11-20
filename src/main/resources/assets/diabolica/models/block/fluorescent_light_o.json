@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diabolica:block/fluorescent_light_o",
+    "particle": "diabolica:block/fluorescent_light_o"
+  },
+  "render_type": "solid"
+}

@@ -11,6 +11,8 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.diabolica.world.features.ZedcoStoreFlippedFeature;
+import net.mcreator.diabolica.world.features.ZedcoStoreFeature;
 import net.mcreator.diabolica.world.features.LiminalRoad3Feature;
 import net.mcreator.diabolica.world.features.LiminalRoad2Feature;
 import net.mcreator.diabolica.world.features.LiminalRoad1Feature;
@@ -24,4 +26,6 @@ public class DiabolicaModFeatures {
 	public static final RegistryObject<Feature<?>> LIMINAL_ROAD_2 = REGISTRY.register("liminal_road_2", LiminalRoad2Feature::new);
 	public static final RegistryObject<Feature<?>> LIMINAL_ROAD_3 = REGISTRY.register("liminal_road_3", LiminalRoad3Feature::new);
 	public static final RegistryObject<Feature<?>> BUS_STOP = REGISTRY.register("bus_stop", BusStopFeature::new);
+	public static final RegistryObject<Feature<?>> ZEDCO_STORE = REGISTRY.register("zedco_store", ZedcoStoreFeature::new);
+	public static final RegistryObject<Feature<?>> ZEDCO_STORE_FLIPPED = REGISTRY.register("zedco_store_flipped", ZedcoStoreFlippedFeature::new);
 }

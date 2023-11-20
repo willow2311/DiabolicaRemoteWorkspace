@@ -1,0 +1,9 @@
+{
+  "parent": "diabolica:custom/hummus_can",
+  "textures": {
+    "all": "diabolica:block/hummus_can",
+    "particle": "diabolica:block/hummus_can",
+    "0": "diabolica:block/hummus_can"
+  },
+  "render_type": "solid"
+}
