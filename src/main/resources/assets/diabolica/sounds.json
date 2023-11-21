@@ -64,5 +64,13 @@
         "stream": false
       }
     ]
+  },
+  "ambience.pools": {
+    "sounds": [
+      {
+        "name": "diabolica:pools_ambience",
+        "stream": false
+      }
+    ]
   }
 }

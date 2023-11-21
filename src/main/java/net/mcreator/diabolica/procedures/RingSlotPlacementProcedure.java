@@ -1,8 +1,8 @@
 package net.mcreator.diabolica.procedures;
 
-import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.diabolica.init.DiabolicaModItems;
+import javax.annotation.Nullable;
 
 public class RingSlotPlacementProcedure {
 	public static boolean execute(ItemStack itemstack) {

@@ -22,6 +22,7 @@ import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
 import net.mcreator.diabolica.item.ScrollItem;
 import net.mcreator.diabolica.item.RingOfHasteItem;
+import net.mcreator.diabolica.item.PoolWaterItem;
 import net.mcreator.diabolica.item.MysticCrystalItem;
 import net.mcreator.diabolica.item.MagicSnifferEggItem;
 import net.mcreator.diabolica.item.HummusSandwichItem;
@@ -35,7 +36,7 @@ public class DiabolicaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, DiabolicaMod.MODID);
 	public static final RegistryObject<Item> DEVILS_CONTRACT = REGISTRY.register("devils_contract", () -> new DevilsContractItemItem());
 	public static final RegistryObject<Item> ACCURSED_IDOL = REGISTRY.register("accursed_idol", () -> new GubItem());
-	public static final RegistryObject<Item> ENCHANTED_SATCHEL = REGISTRY.register("enchanted_satchel", () -> new VoidParcelItem());
+	public static final RegistryObject<Item> VOID_PARCEL = REGISTRY.register("void_parcel", () -> new VoidParcelItem());
 	public static final RegistryObject<Item> SPELL_OF_DISCOMBOBULATION = REGISTRY.register("spell_of_discombobulation", () -> new SpellOfRecombobulationItem());
 	public static final RegistryObject<Item> SPELL_OF_RECOMBOBULATION = REGISTRY.register("spell_of_recombobulation", () -> new SpellofDiscombobulationItem());
 	public static final RegistryObject<Item> SPELL_OF_RECALL = REGISTRY.register("spell_of_recall", () -> new SpellOfRecallItem());
@@ -116,6 +117,7 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> EMPTY_ACCURSED_IDOL = REGISTRY.register("empty_accursed_idol", () -> new EmptyidolItem());
 	public static final RegistryObject<Item> ROAD_PLACER = block(DiabolicaModBlocks.ROAD_PLACER);
 	public static final RegistryObject<Item> ROAD_PLACER_2 = block(DiabolicaModBlocks.ROAD_PLACER_2);
+	public static final RegistryObject<Item> POOL_WATER_BUCKET = REGISTRY.register("pool_water_bucket", () -> new PoolWaterItem());
 	public static final RegistryObject<Item> RING_OF_HASTE = REGISTRY.register("ring_of_haste", () -> new RingOfHasteItem());
 	public static final RegistryObject<Item> ZEE_AMULET = REGISTRY.register("zee_amulet", () -> new ZeeAmuletItem());
 

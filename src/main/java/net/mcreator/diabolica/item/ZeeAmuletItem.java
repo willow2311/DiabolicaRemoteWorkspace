@@ -1,8 +1,8 @@
 
 package net.mcreator.diabolica.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class ZeeAmuletItem extends Item {
 	public ZeeAmuletItem() {

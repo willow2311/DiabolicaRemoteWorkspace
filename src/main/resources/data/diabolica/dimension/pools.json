@@ -1,0 +1,19 @@
+{
+  "type": "diabolica:pools",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "diabolica:static_pools",
+      "layers": [
+        {
+          "block": "diabolica:white_tiles",
+          "height": 64
+        },
+        {
+          "block": "minecraft:water",
+          "height": 1
+        }
+      ]
+    }
+  }
+}

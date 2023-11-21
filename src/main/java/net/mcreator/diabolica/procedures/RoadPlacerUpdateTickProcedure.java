@@ -20,7 +20,7 @@ public class RoadPlacerUpdateTickProcedure {
 		double rand = 0;
 		double randstore = 0;
 		rand = Mth.nextInt(RandomSource.create(), 1, 3);
-		randstore = Mth.nextInt(RandomSource.create(), 1, 500);
+		randstore = Mth.nextInt(RandomSource.create(), 1, 300);
 		if (rand == 1) {
 			if (world instanceof ServerLevel _serverworld) {
 				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "liminal_road_1"));
@@ -29,7 +29,7 @@ public class RoadPlacerUpdateTickProcedure {
 							_serverworld.random, 3);
 				}
 			}
-			if (randstore == 499) {
+			if (randstore == 299) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store"));
 					if (template != null) {
@@ -37,11 +37,19 @@ public class RoadPlacerUpdateTickProcedure {
 								3);
 					}
 				}
-			} else if (randstore == 500) {
+			} else if (randstore == 300) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store_flipped"));
 					if (template != null) {
 						template.placeInWorld(_serverworld, BlockPos.containing(-6, -1, z), BlockPos.containing(-6, -1, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.FRONT_BACK).setIgnoreEntities(false),
+								_serverworld.random, 3);
+					}
+				}
+			} else if (randstore == 23) {
+				if (world instanceof ServerLevel _serverworld) {
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "stasis_pools_entrance"));
+					if (template != null) {
+						template.placeInWorld(_serverworld, BlockPos.containing(64, -10, z), BlockPos.containing(64, -10, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 								_serverworld.random, 3);
 					}
 				}
@@ -54,7 +62,7 @@ public class RoadPlacerUpdateTickProcedure {
 							_serverworld.random, 3);
 				}
 			}
-			if (randstore == 499) {
+			if (randstore == 299) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store"));
 					if (template != null) {
@@ -62,11 +70,19 @@ public class RoadPlacerUpdateTickProcedure {
 								3);
 					}
 				}
-			} else if (randstore == 500) {
+			} else if (randstore == 300) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store_flipped"));
 					if (template != null) {
 						template.placeInWorld(_serverworld, BlockPos.containing(-6, -1, z), BlockPos.containing(-6, -1, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.FRONT_BACK).setIgnoreEntities(false),
+								_serverworld.random, 3);
+					}
+				}
+			} else if (randstore == 23) {
+				if (world instanceof ServerLevel _serverworld) {
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "stasis_pools_entrance"));
+					if (template != null) {
+						template.placeInWorld(_serverworld, BlockPos.containing(-64, -10, z), BlockPos.containing(-64, -10, z), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.FRONT_BACK).setIgnoreEntities(false),
 								_serverworld.random, 3);
 					}
 				}
@@ -79,7 +95,7 @@ public class RoadPlacerUpdateTickProcedure {
 							_serverworld.random, 3);
 				}
 			}
-			if (randstore == 499) {
+			if (randstore == 299) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store"));
 					if (template != null) {
@@ -87,7 +103,7 @@ public class RoadPlacerUpdateTickProcedure {
 								3);
 					}
 				}
-			} else if (randstore == 500) {
+			} else if (randstore == 300) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("diabolica", "zedco_store_flipped"));
 					if (template != null) {
