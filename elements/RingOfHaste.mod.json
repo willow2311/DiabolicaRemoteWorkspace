@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "void_parcel_2",
+    "texture": "hastering",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Enchanted Satchel",
+    "name": "Ring Of Haste",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
@@ -28,8 +28,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "EnchantedSatchel",
-    "inventorySize": 4,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": false,
     "nutritionalValue": 4,

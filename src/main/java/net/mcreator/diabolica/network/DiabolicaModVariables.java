@@ -92,6 +92,7 @@ public class DiabolicaModVariables {
 			clone.quest_two_completed = original.quest_two_completed;
 			clone.in_stasis = original.in_stasis;
 			clone.StasisAdventureMode = original.StasisAdventureMode;
+			clone.has_enchanted_satchel = original.has_enchanted_satchel;
 			if (!event.isWasDeath()) {
 				clone.player_levitating = original.player_levitating;
 				clone.player_hovering = original.player_hovering;
@@ -164,6 +165,7 @@ public class DiabolicaModVariables {
 	public static class MapVariables extends SavedData {
 		public static final String DATA_NAME = "diabolica_mapvars";
 		public boolean dragon_killed = false;
+		public boolean joe_summoned = false;
 
 		public static MapVariables load(CompoundTag tag) {
 			MapVariables data = new MapVariables();
@@ -173,11 +175,13 @@ public class DiabolicaModVariables {
 
 		public void read(CompoundTag nbt) {
 			dragon_killed = nbt.getBoolean("dragon_killed");
+			joe_summoned = nbt.getBoolean("joe_summoned");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("dragon_killed", dragon_killed);
+			nbt.putBoolean("joe_summoned", joe_summoned);
 			return nbt;
 		}
 
@@ -292,6 +296,7 @@ public class DiabolicaModVariables {
 		public boolean quest_two_completed = false;
 		public boolean in_stasis = false;
 		public boolean StasisAdventureMode = false;
+		public boolean has_enchanted_satchel = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -326,6 +331,7 @@ public class DiabolicaModVariables {
 			nbt.putBoolean("quest_two_completed", quest_two_completed);
 			nbt.putBoolean("in_stasis", in_stasis);
 			nbt.putBoolean("StasisAdventureMode", StasisAdventureMode);
+			nbt.putBoolean("has_enchanted_satchel", has_enchanted_satchel);
 			return nbt;
 		}
 
@@ -357,6 +363,7 @@ public class DiabolicaModVariables {
 			quest_two_completed = nbt.getBoolean("quest_two_completed");
 			in_stasis = nbt.getBoolean("in_stasis");
 			StasisAdventureMode = nbt.getBoolean("StasisAdventureMode");
+			has_enchanted_satchel = nbt.getBoolean("has_enchanted_satchel");
 		}
 	}
 
@@ -407,6 +414,7 @@ public class DiabolicaModVariables {
 					variables.quest_two_completed = message.data.quest_two_completed;
 					variables.in_stasis = message.data.in_stasis;
 					variables.StasisAdventureMode = message.data.StasisAdventureMode;
+					variables.has_enchanted_satchel = message.data.has_enchanted_satchel;
 				}
 			});
 			context.setPacketHandled(true);

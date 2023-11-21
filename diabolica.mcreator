@@ -322,8 +322,8 @@
       "registry_name": "devils_contract",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/client/gui/DevilsContractScreen.java",
           "src/main/java/net/mcreator/diabolica/network/DevilsContractButtonMessage.java",
+          "src/main/java/net/mcreator/diabolica/client/gui/DevilsContractScreen.java",
           "src/main/java/net/mcreator/diabolica/world/inventory/DevilsContractMenu.java"
         ]
       },
@@ -409,8 +409,8 @@
       "registry_name": "red_boom",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/particles/red_boom.json",
-          "src/main/java/net/mcreator/diabolica/client/particle/RedBoomParticle.java"
+          "src/main/java/net/mcreator/diabolica/client/particle/RedBoomParticle.java",
+          "src/main/resources/assets/diabolica/particles/red_boom.json"
         ]
       },
       "path": "~/DevilsContract"
@@ -524,10 +524,10 @@
       "registry_name": "limbo_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/limbo_block.json",
-          "src/main/resources/assets/diabolica/models/block/limbo_block.json",
+          "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java",
           "src/main/resources/assets/diabolica/blockstates/limbo_block.json",
-          "src/main/java/net/mcreator/diabolica/block/LimboBlockBlock.java"
+          "src/main/resources/assets/diabolica/models/item/limbo_block.json",
+          "src/main/resources/assets/diabolica/models/block/limbo_block.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -574,14 +574,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "void_parcel",
+      "registry_name": "enchanted_satchel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java",
-          "src/main/resources/assets/diabolica/models/item/void_parcel.json"
+          "src/main/java/net/mcreator/diabolica/item/inventory/VoidParcelInventoryCapability.java",
+          "src/main/resources/assets/diabolica/models/item/enchanted_satchel.json",
+          "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java"
         ]
       },
-      "path": "~/Unused"
+      "path": "~/Enchanted Satchel"
     },
     {
       "name": "SpellOfRecombobulation",
@@ -592,8 +593,8 @@
       "registry_name": "spell_of_discombobulation",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/item/SpellOfRecombobulationItem.java",
-          "src/main/resources/assets/diabolica/models/item/spell_of_discombobulation.json"
+          "src/main/resources/assets/diabolica/models/item/spell_of_discombobulation.json",
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecombobulationItem.java"
         ]
       },
       "path": "~/Spells"
@@ -607,8 +608,8 @@
       "registry_name": "soul",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/soul.json",
-          "src/main/java/net/mcreator/diabolica/item/SoulItem.java"
+          "src/main/java/net/mcreator/diabolica/item/SoulItem.java",
+          "src/main/resources/assets/diabolica/models/item/soul.json"
         ]
       },
       "path": "~/Soul"
@@ -745,11 +746,11 @@
       "registry_name": "diabolism_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/entity/EnhcancedCraftingTableBlockEntity.java",
-          "src/main/resources/assets/diabolica/models/item/diabolism_table.json",
-          "src/main/resources/assets/diabolica/models/block/diabolism_table.json",
           "src/main/java/net/mcreator/diabolica/block/EnhcancedCraftingTableBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/diabolism_table.json"
+          "src/main/java/net/mcreator/diabolica/block/entity/EnhcancedCraftingTableBlockEntity.java",
+          "src/main/resources/assets/diabolica/blockstates/diabolism_table.json",
+          "src/main/resources/assets/diabolica/models/item/diabolism_table.json",
+          "src/main/resources/assets/diabolica/models/block/diabolism_table.json"
         ]
       },
       "path": "~/CustomCraft"
@@ -1349,8 +1350,8 @@
       "registry_name": "evil_particle",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/client/particle/EvilParticleParticle.java",
-          "src/main/resources/assets/diabolica/particles/evil_particle.json"
+          "src/main/resources/assets/diabolica/particles/evil_particle.json",
+          "src/main/java/net/mcreator/diabolica/client/particle/EvilParticleParticle.java"
         ]
       },
       "path": "~/Idol of Thanatos"
@@ -1408,8 +1409,8 @@
       "registry_name": "soulsnatcher",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/soulsnatcher.json",
-          "src/main/java/net/mcreator/diabolica/item/SoulsnatcherItem.java"
+          "src/main/java/net/mcreator/diabolica/item/SoulsnatcherItem.java",
+          "src/main/resources/assets/diabolica/models/item/soulsnatcher.json"
         ]
       },
       "path": "~/Soul"
@@ -1517,8 +1518,8 @@
       "registry_name": "spell_of_recall",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/item/SpellOfRecallItem.java",
-          "src/main/resources/assets/diabolica/models/item/spell_of_recall.json"
+          "src/main/resources/assets/diabolica/models/item/spell_of_recall.json",
+          "src/main/java/net/mcreator/diabolica/item/SpellOfRecallItem.java"
         ]
       },
       "path": "~/Spells"
@@ -2012,20 +2013,6 @@
       "path": "~/CustomCraft"
     },
     {
-      "name": "SkullTagItem",
-      "type": "tag",
-      "sortid": 162,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "skull_tag_item",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/tags/items/skull_of_the_forgotten.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
       "name": "SkullTagBlock",
       "type": "tag",
       "sortid": 163,
@@ -2104,10 +2091,10 @@
       "registry_name": "liminal_road",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/LiminalRoadBlock.java",
+          "src/main/resources/assets/diabolica/models/block/liminal_road.json",
           "src/main/resources/assets/diabolica/models/item/liminal_road.json",
-          "src/main/resources/assets/diabolica/blockstates/liminal_road.json",
-          "src/main/resources/assets/diabolica/models/block/liminal_road.json"
+          "src/main/java/net/mcreator/diabolica/block/LiminalRoadBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/liminal_road.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -2121,9 +2108,9 @@
       "registry_name": "striped_liminal_road",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/diabolica/block/StripedLiminalRoadBlock.java",
           "src/main/resources/assets/diabolica/models/item/striped_liminal_road.json",
           "src/main/resources/assets/diabolica/models/block/striped_liminal_road.json",
-          "src/main/java/net/mcreator/diabolica/block/StripedLiminalRoadBlock.java",
           "src/main/resources/assets/diabolica/blockstates/striped_liminal_road.json"
         ]
       },
@@ -2138,10 +2125,10 @@
       "registry_name": "liminal_road_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad1Feature.java",
           "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_1.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_1_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_1.json"
+          "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_1.json",
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad1Feature.java",
+          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_1_biome_modifier.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2155,10 +2142,10 @@
       "registry_name": "road_placer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/road_placer.json",
           "src/main/java/net/mcreator/diabolica/block/RoadPlacerBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/road_placer.json",
           "src/main/resources/assets/diabolica/models/item/road_placer.json",
-          "src/main/resources/assets/diabolica/blockstates/road_placer.json"
+          "src/main/resources/assets/diabolica/models/block/road_placer.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2204,10 +2191,10 @@
       "registry_name": "liminal_road_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad2Feature.java",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_2.json",
           "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_2.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_2_biome_modifier.json"
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad2Feature.java",
+          "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_2_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_2.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2222,9 +2209,9 @@
       "metadata": {
         "files": [
           "src/main/resources/data/diabolica/forge/biome_modifier/liminal_road_3_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_3.json",
+          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad3Feature.java",
           "src/main/resources/data/diabolica/worldgen/configured_feature/liminal_road_3.json",
-          "src/main/java/net/mcreator/diabolica/world/features/LiminalRoad3Feature.java"
+          "src/main/resources/data/diabolica/worldgen/placed_feature/liminal_road_3.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2238,10 +2225,10 @@
       "registry_name": "road_placer_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/RoadPlacer2Block.java",
+          "src/main/resources/assets/diabolica/blockstates/road_placer_2.json",
           "src/main/resources/assets/diabolica/models/item/road_placer_2.json",
-          "src/main/resources/assets/diabolica/models/block/road_placer_2.json",
-          "src/main/resources/assets/diabolica/blockstates/road_placer_2.json"
+          "src/main/java/net/mcreator/diabolica/block/RoadPlacer2Block.java",
+          "src/main/resources/assets/diabolica/models/block/road_placer_2.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2287,10 +2274,10 @@
       "registry_name": "bus_stop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/world/features/BusStopFeature.java",
-          "src/main/resources/data/diabolica/forge/biome_modifier/bus_stop_biome_modifier.json",
           "src/main/resources/data/diabolica/worldgen/placed_feature/bus_stop.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/bus_stop.json"
+          "src/main/java/net/mcreator/diabolica/world/features/BusStopFeature.java",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/bus_stop.json",
+          "src/main/resources/data/diabolica/forge/biome_modifier/bus_stop_biome_modifier.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2354,9 +2341,9 @@
       "registry_name": "zedco_store_flipped",
       "metadata": {
         "files": [
+          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_flipped_biome_modifier.json",
           "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store_flipped.json",
           "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store_flipped.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_flipped_biome_modifier.json",
           "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFlippedFeature.java"
         ]
       },
@@ -2439,10 +2426,10 @@
       "registry_name": "fluorescent_light_question",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_question.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_question.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_question.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQuestionBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQuestionBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_question.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_question.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2458,8 +2445,8 @@
         "files": [
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2473,10 +2460,10 @@
       "registry_name": "hummus_can",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/models/item/hummus_can.json",
           "src/main/java/net/mcreator/diabolica/block/HummusCanBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/hummus_can.json",
           "src/main/resources/assets/diabolica/models/block/hummus_can.json",
-          "src/main/resources/assets/diabolica/models/item/hummus_can.json"
+          "src/main/resources/assets/diabolica/blockstates/hummus_can.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -2490,10 +2477,10 @@
       "registry_name": "tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/tiles.json",
           "src/main/resources/assets/diabolica/models/item/tiles.json",
           "src/main/resources/assets/diabolica/blockstates/tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/TilesBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/TilesBlock.java",
+          "src/main/resources/assets/diabolica/models/block/tiles.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -2507,8 +2494,8 @@
       "registry_name": "fluorescent_light_period",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPeriodBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_period.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPeriodBlock.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_period.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_period.json"
         ]
@@ -2524,10 +2511,10 @@
       "registry_name": "zedco_store",
       "metadata": {
         "files": [
-          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store.json",
           "src/main/java/net/mcreator/diabolica/world/features/ZedcoStoreFeature.java",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store.json"
+          "src/main/resources/data/diabolica/forge/biome_modifier/zedco_store_biome_modifier.json",
+          "src/main/resources/data/diabolica/worldgen/placed_feature/zedco_store.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/zedco_store.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -2541,10 +2528,10 @@
       "registry_name": "fluorescent_light_z",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightZBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_z.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_z.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_z.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_z.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightZBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2558,10 +2545,10 @@
       "registry_name": "fluorescent_light_dash",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDashBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_dash.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_dash.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_dash.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_dash.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDashBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2575,10 +2562,10 @@
       "registry_name": "fluorescent_light_v",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightVBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_v.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_v.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_v.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightVBlock.java"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_v.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2594,8 +2581,8 @@
         "files": [
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightWBlock.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_w.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_w.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_w.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_w.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_w.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2610,8 +2597,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_x.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightXBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_x.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightXBlock.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_x.json"
         ]
       },
@@ -2627,8 +2614,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_y.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightYBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_y.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightYBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_y.json"
         ]
       },
@@ -2643,9 +2630,9 @@
       "registry_name": "fluorescent_light_r",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_r.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightRBlock.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_r.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightRBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_r.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_r.json"
         ]
       },
@@ -2662,8 +2649,8 @@
         "files": [
           "src/main/java/net/mcreator/diabolica/block/PlasterBlock.java",
           "src/main/resources/assets/diabolica/blockstates/plaster.json",
-          "src/main/resources/assets/diabolica/models/block/plaster.json",
-          "src/main/resources/assets/diabolica/models/item/plaster.json"
+          "src/main/resources/assets/diabolica/models/item/plaster.json",
+          "src/main/resources/assets/diabolica/models/block/plaster.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -2677,10 +2664,10 @@
       "registry_name": "fluorescent_light_s",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_s.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightSBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_s.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_s.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightSBlock.java"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_s.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2694,10 +2681,10 @@
       "registry_name": "fluorescent_light_t",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightTBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_t.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_t.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_t.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_t.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_t.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightTBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2712,9 +2699,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_u.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_u.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_u.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightUBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_u.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightUBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2728,10 +2715,10 @@
       "registry_name": "fluorescent_light_n",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_n.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_n.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightNBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_n.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_n.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_n.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_n.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2745,10 +2732,10 @@
       "registry_name": "fluorescent_light_o",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_o.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_o.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightOBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_o.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightOBlock.java"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_o.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_o.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2762,10 +2749,10 @@
       "registry_name": "fluorescent_light_p",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_p.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_p.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_p.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_p.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightPBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_p.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2779,10 +2766,10 @@
       "registry_name": "fluorescent_light_q",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_q.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_q.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_q.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_q.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightQBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2796,10 +2783,10 @@
       "registry_name": "fluorescent_light_j",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_j.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_j.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_j.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightJBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightJBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_j.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_j.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2814,9 +2801,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_k.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_k.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_k.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightKBlock.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_k.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightKBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2830,9 +2817,9 @@
       "registry_name": "fluorescent_light_l",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightLBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_l.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_l.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_l.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightLBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_l.json"
         ]
       },
@@ -2848,8 +2835,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_m.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightMBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_m.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightMBlock.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_m.json"
         ]
       },
@@ -2864,10 +2851,10 @@
       "registry_name": "fluorescent_light_f",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_f.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightFBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_f.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_f.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_f.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightFBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_f.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2881,8 +2868,8 @@
       "registry_name": "fluorescent_light_g",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightGBlock.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_g.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightGBlock.java",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_g.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_g.json"
         ]
@@ -2898,10 +2885,10 @@
       "registry_name": "fluorescent_light_h",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_h.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_h.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_h.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightHBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightHBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_h.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_h.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2915,10 +2902,10 @@
       "registry_name": "fluorescent_light_i",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightIBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_i.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_i.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_i.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_i.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_i.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightIBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2932,10 +2919,10 @@
       "registry_name": "dingy_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/dingy_tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_tiles.json",
           "src/main/resources/assets/diabolica/models/item/dingy_tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/DingyTilesBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/dingy_tiles.json"
+          "src/main/resources/assets/diabolica/models/block/dingy_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyTilesBlock.java"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -2949,10 +2936,10 @@
       "registry_name": "fluorescent_light_b",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_b.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_b.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_b.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_b.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightBBlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_b.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2967,9 +2954,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_c.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_c.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightCBlock.java",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_c.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_c.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_c.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -2984,9 +2971,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_d.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_d.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_d.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDBlock.java"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightDBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_d.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3000,9 +2987,9 @@
       "registry_name": "fluorescent_light_e",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_e.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_e.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightEBlock.java",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_e.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_e.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_e.json"
         ]
       },
@@ -3017,10 +3004,10 @@
       "registry_name": "fluorescent_light_exclamation",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_exclamation.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_exclamation.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_exclamation.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightExclamationBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_exclamation.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_exclamation.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3034,10 +3021,10 @@
       "registry_name": "fluorescent_light_a",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_a.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLightABlock.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_a.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_a.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_a.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_a.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3068,10 +3055,10 @@
       "registry_name": "fluorescent_light_7",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_7.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_7.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLight7Block.java",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_7.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_7.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_7.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3085,10 +3072,10 @@
       "registry_name": "fluorescent_light_8",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight8Block.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_8.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_8.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_8.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_8.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight8Block.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_8.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3102,10 +3089,10 @@
       "registry_name": "fluorescent_light_9",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_9.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_9.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_9.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLight9Block.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_9.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_9.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3119,9 +3106,9 @@
       "registry_name": "fluorescent_light_2",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight2Block.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_2.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_2.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight2Block.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_2.json"
         ]
       },
@@ -3136,10 +3123,10 @@
       "registry_name": "fluorescent_light_3",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight3Block.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_3.json",
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_3.json",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_3.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_3.json"
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight3Block.java",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_3.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3153,10 +3140,10 @@
       "registry_name": "fluorescent_light_comma",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLightCommaBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_comma.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_comma.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_comma.json"
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_comma.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_comma.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLightCommaBlock.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3170,10 +3157,10 @@
       "registry_name": "fluorescent_light_4",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_4.json",
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_4.json",
           "src/main/resources/assets/diabolica/blockstates/fluorescent_light_4.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight4Block.java"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_4.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight4Block.java",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_4.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3187,10 +3174,10 @@
       "registry_name": "fluorescent_light_5",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/fluorescent_light_5.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_5.json",
           "src/main/java/net/mcreator/diabolica/block/FluorescentLight5Block.java",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_5.json"
+          "src/main/resources/assets/diabolica/models/item/fluorescent_light_5.json",
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_5.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_5.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3204,10 +3191,10 @@
       "registry_name": "fluorescent_light_0",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight0Block.java",
           "src/main/resources/assets/diabolica/models/block/fluorescent_light_0.json",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_0.json",
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_0.json"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_0.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight0Block.java"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3221,10 +3208,10 @@
       "registry_name": "fluorescent_light_1",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_1.json",
+          "src/main/java/net/mcreator/diabolica/block/FluorescentLight1Block.java",
           "src/main/resources/assets/diabolica/models/item/fluorescent_light_1.json",
-          "src/main/resources/assets/diabolica/models/block/fluorescent_light_1.json",
-          "src/main/java/net/mcreator/diabolica/block/FluorescentLight1Block.java"
+          "src/main/resources/assets/diabolica/blockstates/fluorescent_light_1.json",
+          "src/main/resources/assets/diabolica/models/block/fluorescent_light_1.json"
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
@@ -3238,8 +3225,8 @@
       "registry_name": "spellof_resurrection",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/spellof_resurrection.json",
-          "src/main/java/net/mcreator/diabolica/item/SpellofResurrectionItem.java"
+          "src/main/java/net/mcreator/diabolica/item/SpellofResurrectionItem.java",
+          "src/main/resources/assets/diabolica/models/item/spellof_resurrection.json"
         ]
       },
       "path": "~/Spells"
@@ -3294,6 +3281,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3308,10 +3299,10 @@
       "registry_name": "white_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/blockstates/white_tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/WhiteTilesBlock.java",
           "src/main/resources/assets/diabolica/models/item/white_tiles.json",
-          "src/main/resources/assets/diabolica/models/block/white_tiles.json"
+          "src/main/resources/assets/diabolica/models/block/white_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/WhiteTilesBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/white_tiles.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3325,10 +3316,10 @@
       "registry_name": "dingy_white_tiles",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/DingyWhiteTilesBlock.java",
           "src/main/resources/assets/diabolica/models/item/dingy_white_tiles.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tiles.json",
           "src/main/resources/assets/diabolica/models/block/dingy_white_tiles.json",
-          "src/main/resources/assets/diabolica/blockstates/dingy_white_tiles.json"
+          "src/main/java/net/mcreator/diabolica/block/DingyWhiteTilesBlock.java"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3343,8 +3334,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/diabolica/block/BlackTilesBlock.java",
-          "src/main/resources/assets/diabolica/models/item/black_tiles.json",
           "src/main/resources/assets/diabolica/blockstates/black_tiles.json",
+          "src/main/resources/assets/diabolica/models/item/black_tiles.json",
           "src/main/resources/assets/diabolica/models/block/black_tiles.json"
         ]
       },
@@ -3359,10 +3350,10 @@
       "registry_name": "dingy_black_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/dingy_black_tiles.json",
-          "src/main/resources/assets/diabolica/blockstates/dingy_black_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTilesBlock.java",
           "src/main/resources/assets/diabolica/models/block/dingy_black_tiles.json",
-          "src/main/java/net/mcreator/diabolica/block/DingyBlackTilesBlock.java"
+          "src/main/resources/assets/diabolica/blockstates/dingy_black_tiles.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tiles.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3420,12 +3411,12 @@
       "registry_name": "tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/block/tile_stairs_inner.json",
-          "src/main/resources/assets/diabolica/models/block/tile_stairs.json",
-          "src/main/resources/assets/diabolica/blockstates/tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/tile_stairs_outer.json",
-          "src/main/java/net/mcreator/diabolica/block/TileStairsBlock.java"
+          "src/main/resources/assets/diabolica/models/block/tile_stairs_inner.json",
+          "src/main/java/net/mcreator/diabolica/block/TileStairsBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/item/tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/tile_stairs.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3439,12 +3430,12 @@
       "registry_name": "tile_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/models/block/tile_slab.json",
           "src/main/resources/assets/diabolica/models/block/tile_slab_full.json",
-          "src/main/resources/assets/diabolica/blockstates/tile_slab.json",
-          "src/main/resources/assets/diabolica/models/item/tile_slab.json",
-          "src/main/resources/assets/diabolica/models/block/tile_slab_top.json",
           "src/main/java/net/mcreator/diabolica/block/TileSlabBlock.java",
-          "src/main/resources/assets/diabolica/models/block/tile_slab.json"
+          "src/main/resources/assets/diabolica/models/block/tile_slab_top.json",
+          "src/main/resources/assets/diabolica/blockstates/tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/tile_slab.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3458,12 +3449,12 @@
       "registry_name": "dingy_tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/dingy_tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs.json",
-          "src/main/java/net/mcreator/diabolica/block/DingyTileStairsBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/dingy_tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs_inner.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs_outer.json"
+          "src/main/resources/assets/diabolica/models/item/dingy_tile_stairs.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs_outer.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_stairs.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3477,12 +3468,12 @@
       "registry_name": "dingy_tile_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/DingyTileSlabBlock.java",
           "src/main/resources/assets/diabolica/models/block/dingy_tile_slab_top.json",
           "src/main/resources/assets/diabolica/blockstates/dingy_tile_slab.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab_full.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyTileSlabBlock.java",
           "src/main/resources/assets/diabolica/models/item/dingy_tile_slab.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab.json"
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_tile_slab_full.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3496,12 +3487,12 @@
       "registry_name": "white_tile_stairs",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/diabolica/block/WhiteTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/item/white_tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/white_tile_stairs_inner.json",
           "src/main/resources/assets/diabolica/models/block/white_tile_stairs_outer.json",
-          "src/main/resources/assets/diabolica/models/item/white_tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/block/white_tile_stairs.json",
-          "src/main/java/net/mcreator/diabolica/block/WhiteTileStairsBlock.java",
-          "src/main/resources/assets/diabolica/blockstates/white_tile_stairs.json"
+          "src/main/resources/assets/diabolica/blockstates/white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/white_tile_stairs.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3515,12 +3506,12 @@
       "registry_name": "white_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/white_tile_slab_full.json",
           "src/main/resources/assets/diabolica/models/block/white_tile_slab_top.json",
-          "src/main/java/net/mcreator/diabolica/block/WhiteTileSlabBlock.java",
-          "src/main/resources/assets/diabolica/models/block/white_tile_slab.json",
           "src/main/resources/assets/diabolica/models/item/white_tile_slab.json",
-          "src/main/resources/assets/diabolica/blockstates/white_tile_slab.json"
+          "src/main/resources/assets/diabolica/models/block/white_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/white_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/blockstates/white_tile_slab.json",
+          "src/main/java/net/mcreator/diabolica/block/WhiteTileSlabBlock.java"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3548,12 +3539,12 @@
       "registry_name": "dingy_white_tile_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs_inner.json",
           "src/main/java/net/mcreator/diabolica/block/DingyWhiteTileStairsBlock.java",
-          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs_outer.json",
-          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_stairs.json"
+          "src/main/resources/assets/diabolica/models/block/dingy_white_tile_stairs_outer.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3567,10 +3558,10 @@
       "registry_name": "dingy_white_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_slab.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_slab.json",
           "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab_full.json",
           "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab_top.json",
-          "src/main/resources/assets/diabolica/blockstates/dingy_white_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_white_tile_slab.json",
           "src/main/java/net/mcreator/diabolica/block/DingyWhiteTileSlabBlock.java",
           "src/main/resources/assets/diabolica/models/block/dingy_white_tile_slab.json"
         ]
@@ -3586,12 +3577,12 @@
       "registry_name": "black_tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/black_tile_stairs.json",
-          "src/main/java/net/mcreator/diabolica/block/BlackTileStairsBlock.java",
           "src/main/resources/assets/diabolica/blockstates/black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/item/black_tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/black_tile_stairs_outer.json",
-          "src/main/resources/assets/diabolica/models/block/black_tile_stairs_inner.json",
-          "src/main/resources/assets/diabolica/models/item/black_tile_stairs.json"
+          "src/main/java/net/mcreator/diabolica/block/BlackTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/block/black_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_stairs_inner.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3605,12 +3596,12 @@
       "registry_name": "black_tile_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab_top.json",
           "src/main/resources/assets/diabolica/blockstates/black_tile_slab.json",
           "src/main/java/net/mcreator/diabolica/block/BlackTileSlabBlock.java",
-          "src/main/resources/assets/diabolica/models/block/black_tile_slab_full.json",
-          "src/main/resources/assets/diabolica/models/block/black_tile_slab.json",
           "src/main/resources/assets/diabolica/models/item/black_tile_slab.json",
-          "src/main/resources/assets/diabolica/models/block/black_tile_slab_top.json"
+          "src/main/resources/assets/diabolica/models/block/black_tile_slab.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3624,12 +3615,12 @@
       "registry_name": "dingy_black_tile_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs_outer.json",
           "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs.json",
-          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_stairs.json",
           "src/main/resources/assets/diabolica/blockstates/dingy_black_tile_stairs.json",
           "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs_inner.json",
-          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileStairsBlock.java"
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_stairs.json",
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_stairs_outer.json"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3643,15 +3634,236 @@
       "registry_name": "dingy_black_tile_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileSlabBlock.java",
-          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_slab.json",
-          "src/main/resources/assets/diabolica/blockstates/dingy_black_tile_slab.json",
           "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab_top.json",
+          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/blockstates/dingy_black_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/item/dingy_black_tile_slab.json",
           "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab.json",
-          "src/main/resources/assets/diabolica/models/block/dingy_black_tile_slab_full.json"
+          "src/main/java/net/mcreator/diabolica/block/DingyBlackTileSlabBlock.java"
         ]
       },
       "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SpellofResurrectionRightclickedOnBlock",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spellof_resurrection_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SpellofResurrectionRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Spells"
+    },
+    {
+      "name": "ItsJoever",
+      "type": "achievement",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_joever",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/its_joever.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "WhenRingSlotChanges",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "when_ring_slot_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/WhenRingSlotChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel"
+    },
+    {
+      "name": "IfTestRingEnabled",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_test_ring_enabled",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/IfTestRingEnabledProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel/Rings/HasteRing"
+    },
+    {
+      "name": "EnchantedSatchel",
+      "type": "gui",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_satchel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/world/inventory/EnchantedSatchelMenu.java",
+          "src/main/java/net/mcreator/diabolica/client/gui/EnchantedSatchelScreen.java"
+        ]
+      },
+      "path": "~/Enchanted Satchel"
+    },
+    {
+      "name": "RingOfHaste",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_of_haste",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/ring_of_haste.json",
+          "src/main/java/net/mcreator/diabolica/item/RingOfHasteItem.java"
+        ]
+      },
+      "path": "~/Enchanted Satchel/Rings/HasteRing"
+    },
+    {
+      "name": "EnchantedSatchelThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_satchel_this_gui_is_closed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/EnchantedSatchelThisGUIIsClosedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel"
+    },
+    {
+      "name": "RingSlotPlacement",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ring_slot_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RingSlotPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel/Rings"
+    },
+    {
+      "name": "ZeeAmulet",
+      "type": "item",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zee_amulet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/zee_amulet.json",
+          "src/main/java/net/mcreator/diabolica/item/ZeeAmuletItem.java"
+        ]
+      },
+      "path": "~/Enchanted Satchel/Amulets"
+    },
+    {
+      "name": "AmuletSlotPlacement",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_slot_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/AmuletSlotPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel/Amulets"
+    },
+    {
+      "name": "TestForEnchantedSatchel",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_for_enchanted_satchel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/TestForEnchantedSatchelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchanted Satchel"
     }
   ],
   "variable_elements": [
@@ -3822,6 +4034,18 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "joe_summoned",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "has_enchanted_satchel",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -3938,6 +4162,7 @@
       "item.diabolica.augmented_tear": "Augmented Tear",
       "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
       "block.diabolica.fluorescent_light_dash": "Fluorescent Light",
+      "gui.diabolica.enchanted_satchel.tooltip_ring": "Ring",
       "item.diabolica.soulsnatcher": "Soulsnatcher",
       "gui.diabolicaa.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
       "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
@@ -3954,9 +4179,9 @@
       "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "subtitles.music.stasis.liminality": "",
       "biome.eviladdons.limbo_biome": "Limbo",
+      "gui.diabolica.enchanted_satchel.tooltip_amulet": "Amulet",
       "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
       "gui.eviladdons.devils_contract.button_empty1": " ",
-      "item.diabolica.void_parcel": "Void Parcel",
       "item.diabolica.scroll": "Scroll",
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "item.diabolica.spellof_resurrection": "Spell of Resurrection",
@@ -3973,6 +4198,7 @@
       "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
       "block.diabolica.road_placer_2": "Road Placer",
       "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
+      "advancements.its_joever.title": "It\u0027s Joever!",
       "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
       "item.eviladdons.accursed_idol": "Accursed Idol",
       "block.eviladdons.forgotten_one_skull": "The Forgotten One",
@@ -3992,6 +4218,7 @@
       "block.diabolica.limbo_block": "Static Snow",
       "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "effect.diabolicaa.augmented": "Augmented",
+      "item.diabolica.ring_of_haste": "Ring Of Haste",
       "effect.diabolica.augmented": "Augmented",
       "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
@@ -3999,6 +4226,7 @@
       "block.diabolica.dingy_tile_slab": "Dingy Tile Slab",
       "block.diabolica.tile_stairs": "Tile Stairs",
       "block.diabolica.liminal_road": "Liminal Road",
+      "advancements.its_joever.descr": "Obtain the magical sniffer egg.",
       "block.diabolica.fluorescent_light_period": "Fluorescent Light",
       "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
@@ -4042,6 +4270,7 @@
       "block.diabolica.fluorescent_light_2": "Fluorescent Light",
       "entity.diabolicaa.dark_guide": "Dark Trader",
       "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
+      "gui.diabolica.enchanted_satchel.label_enchanted_satchel": "Enchanted Satchel",
       "item.diabolica.canned_hummus": "Canned Hummus",
       "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.diabolica.tiles": "Tiles",
@@ -4064,6 +4293,7 @@
       "block.diabolica.fluorescent_light_i": "Fluorescent Light",
       "block.diabolica.fluorescent_light_j": "Fluorescent Light",
       "block.diabolica.fluorescent_light_c": "Fluorescent Light",
+      "item.diabolica.zee_amulet": "Zee Amulet",
       "block.diabolica.fluorescent_light": "Fluorescent Light",
       "block.diabolica.fluorescent_light_d": "Fluorescent Light",
       "block.diabolica.fluorescent_light_e": "Fluorescent Light",
@@ -4073,6 +4303,7 @@
       "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
       "block.diabolica.fluorescent_light_b": "Fluorescent Light",
       "gui.eviladdons.void_pardel_gui.button_send": "SEND",
+      "item.diabolica.enchanted_satchel": "Enchanted Satchel",
       "subtitles.ashes_fall": ""
     }
   },
@@ -4125,8 +4356,22 @@
         "children": []
       },
       {
-        "name": "Unused",
-        "children": []
+        "name": "Enchanted Satchel",
+        "children": [
+          {
+            "name": "Rings",
+            "children": [
+              {
+                "name": "HasteRing",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Amulets",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Joe Biden",

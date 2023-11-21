@@ -105,11 +105,13 @@ public class DiabolicaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(DiabolicaModItems.DEVILS_CONTRACT.get());
 			tabData.accept(DiabolicaModItems.ACCURSED_IDOL.get());
-			tabData.accept(DiabolicaModItems.VOID_PARCEL.get());
+			tabData.accept(DiabolicaModItems.ENCHANTED_SATCHEL.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_DISCOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECOMBOBULATION.get());
 			tabData.accept(DiabolicaModItems.SPELL_OF_RECALL.get());
 			tabData.accept(DiabolicaModItems.SPELLOF_RESURRECTION.get());
+			tabData.accept(DiabolicaModItems.RING_OF_HASTE.get());
+			tabData.accept(DiabolicaModItems.ZEE_AMULET.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
