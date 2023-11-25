@@ -578,7 +578,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/diabolica/item/VoidParcelItem.java",
-          "src/main/resources/assets/diabolica/models/item/void_parcel.json"
+          "src/main/resources/assets/diabolica/models/item/void_parcel.json",
+          "src/main/java/net/mcreator/diabolica/item/inventory/VoidParcelInventoryCapability.java"
         ]
       }
     },
@@ -3279,6 +3280,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3642,7 +3647,7 @@
       "name": "SpellofResurrectionRightclickedOnBlock",
       "type": "procedure",
       "sortid": 186,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "spellof_resurrection_rightclicked_on_block",
       "metadata": {
@@ -3696,7 +3701,7 @@
       "name": "IfTestRingEnabled",
       "type": "procedure",
       "sortid": 190,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "if_test_ring_enabled",
       "metadata": {
@@ -3716,7 +3721,7 @@
       "name": "EnchantedSatchelThisGUIIsClosed",
       "type": "procedure",
       "sortid": 194,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchanted_satchel_this_gui_is_closed",
       "metadata": {
@@ -3736,13 +3741,13 @@
       "name": "ZeeAmulet",
       "type": "item",
       "sortid": 196,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "zee_amulet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/zee_amulet.json",
-          "src/main/java/net/mcreator/diabolica/item/ZeeAmuletItem.java"
+          "src/main/java/net/mcreator/diabolica/item/ZeeAmuletItem.java",
+          "src/main/resources/assets/diabolica/models/item/zee_amulet.json"
         ]
       },
       "path": "~/Enchanted Satchel/Amulets"
@@ -3751,13 +3756,13 @@
       "name": "RingOfHaste",
       "type": "item",
       "sortid": 192,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ring_of_haste",
       "metadata": {
         "files": [
-          "src/main/resources/assets/diabolica/models/item/ring_of_haste.json",
-          "src/main/java/net/mcreator/diabolica/item/RingOfHasteItem.java"
+          "src/main/java/net/mcreator/diabolica/item/RingOfHasteItem.java",
+          "src/main/resources/assets/diabolica/models/item/ring_of_haste.json"
         ]
       },
       "path": "~/Enchanted Satchel/Rings/HasteRing"
@@ -3806,7 +3811,7 @@
       "name": "RingSlotPlacement",
       "type": "procedure",
       "sortid": 195,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "ring_slot_placement",
       "metadata": {
@@ -3827,7 +3832,7 @@
       "name": "EnchantedSatchel",
       "type": "gui",
       "sortid": 191,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "enchanted_satchel",
       "metadata": {
@@ -3842,7 +3847,7 @@
       "name": "AmuletSlotPlacement",
       "type": "procedure",
       "sortid": 197,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "amulet_slot_placement",
       "metadata": {
@@ -3882,10 +3887,10 @@
       "registry_name": "pool_lamp",
       "metadata": {
         "files": [
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_lamp_biome_modifier.json",
           "src/main/java/net/mcreator/diabolica/world/features/PoolLampFeature.java",
           "src/main/resources/data/diabolica/worldgen/placed_feature/pool_lamp.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_lamp.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_lamp_biome_modifier.json"
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_lamp.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -3911,18 +3916,18 @@
       "name": "PoolWater",
       "type": "fluid",
       "sortid": 186,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pool_water",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/diabolica/block/PoolWaterBlock.java",
-          "src/main/java/net/mcreator/diabolica/fluid/PoolWaterFluid.java",
-          "src/main/java/net/mcreator/diabolica/item/PoolWaterItem.java",
+          "src/main/java/net/mcreator/diabolica/fluid/types/PoolWaterFluidType.java",
+          "src/main/resources/assets/diabolica/models/block/pool_water.json",
           "src/main/resources/assets/diabolica/blockstates/pool_water.json",
           "src/main/resources/assets/diabolica/models/item/pool_water_bucket.json",
-          "src/main/resources/assets/diabolica/models/block/pool_water.json",
-          "src/main/java/net/mcreator/diabolica/fluid/types/PoolWaterFluidType.java"
+          "src/main/java/net/mcreator/diabolica/block/PoolWaterBlock.java",
+          "src/main/java/net/mcreator/diabolica/fluid/PoolWaterFluid.java",
+          "src/main/java/net/mcreator/diabolica/item/PoolWaterItem.java"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -3931,15 +3936,15 @@
       "name": "PoolAquaduct",
       "type": "structure",
       "sortid": 191,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pool_aquaduct",
       "metadata": {
         "files": [
-          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_aquaduct.json",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_aquaduct.json",
           "src/main/java/net/mcreator/diabolica/world/features/PoolAquaductFeature.java",
           "src/main/resources/data/diabolica/forge/biome_modifier/pool_aquaduct_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_aquaduct.json"
+          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_aquaduct.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -3971,8 +3976,8 @@
         "files": [
           "src/main/resources/data/diabolica/worldgen/placed_feature/stasis_pools_entrance.json",
           "src/main/resources/data/diabolica/worldgen/configured_feature/stasis_pools_entrance.json",
-          "src/main/java/net/mcreator/diabolica/world/features/StasisPoolsEntranceFeature.java",
-          "src/main/resources/data/diabolica/forge/biome_modifier/stasis_pools_entrance_biome_modifier.json"
+          "src/main/resources/data/diabolica/forge/biome_modifier/stasis_pools_entrance_biome_modifier.json",
+          "src/main/java/net/mcreator/diabolica/world/features/StasisPoolsEntranceFeature.java"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -3981,15 +3986,15 @@
       "name": "PoolZedco",
       "type": "structure",
       "sortid": 192,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pool_zedco",
       "metadata": {
         "files": [
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_zedco.json",
-          "src/main/java/net/mcreator/diabolica/world/features/PoolZedcoFeature.java",
+          "src/main/resources/data/diabolica/forge/biome_modifier/pool_zedco_biome_modifier.json",
           "src/main/resources/data/diabolica/worldgen/placed_feature/pool_zedco.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_zedco_biome_modifier.json"
+          "src/main/java/net/mcreator/diabolica/world/features/PoolZedcoFeature.java",
+          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_zedco.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -4010,6 +4015,104 @@
             "name": "entity",
             "type": "entity"
           },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "Lightbulb",
+      "type": "block",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/LightbulbBlock.java",
+          "src/main/resources/assets/diabolica/models/item/lightbulb.json",
+          "src/main/resources/assets/diabolica/blockstates/lightbulb.json",
+          "src/main/resources/assets/diabolica/models/block/lightbulb.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "LightbulbOff",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb_off",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/lightbulb_off.json",
+          "src/main/resources/assets/diabolica/models/item/lightbulb_off.json",
+          "src/main/java/net/mcreator/diabolica/block/LightbulbOffBlock.java",
+          "src/main/resources/assets/diabolica/models/block/lightbulb_off.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "LightbulbRedstoneOff",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/LightbulbRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "LightbulbOffRedstoneOn",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb_off_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/LightbulbOffRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
           {
             "name": "x",
             "type": "number"
@@ -4295,18 +4398,15 @@
       "biome.diabolica.limbo_biome": "Limbo",
       "block.diabolica.fluorescent_light_z": "Fluorescent Light",
       "block.diabolica.fluorescent_light_s": "Fluorescent Light",
-      "entity.eviladdons.dark_guide": "Dark Trader",
       "block.diabolica.fluorescent_light_t": "Fluorescent Light",
-      "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
-      "block.eviladdons.limbo_block": "Limbo Block",
+      "entity.eviladdons.dark_guide": "Dark Trader",
       "block.diabolica.fluorescent_light_u": "Fluorescent Light",
-      "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
-      "block.diabolica.fluorescent_light_v": "Fluorescent Light",
+      "block.eviladdons.limbo_block": "Limbo Block",
       "block.diabolica.white_tile_slab": "White Tile Slab",
+      "block.diabolica.fluorescent_light_v": "Fluorescent Light",
       "block.diabolica.fluorescent_light_o": "Fluorescent Light",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.fluorescent_light_p": "Fluorescent Light",
-      "block.diabolica.dingy_white_tile_slab": "Dingy White Tile Slab",
       "block.diabolica.fluorescent_light_q": "Fluorescent Light",
       "subtitles.ambience.stasis.static_wind": "Wind Howling",
       "block.diabolica.fluorescent_light_r": "Fluorescent Light",
@@ -4315,89 +4415,128 @@
       "block.diabolica.fluorescent_light_l": "Fluorescent Light",
       "block.diabolica.fluorescent_light_m": "Fluorescent Light",
       "block.diabolica.fluorescent_light_n": "Fluorescent Light",
-      "block.diabolicaa.diabolism_table": "Table of Diabolism",
-      "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
       "block.diabolica.black_tiles": "Black Tiles",
       "item.eviladdons.soul": "Soul",
-      "item.eviladdons.scroll": "Scroll",
       "advancements.obtain_soulsnatcher.descr": "Obtain the Soulsnatcher",
       "item.diabolicaa.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.dingy_tile_stairs": "Dingy Tile Stairs",
-      "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
-      "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
       "block.diabolica.dingy_white_tiles": "Dingy White Tiles",
       "block.diabolica.white_tile_stairs": "White Tile Stairs",
       "enchantment.eviladdons.launching_enchant": "Launching",
       "item.diabolicaa.spell_of_recall": "Spell Of Recall",
       "block.diabolica.dingy_white_tile_stairs": "Dingy White Tile Stairs",
-      "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
-      "enchantment.eviladdons.lachrymose": "Lachrymose",
       "item.diabolica.augmented_tear": "Augmented Tear",
-      "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "block.diabolica.lightbulb_off": "Lightbulb",
       "block.diabolica.fluorescent_light_dash": "Fluorescent Light",
+      "gui.diabolica.enchanted_satchel.tooltip_ring": "Ring",
       "gui.diabolicaa.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
-      "item.diabolica.soulsnatcher": "Soulsnatcher",
       "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
-      "item.diabolicaa.empty_accursed_idol": "Inactive Accursed Idol",
-      "gui.diabolicaa.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
-      "gui.diabolicaa.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
       "block.diabolica.diabolism_table": "Table of Diabolism",
-      "gui.diabolicaa.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
-      "subtitles.chimes": "",
-      "effect.eviladdons.augmented": "Augmented",
+      "block.diabolica.pool_water": "Pool Water",
       "advancements.enter_stasis.title": "A Soft Void",
       "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
-      "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "fluid.diabolica.pool_water": "Pool Water",
       "subtitles.music.stasis.liminality": "",
-      "biome.eviladdons.limbo_biome": "Limbo",
       "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
-      "gui.eviladdons.devils_contract.button_empty1": " ",
-      "item.diabolica.scroll": "Scroll",
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "item.diabolica.spellof_resurrection": "Spell of Resurrection",
       "subtitles.ambience.pools": "",
       "block.diabolicaa.limbo_block": "Limbo Block",
       "gui.diabolicaa.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
-      "block.diabolica.hummus_can": "Hummus Can",
       "gui.diabolicaa.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "block.diabolica.fluorescent_light_exclamation": "Fluorescent Light",
-      "advancements.obtain_soulsnatcher.title": "I Have Become Death",
       "enchantment.diabolicaa.lachrymose": "Lachrymose",
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
       "block.diabolica.dingy_black_tile_slab": "Dingy Black Tile Slab",
-      "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
-      "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
-      "block.diabolica.road_placer_2": "Road Placer",
       "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
       "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
-      "item.eviladdons.accursed_idol": "Accursed Idol",
       "block.eviladdons.forgotten_one_skull": "The Forgotten One",
       "advancements.root.descr": "The Diabolica mod",
       "gui.diabolicaa.quest_2.label_dark_trader": "Dark Trader",
-      "enchantment.diabolica.lachrymose": "Lachrymose",
       "block.diabolica.fluorescent_light_question": "Fluorescent Light",
       "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "block.diabolica.black_tile_stairs": "Black Tile Stairs",
       "block.diabolica.tile_slab": "Tile Slab",
+      "gui.eviladdons.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "block.diabolica.limbo_block": "Static Snow",
+      "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
+      "item.diabolica.magic_sniffer_egg": "Magic Sniffer Egg",
+      "advancements.its_joever.descr": "Obtain the magical sniffer egg.",
+      "item.eviladdons.spell_of_recall": "Spell Of Recall",
+      "item.diabolicaa.soul": "Soul",
+      "item.diabolica.hummus_sandwich": "Hummus Sandwich",
+      "advancements.enter_stasis.descr": "Where Am I?",
+      "effect.diabolica.blood_pact": "Blood Pact",
+      "item.diabolicaa.scroll": "Scroll",
+      "gui.eviladdons.quest_2.label_dark_trader": "Dark Trader",
+      "gui.diabolica.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
+      "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
+      "advancements.obtain_diablism_table.title": "Diabolical",
+      "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
+      "block.diabolica.road_placer": "Road Placer",
+      "enchantment.diabolicaa.launching_enchant": "Launching",
+      "gui.diabolica.enchanted_satchel.label_enchanted_satchel": "Enchanted Satchel",
+      "item.diabolica.pool_water_bucket": "Bucket of Pool Water",
+      "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
+      "block.diabolica.tiles": "Tiles",
+      "effect.eviladdons.blood_pact": "Blood Pact",
+      "item.diabolica.spell_of_recall": "Spell Of Recall",
+      "block.diabolica.dingy_black_tile_stairs": "Dingy Black Tile Stairs",
+      "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "item.diabolica.accursed_idol": "Accursed Idol",
+      "item.diabolicaa.soulsnatcher": "Soulsnatcher",
+      "block.diabolica.fluorescent_light": "Fluorescent Light",
+      "block.diabolica.fluorescent_light_comma": "Fluorescent Light",
+      "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
+      "subtitles.ashes_fall": "",
+      "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
+      "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
+      "block.diabolica.dingy_white_tile_slab": "Dingy White Tile Slab",
+      "block.diabolicaa.diabolism_table": "Table of Diabolism",
+      "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
+      "item.eviladdons.scroll": "Scroll",
+      "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
+      "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "enchantment.eviladdons.lachrymose": "Lachrymose",
+      "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "item.diabolica.soulsnatcher": "Soulsnatcher",
+      "item.diabolicaa.empty_accursed_idol": "Inactive Accursed Idol",
+      "gui.diabolicaa.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
+      "gui.diabolicaa.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
+      "gui.diabolicaa.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
+      "subtitles.chimes": "",
+      "effect.eviladdons.augmented": "Augmented",
+      "gui.diabolica.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
+      "biome.eviladdons.limbo_biome": "Limbo",
+      "gui.diabolica.enchanted_satchel.tooltip_amulet": "Amulet",
+      "gui.eviladdons.devils_contract.button_empty1": " ",
+      "item.diabolica.void_parcel": "Enchanted Satchel",
+      "item.diabolica.scroll": "Scroll",
+      "block.diabolica.hummus_can": "Hummus Can",
+      "advancements.obtain_soulsnatcher.title": "I Have Become Death",
+      "item.eviladdons.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "gui.eviladdons.quest_2.label_and_then_i_may_reconsider": "the skull of the Forgotten One.",
+      "block.diabolica.lightbulb": "Lightbulb",
+      "block.diabolica.road_placer_2": "Road Placer",
+      "advancements.its_joever.title": "It\u0027s Joever!",
+      "item.eviladdons.accursed_idol": "Accursed Idol",
+      "enchantment.diabolica.lachrymose": "Lachrymose",
       "gui.diabolica.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "block.diabolica.dingy_black_tiles": "Dingy Black Tiles",
       "gui.diabolica.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.eviladdons.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.devils_contract.button_empty": " ",
-      "gui.eviladdons.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
-      "block.diabolica.limbo_block": "Static Snow",
-      "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "effect.diabolicaa.augmented": "Augmented",
+      "item.diabolica.ring_of_haste": "Ring Of Haste",
       "effect.diabolica.augmented": "Augmented",
-      "item.diabolica.spell_of_recombobulation": "Spell Of Recombobulation",
       "subtitles.wind_gust": "",
-      "item.diabolica.magic_sniffer_egg": "Magic Sniffer Egg",
       "block.diabolica.dingy_tile_slab": "Dingy Tile Slab",
       "block.diabolica.tile_stairs": "Tile Stairs",
       "block.diabolica.liminal_road": "Liminal Road",
       "block.diabolica.fluorescent_light_period": "Fluorescent Light",
-      "item.eviladdons.spell_of_recall": "Spell Of Recall",
       "biome.diabolicaa.limbo_biome": "Limbo",
       "block.diabolica.white_tiles": "White Tiles",
       "block.diabolica.black_tile_slab": "Black Tile Slab",
@@ -4405,18 +4544,11 @@
       "item.diabolica.devils_contract": "Devil\u0027s Contract ",
       "enchantment.diabolica.launching_enchant": "Launching",
       "item.eviladdons.augmented_tear": "Augmented Tear",
-      "item.diabolicaa.soul": "Soul",
       "item.diabolicaa.void_parcel": "Void Parcel",
-      "item.diabolica.hummus_sandwich": "Hummus Sandwich",
-      "advancements.enter_stasis.descr": "Where Am I?",
       "gui.eviladdons.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",
       "effect.diabolicaa.blood_pact": "Blood Pact",
       "item.eviladdons.void_parcel": "Void Parcel",
-      "effect.diabolica.blood_pact": "Blood Pact",
-      "item.diabolicaa.scroll": "Scroll",
-      "gui.eviladdons.quest_2.label_dark_trader": "Dark Trader",
       "item.diabolicaa.accursed_idol": "Accursed Idol",
-      "gui.diabolica.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "block.diabolica.fluorescent_light_7": "Fluorescent Light",
       "subtitles.block.fluorescent_light.buzz": "Light Buzzing",
       "block.diabolica.fluorescent_light_8": "Fluorescent Light",
@@ -4427,51 +4559,36 @@
       "subtitles.open_contract": "",
       "subtitles.boing": "",
       "block.diabolica.fluorescent_light_5": "Fluorescent Light",
-      "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "advancements.obtain_idol.title": "Final Gambit",
       "block.diabolica.fluorescent_light_6": "Fluorescent Light",
-      "advancements.obtain_diablism_table.title": "Diabolical",
-      "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
       "block.diabolica.fluorescent_light_0": "Fluorescent Light",
-      "block.diabolica.road_placer": "Road Placer",
       "block.diabolica.fluorescent_light_1": "Fluorescent Light",
-      "enchantment.diabolicaa.launching_enchant": "Launching",
       "block.diabolica.fluorescent_light_2": "Fluorescent Light",
       "entity.diabolicaa.dark_guide": "Dark Trader",
       "gui.diabolicaa.dark_guide_first_quest.label_dark_trader": "Dark Trader",
       "item.diabolica.canned_hummus": "Canned Hummus",
-      "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
-      "block.diabolica.tiles": "Tiles",
       "block.diabolica.dingy_tiles": "Dingy Tiles",
       "item.diabolicaa.augmented_tear": "Augmented Tear",
       "item.diabolica.soul": "Soul",
       "gui.eviladdons.dark_guide_first_quest.label_dark_trader": "Dark Trader",
-      "effect.eviladdons.blood_pact": "Blood Pact",
-      "item.diabolica.spell_of_recall": "Spell Of Recall",
       "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
-      "block.diabolica.dingy_black_tile_stairs": "Dingy Black Tile Stairs",
       "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
       "block.diabolica.plaster": "Plaster",
-      "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "block.diabolica.striped_liminal_road": "Striped Liminal Road",
       "block.diabolica.fluorescent_light_g": "Fluorescent Light",
-      "item.diabolica.accursed_idol": "Accursed Idol",
       "block.diabolica.fluorescent_light_h": "Fluorescent Light",
-      "item.diabolicaa.soulsnatcher": "Soulsnatcher",
       "block.diabolica.fluorescent_light_i": "Fluorescent Light",
       "block.diabolica.fluorescent_light_j": "Fluorescent Light",
+      "biome.diabolica.static_pools": "Static Pools",
       "block.diabolica.fluorescent_light_c": "Fluorescent Light",
-      "block.diabolica.fluorescent_light": "Fluorescent Light",
+      "item.diabolica.zee_amulet": "Zee Amulet",
       "block.diabolica.fluorescent_light_d": "Fluorescent Light",
       "block.diabolica.fluorescent_light_e": "Fluorescent Light",
       "block.diabolica.fluorescent_light_f": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_comma": "Fluorescent Light",
       "block.diabolica.fluorescent_light_a": "Fluorescent Light",
-      "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
       "block.diabolica.fluorescent_light_b": "Fluorescent Light",
       "gui.eviladdons.void_pardel_gui.button_send": "SEND",
-      "item.diabolica.enchanted_satchel": "Enchanted Satchel",
-      "subtitles.ashes_fall": ""
+      "item.diabolica.enchanted_satchel": "Enchanted Satchel"
     }
   },
   "foldersRoot": {

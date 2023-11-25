@@ -120,6 +120,8 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> POOL_WATER_BUCKET = REGISTRY.register("pool_water_bucket", () -> new PoolWaterItem());
 	public static final RegistryObject<Item> RING_OF_HASTE = REGISTRY.register("ring_of_haste", () -> new RingOfHasteItem());
 	public static final RegistryObject<Item> ZEE_AMULET = REGISTRY.register("zee_amulet", () -> new ZeeAmuletItem());
+	public static final RegistryObject<Item> LIGHTBULB = block(DiabolicaModBlocks.LIGHTBULB);
+	public static final RegistryObject<Item> LIGHTBULB_OFF = block(DiabolicaModBlocks.LIGHTBULB_OFF);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

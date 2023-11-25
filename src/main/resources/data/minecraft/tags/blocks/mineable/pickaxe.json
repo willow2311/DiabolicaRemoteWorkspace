@@ -62,6 +62,8 @@
     "diabolica:fluorescent_light_comma",
     "diabolica:fluorescent_light_dash",
     "diabolica:fluorescent_light_exclamation",
-    "diabolica:fluorescent_light_question"
+    "diabolica:fluorescent_light_question",
+    "diabolica:lightbulb",
+    "diabolica:lightbulb_off"
   ]
 }

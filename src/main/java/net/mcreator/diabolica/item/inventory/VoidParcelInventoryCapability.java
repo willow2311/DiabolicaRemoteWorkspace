@@ -28,7 +28,7 @@ public class VoidParcelInventoryCapability implements ICapabilitySerializable<Co
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntity().getItem().getItem() == DiabolicaModItems.ENCHANTED_SATCHEL.get()) {
+		if (event.getEntity().getItem().getItem() == DiabolicaModItems.VOID_PARCEL.get()) {
 			if (Minecraft.getInstance().screen instanceof EnchantedSatchelScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -61,7 +61,7 @@ public class VoidParcelInventoryCapability implements ICapabilitySerializable<Co
 
 			@Override
 			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-				return stack.getItem() != DiabolicaModItems.ENCHANTED_SATCHEL.get();
+				return stack.getItem() != DiabolicaModItems.VOID_PARCEL.get();
 			}
 
 			@Override

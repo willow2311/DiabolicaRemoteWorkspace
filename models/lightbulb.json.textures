@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "lightbulb"
+      },
+      "name": "default"
+    },
+    "off": {
+      "map": {
+        "1": "lightbulb_off"
+      },
+      "name": "off"
+    }
+  }
+}

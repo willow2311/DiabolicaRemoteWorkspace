@@ -1,0 +1,9 @@
+{
+  "parent": "diabolica:custom/lightbulb",
+  "textures": {
+    "all": "diabolica:block/lightbulb",
+    "particle": "diabolica:block/lightbulb",
+    "1": "diabolica:block/lightbulb"
+  },
+  "render_type": "translucent"
+}

@@ -1,8 +1,8 @@
 package net.mcreator.diabolica.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.effect.MobEffects;
 
 public class EnchantedSatchelThisGUIIsClosedProcedure {
 	public static void execute(Entity entity) {

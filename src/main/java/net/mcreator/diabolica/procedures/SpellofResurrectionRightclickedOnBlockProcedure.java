@@ -1,8 +1,26 @@
 package net.mcreator.diabolica.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.registries.ForgeRegistries;
 
-import javax.annotation.Nullable;
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.GameType;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.BlockPos;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
+import net.minecraft.client.Minecraft;
+
+import net.mcreator.diabolica.network.DiabolicaModVariables;
 
 public class SpellofResurrectionRightclickedOnBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity, ItemStack itemstack) {
@@ -30,5 +48,7 @@ public class SpellofResurrectionRightclickedOnBlockProcedure {
 		}.checkGamemode(entity))) {
 			itemstack.shrink(1);
 		}
+		DiabolicaModVariables.MapVariables.get(world).joe_summoned = true;
+		DiabolicaModVariables.MapVariables.get(world).syncData(world);
 	}
 }
