@@ -91,7 +91,6 @@ public class DiabolicaModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
 			tabData.accept(DiabolicaModBlocks.DIABOLISM_TABLE.get().asItem());
 			tabData.accept(DiabolicaModBlocks.LIGHTBULB.get().asItem());
-			tabData.accept(DiabolicaModBlocks.LIGHTBULB_OFF.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
