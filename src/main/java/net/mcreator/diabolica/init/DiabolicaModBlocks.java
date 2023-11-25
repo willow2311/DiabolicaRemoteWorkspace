@@ -20,6 +20,7 @@ import net.mcreator.diabolica.block.StripedLiminalRoadBlock;
 import net.mcreator.diabolica.block.RoadPlacerBlock;
 import net.mcreator.diabolica.block.RoadPlacer2Block;
 import net.mcreator.diabolica.block.PoolWaterBlock;
+import net.mcreator.diabolica.block.PoolPlacerBlock;
 import net.mcreator.diabolica.block.PlasterBlock;
 import net.mcreator.diabolica.block.LiminalRoadBlock;
 import net.mcreator.diabolica.block.LimboBlockBlock;
@@ -156,4 +157,5 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> POOL_WATER = REGISTRY.register("pool_water", () -> new PoolWaterBlock());
 	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
 	public static final RegistryObject<Block> LIGHTBULB_OFF = REGISTRY.register("lightbulb_off", () -> new LightbulbOffBlock());
+	public static final RegistryObject<Block> POOL_PLACER = REGISTRY.register("pool_placer", () -> new PoolPlacerBlock());
 }

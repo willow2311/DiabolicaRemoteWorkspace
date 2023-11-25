@@ -122,6 +122,7 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> ZEE_AMULET = REGISTRY.register("zee_amulet", () -> new ZeeAmuletItem());
 	public static final RegistryObject<Item> LIGHTBULB = block(DiabolicaModBlocks.LIGHTBULB);
 	public static final RegistryObject<Item> LIGHTBULB_OFF = block(DiabolicaModBlocks.LIGHTBULB_OFF);
+	public static final RegistryObject<Item> POOL_PLACER = block(DiabolicaModBlocks.POOL_PLACER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

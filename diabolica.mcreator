@@ -3879,40 +3879,6 @@
       "path": "~/Limbo/Generation"
     },
     {
-      "name": "PoolLamp",
-      "type": "structure",
-      "sortid": 189,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pool_lamp",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_lamp_biome_modifier.json",
-          "src/main/java/net/mcreator/diabolica/world/features/PoolLampFeature.java",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_lamp.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_lamp.json"
-        ]
-      },
-      "path": "~/Limbo/Generation"
-    },
-    {
-      "name": "PoolTower",
-      "type": "structure",
-      "sortid": 190,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pool_tower",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_tower.json",
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_tower_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_tower.json",
-          "src/main/java/net/mcreator/diabolica/world/features/PoolTowerFeature.java"
-        ]
-      },
-      "path": "~/Limbo/Generation"
-    },
-    {
       "name": "PoolWater",
       "type": "fluid",
       "sortid": 186,
@@ -3931,23 +3897,6 @@
         ]
       },
       "path": "~/Limbo/Blocks"
-    },
-    {
-      "name": "PoolAquaduct",
-      "type": "structure",
-      "sortid": 191,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pool_aquaduct",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_aquaduct.json",
-          "src/main/java/net/mcreator/diabolica/world/features/PoolAquaductFeature.java",
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_aquaduct_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_aquaduct.json"
-        ]
-      },
-      "path": "~/Limbo/Generation"
     },
     {
       "name": "Pools",
@@ -3978,23 +3927,6 @@
           "src/main/resources/data/diabolica/worldgen/configured_feature/stasis_pools_entrance.json",
           "src/main/resources/data/diabolica/forge/biome_modifier/stasis_pools_entrance_biome_modifier.json",
           "src/main/java/net/mcreator/diabolica/world/features/StasisPoolsEntranceFeature.java"
-        ]
-      },
-      "path": "~/Limbo/Generation"
-    },
-    {
-      "name": "PoolZedco",
-      "type": "structure",
-      "sortid": 192,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pool_zedco",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/diabolica/forge/biome_modifier/pool_zedco_biome_modifier.json",
-          "src/main/resources/data/diabolica/worldgen/placed_feature/pool_zedco.json",
-          "src/main/java/net/mcreator/diabolica/world/features/PoolZedcoFeature.java",
-          "src/main/resources/data/diabolica/worldgen/configured_feature/pool_zedco.json"
         ]
       },
       "path": "~/Limbo/Generation"
@@ -4156,6 +4088,55 @@
           {
             "name": "z",
             "type": "number"
+          }
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolPlacer",
+      "type": "block",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_placer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/pool_placer.json",
+          "src/main/resources/assets/diabolica/blockstates/pool_placer.json",
+          "src/main/java/net/mcreator/diabolica/block/PoolPlacerBlock.java",
+          "src/main/resources/assets/diabolica/models/item/pool_placer.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "PoolPlacerUpdateTick",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_placer_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PoolPlacerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -4550,6 +4531,7 @@
       "block.diabolica.lightbulb": "Lightbulb",
       "block.diabolica.road_placer_2": "Road Placer",
       "advancements.its_joever.title": "It\u0027s Joever!",
+      "block.diabolica.pool_placer": "Pool Placer",
       "item.eviladdons.accursed_idol": "Accursed Idol",
       "enchantment.diabolica.lachrymose": "Lachrymose",
       "gui.diabolica.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
