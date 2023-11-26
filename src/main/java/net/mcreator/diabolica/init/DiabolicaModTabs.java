@@ -108,6 +108,9 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModItems.SCROLL.get());
 			tabData.accept(DiabolicaModItems.MAGIC_SNIFFER_EGG.get());
 			tabData.accept(DiabolicaModItems.SILLYITE.get());
+			tabData.accept(DiabolicaModItems.LIMINAL_ASPHALT.get());
+			tabData.accept(DiabolicaModItems.BABEL_CODEX.get());
+			tabData.accept(DiabolicaModItems.SILLY_STAR_STICKER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -121,6 +124,7 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModItems.POOL_WATER_BUCKET.get());
 			tabData.accept(DiabolicaModItems.RING_OF_HASTE.get());
 			tabData.accept(DiabolicaModItems.ZEE_AMULET.get());
+			tabData.accept(DiabolicaModItems.CROWBAR.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {

@@ -3372,6 +3372,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -3390,12 +3406,24 @@
         ],
         "dependencies": [
           {
-            "name": "dimension",
-            "type": "dimensiontype"
-          },
-          {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -5328,6 +5356,203 @@
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "LiminalBiomes",
+      "type": "tag",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/worldgen/biome/liminal_biomes.json"
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "Crowbar",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crowbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/crowbar.json",
+          "src/main/java/net/mcreator/diabolica/item/CrowbarItem.java"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "PryableBlocks",
+      "type": "tag",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pryable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/blocks/pryable_blocks.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "LiminalAsphalt",
+      "type": "item",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_asphalt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/liminal_asphalt.json",
+          "src/main/java/net/mcreator/diabolica/item/LiminalAsphaltItem.java"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "BabelCodex",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "babel_codex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/BabelCodexItem.java",
+          "src/main/resources/assets/diabolica/models/item/babel_codex.json"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "SillyStarSticker",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_star_sticker",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/silly_star_sticker.json",
+          "src/main/java/net/mcreator/diabolica/item/SillyStarStickerItem.java"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "PoolsRift",
+      "type": "procedure",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pools_rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/PoolsRiftProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "LiminalRoadOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_road_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/LiminalRoadOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyStarOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_star_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/SillyStarOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyStarStarless",
+      "type": "block",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_star_starless",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/silly_star_starless.json",
+          "src/main/java/net/mcreator/diabolica/block/SillyStarStarlessBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/silly_star_starless.json",
+          "src/main/resources/assets/diabolica/models/block/silly_star_starless.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
     }
   ],
   "variable_elements": [
@@ -5516,6 +5741,12 @@
       "type": "logic",
       "scope": "world",
       "value": "false"
+    },
+    {
+      "name": "PoolMessage",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -5598,6 +5829,14 @@
       ],
       "category": "player",
       "subtitle": "BONK!"
+    },
+    {
+      "name": "item.crowbar.use",
+      "files": [
+        "crowbar_use"
+      ],
+      "category": "player",
+      "subtitle": "Crowbar Prying"
     }
   ],
   "language_map": {
@@ -5664,6 +5903,7 @@
       "enchantment.diabolicaa.lachrymose": "Lachrymose",
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
       "block.diabolica.dingy_black_tile_slab": "Dingy Black Tile Slab",
+      "item.diabolica.liminal_asphalt": "Chunk of Asphalt",
       "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
       "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
       "block.eviladdons.forgotten_one_skull": "The Forgotten One",
@@ -5683,6 +5923,7 @@
       "item.diabolicaa.soul": "Soul",
       "item.diabolica.hummus_sandwich": "Hummus Sandwich",
       "advancements.enter_stasis.descr": "Where Am I?",
+      "block.diabolica.silly_star_starless": "Silly Star with No Star",
       "effect.diabolica.blood_pact": "Blood Pact",
       "item.diabolicaa.scroll": "Scroll",
       "gui.eviladdons.quest_2.label_dark_trader": "Dark Trader",
@@ -5690,9 +5931,12 @@
       "gui.eviladdons.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
       "advancements.obtain_diablism_table.title": "Diabolical",
       "advancements.obtain_idol.descr": "Obtain a Accursed Idol",
+      "item.diabolica.silly_star_sticker": "Silly Sticker",
       "block.diabolica.road_placer": "Road Placer",
       "enchantment.diabolicaa.launching_enchant": "Launching",
+      "item.diabolica.crowbar": "Crowbar",
       "gui.diabolica.enchanted_satchel.label_enchanted_satchel": "Enchanted Satchel",
+      "item.diabolica.babel_codex": "Codex of Babel",
       "item.diabolica.pool_water_bucket": "Bucket of Pool Water",
       "gui.eviladdons.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.diabolica.tiles": "Tiles",
@@ -5806,6 +6050,7 @@
       "block.diabolica.fluorescent_light_d": "Fluorescent Light",
       "block.diabolica.fluorescent_light_e": "Fluorescent Light",
       "block.diabolica.fluorescent_light_f": "Fluorescent Light",
+      "subtitles.item.crowbar.use": "Crowbar Prying",
       "block.diabolica.fluorescent_light_a": "Fluorescent Light",
       "block.diabolica.fluorescent_light_b": "Fluorescent Light",
       "gui.eviladdons.void_pardel_gui.button_send": "SEND",

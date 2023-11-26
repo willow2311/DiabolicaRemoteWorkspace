@@ -21,17 +21,21 @@ import net.mcreator.diabolica.item.SpellOfRecallItem;
 import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
 import net.mcreator.diabolica.item.SillyiteItem;
+import net.mcreator.diabolica.item.SillyStarStickerItem;
 import net.mcreator.diabolica.item.ScrollItem;
 import net.mcreator.diabolica.item.RingOfHasteItem;
 import net.mcreator.diabolica.item.PoolWaterItem;
 import net.mcreator.diabolica.item.MysticCrystalItem;
 import net.mcreator.diabolica.item.MagicSnifferEggItem;
+import net.mcreator.diabolica.item.LiminalAsphaltItem;
 import net.mcreator.diabolica.item.HummusSandwichItem;
 import net.mcreator.diabolica.item.GubItem;
 import net.mcreator.diabolica.item.FunnyHammerItem;
 import net.mcreator.diabolica.item.EmptyidolItem;
 import net.mcreator.diabolica.item.DevilsContractItemItem;
+import net.mcreator.diabolica.item.CrowbarItem;
 import net.mcreator.diabolica.item.CannedHummusItem;
+import net.mcreator.diabolica.item.BabelCodexItem;
 import net.mcreator.diabolica.DiabolicaMod;
 
 public class DiabolicaModItems {
@@ -134,6 +138,11 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> SILLY_PLASTER = block(DiabolicaModBlocks.SILLY_PLASTER);
 	public static final RegistryObject<Item> SILLY_STAR = block(DiabolicaModBlocks.SILLY_STAR);
 	public static final RegistryObject<Item> SILLYITE = REGISTRY.register("sillyite", () -> new SillyiteItem());
+	public static final RegistryObject<Item> CROWBAR = REGISTRY.register("crowbar", () -> new CrowbarItem());
+	public static final RegistryObject<Item> LIMINAL_ASPHALT = REGISTRY.register("liminal_asphalt", () -> new LiminalAsphaltItem());
+	public static final RegistryObject<Item> BABEL_CODEX = REGISTRY.register("babel_codex", () -> new BabelCodexItem());
+	public static final RegistryObject<Item> SILLY_STAR_STICKER = REGISTRY.register("silly_star_sticker", () -> new SillyStarStickerItem());
+	public static final RegistryObject<Item> SILLY_STAR_STARLESS = block(DiabolicaModBlocks.SILLY_STAR_STARLESS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

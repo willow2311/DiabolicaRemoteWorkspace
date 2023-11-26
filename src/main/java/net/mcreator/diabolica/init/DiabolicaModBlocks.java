@@ -20,6 +20,7 @@ import net.mcreator.diabolica.block.StripedLiminalRoadBlock;
 import net.mcreator.diabolica.block.SillyTilesBlock;
 import net.mcreator.diabolica.block.SillyTileStairsBlock;
 import net.mcreator.diabolica.block.SillyTileSlabBlock;
+import net.mcreator.diabolica.block.SillyStarStarlessBlock;
 import net.mcreator.diabolica.block.SillyStarBlock;
 import net.mcreator.diabolica.block.SillyPlasterBlock;
 import net.mcreator.diabolica.block.RoadPlacerBlock;
@@ -172,4 +173,5 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> SILLY_TILE_SLAB = REGISTRY.register("silly_tile_slab", () -> new SillyTileSlabBlock());
 	public static final RegistryObject<Block> SILLY_PLASTER = REGISTRY.register("silly_plaster", () -> new SillyPlasterBlock());
 	public static final RegistryObject<Block> SILLY_STAR = REGISTRY.register("silly_star", () -> new SillyStarBlock());
+	public static final RegistryObject<Block> SILLY_STAR_STARLESS = REGISTRY.register("silly_star_starless", () -> new SillyStarStarlessBlock());
 }

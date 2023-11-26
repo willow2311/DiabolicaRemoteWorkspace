@@ -25,4 +25,5 @@ public class DiabolicaModSounds {
 	public static final RegistryObject<SoundEvent> BLOCK_FLUORESCENT_LIGHT_BUZZ = REGISTRY.register("block.fluorescent_light.buzz", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("diabolica", "block.fluorescent_light.buzz")));
 	public static final RegistryObject<SoundEvent> AMBIENCE_POOLS = REGISTRY.register("ambience.pools", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("diabolica", "ambience.pools")));
 	public static final RegistryObject<SoundEvent> ITEM_FUNNY_HAMMER_BONK = REGISTRY.register("item.funny_hammer.bonk", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("diabolica", "item.funny_hammer.bonk")));
+	public static final RegistryObject<SoundEvent> ITEM_CROWBAR_USE = REGISTRY.register("item.crowbar.use", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("diabolica", "item.crowbar.use")));
 }

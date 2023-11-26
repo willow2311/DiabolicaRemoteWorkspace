@@ -23,8 +23,8 @@ import net.mcreator.diabolica.procedures.SillyStarOnBlockRightClickedProcedure;
 import java.util.List;
 import java.util.Collections;
 
-public class SillyStarBlock extends Block {
-	public SillyStarBlock() {
+public class SillyStarStarlessBlock extends Block {
+	public SillyStarStarlessBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.CALCITE).strength(3f, 15f).requiresCorrectToolForDrops());
 	}
 

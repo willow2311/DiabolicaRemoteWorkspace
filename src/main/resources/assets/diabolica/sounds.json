@@ -81,5 +81,14 @@
         "stream": false
       }
     ]
+  },
+  "item.crowbar.use": {
+    "subtitle": "subtitles.item.crowbar.use",
+    "sounds": [
+      {
+        "name": "diabolica:crowbar_use",
+        "stream": false
+      }
+    ]
   }
 }

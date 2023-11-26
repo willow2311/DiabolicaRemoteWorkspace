@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:StripedLiminalRoad"
+      },
+      {
+        "value": "CUSTOM:SillyStar"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "pryable_blocks",
+    "namespace": "mod"
+  }
+}

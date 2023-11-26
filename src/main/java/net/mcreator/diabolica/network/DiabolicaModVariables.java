@@ -100,6 +100,7 @@ public class DiabolicaModVariables {
 				clone.player_used_totem2 = original.player_used_totem2;
 				clone.send_away = original.send_away;
 				clone.launch_used = original.launch_used;
+				clone.PoolMessage = original.PoolMessage;
 			}
 		}
 
@@ -300,6 +301,7 @@ public class DiabolicaModVariables {
 		public boolean in_stasis = false;
 		public boolean StasisAdventureMode = false;
 		public boolean has_enchanted_satchel = false;
+		public boolean PoolMessage = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -335,6 +337,7 @@ public class DiabolicaModVariables {
 			nbt.putBoolean("in_stasis", in_stasis);
 			nbt.putBoolean("StasisAdventureMode", StasisAdventureMode);
 			nbt.putBoolean("has_enchanted_satchel", has_enchanted_satchel);
+			nbt.putBoolean("PoolMessage", PoolMessage);
 			return nbt;
 		}
 
@@ -367,6 +370,7 @@ public class DiabolicaModVariables {
 			in_stasis = nbt.getBoolean("in_stasis");
 			StasisAdventureMode = nbt.getBoolean("StasisAdventureMode");
 			has_enchanted_satchel = nbt.getBoolean("has_enchanted_satchel");
+			PoolMessage = nbt.getBoolean("PoolMessage");
 		}
 	}
 
@@ -418,6 +422,7 @@ public class DiabolicaModVariables {
 					variables.in_stasis = message.data.in_stasis;
 					variables.StasisAdventureMode = message.data.StasisAdventureMode;
 					variables.has_enchanted_satchel = message.data.has_enchanted_satchel;
+					variables.PoolMessage = message.data.PoolMessage;
 				}
 			});
 			context.setPacketHandled(true);
