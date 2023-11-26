@@ -5118,6 +5118,216 @@
         ]
       },
       "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe1",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_1.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe2",
+      "type": "recipe",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_2.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe3",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_3.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe4",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_4.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe5",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_5",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_5.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe6",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_6",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_6.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe7",
+      "type": "recipe",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_7.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe8",
+      "type": "recipe",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_8",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_8.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe9",
+      "type": "recipe",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_9",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_9.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipe0",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_0.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeQuestion",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_question",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_question.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeExclamation",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_exclamation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_exclamation.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipePeriod",
+      "type": "recipe",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_period",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_period.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeComma",
+      "type": "recipe",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_comma",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_comma.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeDash",
+      "type": "recipe",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_dash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_dash.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
     }
   ],
   "variable_elements": [
@@ -5398,14 +5608,14 @@
       "biome.diabolica.limbo_biome": "Limbo",
       "block.diabolica.fluorescent_light_z": "Fluorescent Light",
       "block.diabolica.fluorescent_light_s": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_t": "Fluorescent Light",
       "entity.eviladdons.dark_guide": "Dark Trader",
+      "block.diabolica.fluorescent_light_t": "Fluorescent Light",
       "block.diabolica.fluorescent_light_u": "Fluorescent Light",
       "block.eviladdons.limbo_block": "Limbo Block",
       "block.diabolica.white_tile_slab": "White Tile Slab",
       "block.diabolica.fluorescent_light_v": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_o": "Fluorescent Light",
       "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
+      "block.diabolica.fluorescent_light_o": "Fluorescent Light",
       "block.diabolica.fluorescent_light_p": "Fluorescent Light",
       "block.diabolica.fluorescent_light_q": "Fluorescent Light",
       "subtitles.ambience.stasis.static_wind": "Wind Howling",
@@ -5416,8 +5626,8 @@
       "block.diabolica.fluorescent_light_m": "Fluorescent Light",
       "block.diabolica.fluorescent_light_n": "Fluorescent Light",
       "block.diabolica.silly_tile_stairs": "Silly Tile Stairs",
-      "item.diabolica.funny_hammer": "Comically Large Mallet",
       "block.diabolica.silly_star": "Silly Star",
+      "item.diabolica.funny_hammer": "Comically Large Mallet",
       "block.diabolica.black_tiles": "Black Tiles",
       "block.diabolica.silly_tile_slab": "Silly Tile Slab",
       "item.eviladdons.soul": "Soul",
@@ -5437,8 +5647,8 @@
       "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
       "block.diabolica.diabolism_table": "Table of Diabolism",
       "block.diabolica.pool_water": "Pool Water",
-      "advancements.enter_stasis.title": "A Soft Void",
       "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
+      "advancements.enter_stasis.title": "A Soft Void",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "fluid.diabolica.pool_water": "Pool Water",
       "subtitles.music.stasis.liminality": "",
