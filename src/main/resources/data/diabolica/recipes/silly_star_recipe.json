@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "silly_star",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diabolica:sillyite"
+    },
+    "1": {
+      "item": "diabolica:sillyite"
+    },
+    "2": {
+      "item": "diabolica:sillyite"
+    },
+    "3": {
+      "item": "diabolica:sillyite"
+    },
+    "4": {
+      "item": "minecraft:nether_star"
+    },
+    "5": {
+      "item": "diabolica:sillyite"
+    },
+    "6": {
+      "item": "diabolica:sillyite"
+    },
+    "7": {
+      "item": "diabolica:sillyite"
+    },
+    "8": {
+      "item": "diabolica:sillyite"
+    }
+  },
+  "result": {
+    "item": "diabolica:silly_star",
+    "count": 1
+  }
+}

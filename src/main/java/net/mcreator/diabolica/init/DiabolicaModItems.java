@@ -20,6 +20,7 @@ import net.mcreator.diabolica.item.SpellOfRecombobulationItem;
 import net.mcreator.diabolica.item.SpellOfRecallItem;
 import net.mcreator.diabolica.item.SoulsnatcherItem;
 import net.mcreator.diabolica.item.SoulItem;
+import net.mcreator.diabolica.item.SillyiteItem;
 import net.mcreator.diabolica.item.ScrollItem;
 import net.mcreator.diabolica.item.RingOfHasteItem;
 import net.mcreator.diabolica.item.PoolWaterItem;
@@ -27,6 +28,7 @@ import net.mcreator.diabolica.item.MysticCrystalItem;
 import net.mcreator.diabolica.item.MagicSnifferEggItem;
 import net.mcreator.diabolica.item.HummusSandwichItem;
 import net.mcreator.diabolica.item.GubItem;
+import net.mcreator.diabolica.item.FunnyHammerItem;
 import net.mcreator.diabolica.item.EmptyidolItem;
 import net.mcreator.diabolica.item.DevilsContractItemItem;
 import net.mcreator.diabolica.item.CannedHummusItem;
@@ -123,6 +125,15 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> LIGHTBULB = block(DiabolicaModBlocks.LIGHTBULB);
 	public static final RegistryObject<Item> LIGHTBULB_OFF = block(DiabolicaModBlocks.LIGHTBULB_OFF);
 	public static final RegistryObject<Item> POOL_PLACER = block(DiabolicaModBlocks.POOL_PLACER);
+	public static final RegistryObject<Item> RANDOMIZER = block(DiabolicaModBlocks.RANDOMIZER);
+	public static final RegistryObject<Item> RANDOMIZER_ON = block(DiabolicaModBlocks.RANDOMIZER_ON);
+	public static final RegistryObject<Item> FUNNY_HAMMER = REGISTRY.register("funny_hammer", () -> new FunnyHammerItem());
+	public static final RegistryObject<Item> SILLY_TILES = block(DiabolicaModBlocks.SILLY_TILES);
+	public static final RegistryObject<Item> SILLY_TILE_STAIRS = block(DiabolicaModBlocks.SILLY_TILE_STAIRS);
+	public static final RegistryObject<Item> SILLY_TILE_SLAB = block(DiabolicaModBlocks.SILLY_TILE_SLAB);
+	public static final RegistryObject<Item> SILLY_PLASTER = block(DiabolicaModBlocks.SILLY_PLASTER);
+	public static final RegistryObject<Item> SILLY_STAR = block(DiabolicaModBlocks.SILLY_STAR);
+	public static final RegistryObject<Item> SILLYITE = REGISTRY.register("sillyite", () -> new SillyiteItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

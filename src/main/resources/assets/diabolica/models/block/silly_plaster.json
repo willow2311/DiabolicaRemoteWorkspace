@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diabolica:block/silly_plaster",
+    "particle": "diabolica:block/silly_plaster"
+  },
+  "render_type": "solid"
+}

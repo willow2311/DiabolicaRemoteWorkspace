@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "black_tiles",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackTiles"
+    },
+    "name": "black_tiles_recipe",
+    "namespace": "mod"
+  }
+}

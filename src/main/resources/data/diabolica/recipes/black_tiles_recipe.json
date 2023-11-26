@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black_tiles",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "1": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "2": {
+      "item": "minecraft:polished_blackstone"
+    },
+    "3": {
+      "item": "minecraft:polished_blackstone"
+    }
+  },
+  "result": {
+    "item": "diabolica:black_tiles",
+    "count": 4
+  }
+}

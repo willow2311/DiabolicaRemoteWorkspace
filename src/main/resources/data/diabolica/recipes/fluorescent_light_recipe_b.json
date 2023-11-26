@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "fluorescent_light",
+  "count": 1,
+  "ingredient": {
+    "tag": "diabolica:fluorescent_lights"
+  },
+  "result": "diabolica:fluorescent_light_b"
+}

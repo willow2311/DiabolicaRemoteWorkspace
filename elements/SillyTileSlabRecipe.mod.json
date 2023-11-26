@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 6,
+    "group": "silly_tile_slab",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SillyTiles"
+      },
+      {
+        "value": "CUSTOM:SillyTiles"
+      },
+      {
+        "value": "CUSTOM:SillyTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SillyTileSlab"
+    },
+    "name": "silly_tile_slab_recipe",
+    "namespace": "mod"
+  }
+}

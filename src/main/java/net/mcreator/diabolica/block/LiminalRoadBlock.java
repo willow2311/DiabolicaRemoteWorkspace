@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class LiminalRoadBlock extends Block {
 	public LiminalRoadBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.TUFF).strength(-1, 3600000));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.TUFF).strength(3.5f, 10f));
 	}
 
 	@Override

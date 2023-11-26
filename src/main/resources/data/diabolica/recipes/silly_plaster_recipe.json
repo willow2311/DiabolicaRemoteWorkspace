@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silly_plaster",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "diabolica:sillyite"
+    },
+    {
+      "item": "diabolica:plaster"
+    }
+  ],
+  "result": {
+    "item": "diabolica:silly_plaster",
+    "count": 1
+  }
+}

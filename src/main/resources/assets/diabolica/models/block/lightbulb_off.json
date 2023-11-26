@@ -3,7 +3,7 @@
   "textures": {
     "all": "diabolica:block/lightbulb_off",
     "particle": "diabolica:block/lightbulb_off",
-    "1": "diabolica:block/lightbulb_off"
+    "2": "diabolica:block/lightbulb_off"
   },
   "render_type": "translucent"
 }

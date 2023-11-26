@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "white_tiles",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz_block"
+    },
+    "1": {
+      "item": "minecraft:quartz_block"
+    },
+    "2": {
+      "item": "minecraft:quartz_block"
+    },
+    "3": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "diabolica:white_tiles",
+    "count": 4
+  }
+}

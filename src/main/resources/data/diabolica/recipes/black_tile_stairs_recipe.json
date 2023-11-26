@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black_tile_stairs",
+  "category": "building",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diabolica:black_tiles"
+    },
+    "3": {
+      "item": "diabolica:black_tiles"
+    },
+    "4": {
+      "item": "diabolica:black_tiles"
+    },
+    "6": {
+      "item": "diabolica:black_tiles"
+    },
+    "7": {
+      "item": "diabolica:black_tiles"
+    },
+    "8": {
+      "item": "diabolica:black_tiles"
+    }
+  },
+  "result": {
+    "item": "diabolica:black_tile_stairs",
+    "count": 4
+  }
+}

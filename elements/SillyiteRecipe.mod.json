@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "sillyite",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CannedHummus"
+      },
+      {
+        "value": "CUSTOM:CannedHummus"
+      },
+      {
+        "value": "CUSTOM:CannedHummus"
+      },
+      {
+        "value": "Items.DYE#1"
+      },
+      {
+        "value": "Items.NETHERITE_INGOT"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:CannedHummus"
+      },
+      {
+        "value": "CUSTOM:CannedHummus"
+      },
+      {
+        "value": "CUSTOM:CannedHummus"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Sillyite"
+    },
+    "name": "sillyite_recipe",
+    "namespace": "mod"
+  }
+}

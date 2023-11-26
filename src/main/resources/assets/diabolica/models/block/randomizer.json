@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "diabolica:block/randomizer_top",
+    "up": "diabolica:block/randomizer_top",
+    "north": "diabolica:block/randomizer_off",
+    "east": "diabolica:block/randomizer_off",
+    "south": "diabolica:block/randomizer_off",
+    "west": "diabolica:block/randomizer_off",
+    "particle": "diabolica:block/randomizer_top"
+  },
+  "render_type": "solid"
+}

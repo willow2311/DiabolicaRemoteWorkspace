@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "silly_tiles",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "diabolica:sillyite"
+    },
+    {
+      "item": "diabolica:tiles"
+    }
+  ],
+  "result": {
+    "item": "diabolica:silly_tiles",
+    "count": 1
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "tile_stairs",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tiles"
+      },
+      {
+        "value": "CUSTOM:Tiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tiles"
+      },
+      {
+        "value": "CUSTOM:Tiles"
+      },
+      {
+        "value": "CUSTOM:Tiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TileStairs"
+    },
+    "name": "tile_stairs",
+    "namespace": "mod"
+  }
+}

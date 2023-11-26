@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funny_hammer",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "diabolica:silly_star"
+    },
+    "1": {
+      "item": "diabolica:funny_hammer"
+    },
+    "2": {
+      "item": "diabolica:silly_star"
+    },
+    "4": {
+      "item": "diabolica:sillyite"
+    },
+    "7": {
+      "item": "diabolica:sillyite"
+    }
+  },
+  "result": {
+    "item": "diabolica:funny_hammer",
+    "count": 1
+  }
+}

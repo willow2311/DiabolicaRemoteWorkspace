@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "black_tile_slab",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "diabolica:black_tiles"
+    },
+    "1": {
+      "item": "diabolica:black_tiles"
+    },
+    "2": {
+      "item": "diabolica:black_tiles"
+    }
+  },
+  "result": {
+    "item": "diabolica:black_tile_slab",
+    "count": 6
+  }
+}

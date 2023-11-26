@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "diabolica:block/silly_star",
+    "particle": "diabolica:block/silly_star"
+  },
+  "render_type": "solid"
+}

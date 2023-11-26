@@ -34,7 +34,9 @@
       }
     ],
     "name": "Fluorescent Light",
-    "specialInfo": [],
+    "specialInfo": [
+      "0"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

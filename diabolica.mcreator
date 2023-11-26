@@ -4161,6 +4161,963 @@
         ]
       },
       "path": "~/Limbo/Generation"
+    },
+    {
+      "name": "Randomizer",
+      "type": "block",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/randomizer.json",
+          "src/main/resources/assets/diabolica/models/block/randomizer.json",
+          "src/main/java/net/mcreator/diabolica/block/RandomizerBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/randomizer.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "RandomizerOn",
+      "type": "block",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomizer_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/randomizer_on.json",
+          "src/main/resources/assets/diabolica/models/item/randomizer_on.json",
+          "src/main/resources/assets/diabolica/blockstates/randomizer_on.json",
+          "src/main/java/net/mcreator/diabolica/block/RandomizerOnBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "RandomizerUpdateTick",
+      "type": "procedure",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomizer_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RandomizerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "RandomizerOnUpdateTick",
+      "type": "procedure",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomizer_on_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/RandomizerOnUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "FunnyHammer",
+      "type": "tool",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/funny_hammer.json",
+          "src/main/java/net/mcreator/diabolica/item/FunnyHammerItem.java"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "FunnyHammerLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_hammer_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/procedures/FunnyHammerLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "SillyTiles",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/silly_tiles.json",
+          "src/main/java/net/mcreator/diabolica/block/SillyTilesBlock.java",
+          "src/main/resources/assets/diabolica/models/block/silly_tiles.json",
+          "src/main/resources/assets/diabolica/models/item/silly_tiles.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyTileStairs",
+      "type": "block",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/SillyTileStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_stairs_outer.json",
+          "src/main/resources/assets/diabolica/blockstates/silly_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/item/silly_tile_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyTileSlab",
+      "type": "block",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/blockstates/silly_tile_slab.json",
+          "src/main/java/net/mcreator/diabolica/block/SillyTileSlabBlock.java",
+          "src/main/resources/assets/diabolica/models/item/silly_tile_slab.json",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_slab_top.json",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/silly_tile_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyPlaster",
+      "type": "block",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_plaster",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/silly_plaster.json",
+          "src/main/resources/assets/diabolica/blockstates/silly_plaster.json",
+          "src/main/resources/assets/diabolica/models/item/silly_plaster.json",
+          "src/main/java/net/mcreator/diabolica/block/SillyPlasterBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyStar",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_star",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/silly_star.json",
+          "src/main/java/net/mcreator/diabolica/block/SillyStarBlock.java",
+          "src/main/resources/assets/diabolica/models/item/silly_star.json",
+          "src/main/resources/assets/diabolica/blockstates/silly_star.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "Sillyite",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sillyite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/item/SillyiteItem.java",
+          "src/main/resources/assets/diabolica/models/item/sillyite.json"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "RoadRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "road_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/road.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "StripedRoadRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "striped_road_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/striped_road.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "TilesRecipe",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/tiles.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "TileStairsRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tile_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/tile_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "TileSlabRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tile_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/tile_slab_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PlasterRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/plaster_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "WhiteTilesRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/white_tiles_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "WhiteTileStairsRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tile_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/white_tile_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "WhiteTileSlabRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_tile_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/white_tile_slab_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTilesRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/black_tiles_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTileStairsRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tile_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/black_tile_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "BlackTileSlabRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_tile_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/black_tile_slab_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "LightbulbRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightbulb_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/lightbulb_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "RandomizerRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomizer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/randomizer_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "HummusSandwichRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hummus_sandwich_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/hummus_sandwich_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "SillyiteRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sillyite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/sillyite_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "SillyTilesRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tiles_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/silly_tiles_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyTileStairsRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tile_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/silly_tile_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyTileSlabRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_tile_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/silly_tile_slab_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyPlasterRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_plaster_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/silly_plaster_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "SillyStarRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silly_star_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/silly_star_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "FunnyHammerRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "funny_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/funny_hammer_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Items"
+    },
+    {
+      "name": "FluorescentLightRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightTag",
+      "type": "tag",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/tags/items/fluorescent_lights.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightARecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_a_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_a_recipe.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeB",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_b.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeC",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_c",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_c.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeD",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_d",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_d.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeE",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_e",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_e.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeF",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_f",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_f.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeG",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_g",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_g.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeH",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_h",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_h.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeI",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_i.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeJ",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_j",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_j.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeK",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_k",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_k.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeL",
+      "type": "recipe",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_l",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_l.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeM",
+      "type": "recipe",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_m",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_m.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeN",
+      "type": "recipe",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_n",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_n.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeO",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_o",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_o.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeP",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_p",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_p.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeQ",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_q",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_q.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeR",
+      "type": "recipe",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_r.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeS",
+      "type": "recipe",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_s",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_s.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeT",
+      "type": "recipe",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_t",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_t.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeU",
+      "type": "recipe",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_u",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_u.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeV",
+      "type": "recipe",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_v",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_v.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeW",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_w",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_w.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeX",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_x",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_x.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeY",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_y",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_y.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
+    },
+    {
+      "name": "FluorescentLightRecipeZ",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluorescent_light_recipe_z",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/recipes/fluorescent_light_recipe_z.json"
+        ]
+      },
+      "path": "~/Limbo/Fluorescent Lights"
     }
   ],
   "variable_elements": [
@@ -4423,6 +5380,14 @@
       ],
       "category": "ambient",
       "subtitle": ""
+    },
+    {
+      "name": "item.funny_hammer.bonk",
+      "files": [
+        "cartoon_bonk"
+      ],
+      "category": "player",
+      "subtitle": "BONK!"
     }
   ],
   "language_map": {
@@ -4433,24 +5398,28 @@
       "biome.diabolica.limbo_biome": "Limbo",
       "block.diabolica.fluorescent_light_z": "Fluorescent Light",
       "block.diabolica.fluorescent_light_s": "Fluorescent Light",
-      "entity.eviladdons.dark_guide": "Dark Trader",
       "block.diabolica.fluorescent_light_t": "Fluorescent Light",
+      "entity.eviladdons.dark_guide": "Dark Trader",
       "block.diabolica.fluorescent_light_u": "Fluorescent Light",
       "block.eviladdons.limbo_block": "Limbo Block",
       "block.diabolica.white_tile_slab": "White Tile Slab",
       "block.diabolica.fluorescent_light_v": "Fluorescent Light",
-      "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.fluorescent_light_o": "Fluorescent Light",
+      "item.eviladdons.spell_of_recombobulation": "Spell Of Recombobulation",
       "block.diabolica.fluorescent_light_p": "Fluorescent Light",
       "block.diabolica.fluorescent_light_q": "Fluorescent Light",
-      "block.diabolica.fluorescent_light_r": "Fluorescent Light",
       "subtitles.ambience.stasis.static_wind": "Wind Howling",
+      "block.diabolica.fluorescent_light_r": "Fluorescent Light",
       "block.diabolica.fluorescent_light_k": "Fluorescent Light",
       "item.eviladdons.soulsnatcher": "Soulsnatcher",
       "block.diabolica.fluorescent_light_l": "Fluorescent Light",
       "block.diabolica.fluorescent_light_m": "Fluorescent Light",
       "block.diabolica.fluorescent_light_n": "Fluorescent Light",
+      "block.diabolica.silly_tile_stairs": "Silly Tile Stairs",
+      "item.diabolica.funny_hammer": "Comically Large Mallet",
+      "block.diabolica.silly_star": "Silly Star",
       "block.diabolica.black_tiles": "Black Tiles",
+      "block.diabolica.silly_tile_slab": "Silly Tile Slab",
       "item.eviladdons.soul": "Soul",
       "advancements.obtain_soulsnatcher.descr": "Obtain the Soulsnatcher",
       "item.diabolicaa.spell_of_recombobulation": "Spell Of Recombobulation",
@@ -4468,12 +5437,13 @@
       "gui.diabolicaa.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
       "block.diabolica.diabolism_table": "Table of Diabolism",
       "block.diabolica.pool_water": "Pool Water",
-      "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
       "advancements.enter_stasis.title": "A Soft Void",
+      "item.eviladdons.devils_contract": "Devil\u0027s Contract ",
       "gui.diabolicaa.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "fluid.diabolica.pool_water": "Pool Water",
       "subtitles.music.stasis.liminality": "",
       "item.diabolicaa.spell_of_discombobulation": "Spell Of Discombobulation",
+      "block.diabolica.silly_plaster": "Silly Plaster",
       "gui.diabolicaa.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "item.diabolica.spellof_resurrection": "Spell of Resurrection",
       "subtitles.ambience.pools": "",
@@ -4524,6 +5494,7 @@
       "item.diabolicaa.soulsnatcher": "Soulsnatcher",
       "block.diabolica.fluorescent_light": "Fluorescent Light",
       "block.diabolica.fluorescent_light_comma": "Fluorescent Light",
+      "item.diabolica.sillyite": "Sillyite",
       "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
       "subtitles.ashes_fall": "",
       "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
@@ -4531,12 +5502,15 @@
       "block.diabolica.dingy_white_tile_slab": "Dingy White Tile Slab",
       "block.diabolicaa.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.quest_2.label_bring_me_something_more_powerful": "Fine, I\u0027ll play your game. Bring me",
+      "block.diabolica.randomizer": "Randomizer",
       "item.eviladdons.scroll": "Scroll",
+      "subtitles.item.funny_hammer.bonk": "BONK!",
       "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
       "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "enchantment.eviladdons.lachrymose": "Lachrymose",
       "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
+      "block.diabolica.silly_tiles": "Silly Tiles",
       "item.diabolica.soulsnatcher": "Soulsnatcher",
       "item.diabolicaa.empty_accursed_idol": "Inactive Accursed Idol",
       "gui.diabolicaa.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
@@ -4565,13 +5539,14 @@
       "gui.diabolica.devils_contract.label_devils_contract": "DEVILS CONTRACT",
       "block.eviladdons.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.devils_contract.button_empty": " ",
+      "block.diabolica.randomizer_on": "Randomizer",
       "effect.diabolicaa.augmented": "Augmented",
       "item.diabolica.ring_of_haste": "Ring Of Haste",
       "effect.diabolica.augmented": "Augmented",
       "subtitles.wind_gust": "",
       "block.diabolica.dingy_tile_slab": "Dingy Tile Slab",
       "block.diabolica.tile_stairs": "Tile Stairs",
-      "block.diabolica.liminal_road": "Liminal Road",
+      "block.diabolica.liminal_road": "Road",
       "block.diabolica.fluorescent_light_period": "Fluorescent Light",
       "biome.diabolicaa.limbo_biome": "Limbo",
       "block.diabolica.white_tiles": "White Tiles",
@@ -4610,7 +5585,7 @@
       "item.eviladdons.empty_accursed_idol": "Inactive Accursed Idol",
       "item.diabolica.empty_accursed_idol": "Inactive Accursed Idol",
       "block.diabolica.plaster": "Plaster",
-      "block.diabolica.striped_liminal_road": "Striped Liminal Road",
+      "block.diabolica.striped_liminal_road": "Striped Road",
       "block.diabolica.fluorescent_light_g": "Fluorescent Light",
       "block.diabolica.fluorescent_light_h": "Fluorescent Light",
       "block.diabolica.fluorescent_light_i": "Fluorescent Light",

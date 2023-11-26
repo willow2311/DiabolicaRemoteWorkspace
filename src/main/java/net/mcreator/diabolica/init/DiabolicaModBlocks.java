@@ -17,8 +17,15 @@ import net.mcreator.diabolica.block.TilesBlock;
 import net.mcreator.diabolica.block.TileStairsBlock;
 import net.mcreator.diabolica.block.TileSlabBlock;
 import net.mcreator.diabolica.block.StripedLiminalRoadBlock;
+import net.mcreator.diabolica.block.SillyTilesBlock;
+import net.mcreator.diabolica.block.SillyTileStairsBlock;
+import net.mcreator.diabolica.block.SillyTileSlabBlock;
+import net.mcreator.diabolica.block.SillyStarBlock;
+import net.mcreator.diabolica.block.SillyPlasterBlock;
 import net.mcreator.diabolica.block.RoadPlacerBlock;
 import net.mcreator.diabolica.block.RoadPlacer2Block;
+import net.mcreator.diabolica.block.RandomizerOnBlock;
+import net.mcreator.diabolica.block.RandomizerBlock;
 import net.mcreator.diabolica.block.PoolWaterBlock;
 import net.mcreator.diabolica.block.PoolPlacerBlock;
 import net.mcreator.diabolica.block.PlasterBlock;
@@ -158,4 +165,11 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
 	public static final RegistryObject<Block> LIGHTBULB_OFF = REGISTRY.register("lightbulb_off", () -> new LightbulbOffBlock());
 	public static final RegistryObject<Block> POOL_PLACER = REGISTRY.register("pool_placer", () -> new PoolPlacerBlock());
+	public static final RegistryObject<Block> RANDOMIZER = REGISTRY.register("randomizer", () -> new RandomizerBlock());
+	public static final RegistryObject<Block> RANDOMIZER_ON = REGISTRY.register("randomizer_on", () -> new RandomizerOnBlock());
+	public static final RegistryObject<Block> SILLY_TILES = REGISTRY.register("silly_tiles", () -> new SillyTilesBlock());
+	public static final RegistryObject<Block> SILLY_TILE_STAIRS = REGISTRY.register("silly_tile_stairs", () -> new SillyTileStairsBlock());
+	public static final RegistryObject<Block> SILLY_TILE_SLAB = REGISTRY.register("silly_tile_slab", () -> new SillyTileSlabBlock());
+	public static final RegistryObject<Block> SILLY_PLASTER = REGISTRY.register("silly_plaster", () -> new SillyPlasterBlock());
+	public static final RegistryObject<Block> SILLY_STAR = REGISTRY.register("silly_star", () -> new SillyStarBlock());
 }

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 8,
+    "group": "striped_road",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "Items.DYE#11"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      },
+      {
+        "value": "CUSTOM:LiminalRoad"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StripedLiminalRoad"
+    },
+    "name": "striped_road",
+    "namespace": "mod"
+  }
+}

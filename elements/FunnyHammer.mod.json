@@ -1,0 +1,30 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 1,
+    "texture": "funny_hammer",
+    "customModelName": "funny_hammer:default",
+    "name": "Comically Large Mallet",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.2,
+    "enchantability": 2,
+    "damageVsEntity": 11.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "FunnyHammerLivingEntityIsHitWithTool"
+    }
+  }
+}

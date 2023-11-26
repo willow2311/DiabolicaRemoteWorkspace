@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "funny_hammer"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -72,5 +72,14 @@
         "stream": false
       }
     ]
+  },
+  "item.funny_hammer.bonk": {
+    "subtitle": "subtitles.item.funny_hammer.bonk",
+    "sounds": [
+      {
+        "name": "diabolica:cartoon_bonk",
+        "stream": false
+      }
+    ]
   }
 }

@@ -1,0 +1,141 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FluorescentLightQuestion"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightPeriod"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightZ"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightDash"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightV"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightW"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightX"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightY"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightR"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightS"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightT"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightU"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightN"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightO"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightP"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightQ"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightJ"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightK"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightL"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightM"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightF"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightG"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightH"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightI"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightB"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightC"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightD"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightE"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightExclamation"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightA"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight6"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight7"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight8"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight9"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight2"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight3"
+      },
+      {
+        "value": "CUSTOM:FluorescentLightComma"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight4"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight5"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight0"
+      },
+      {
+        "value": "CUSTOM:FluorescentLight1"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fluorescent_lights",
+    "namespace": "mod"
+  }
+}

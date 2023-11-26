@@ -33,16 +33,16 @@
         "subtract": false
       }
     ],
-    "name": "Liminal Road",
+    "name": "Road",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.5,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -97,8 +97,8 @@
       "value": ""
     },
     "luminance": 0,
-    "unbreakable": true,
-    "breakHarvestLevel": 1,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

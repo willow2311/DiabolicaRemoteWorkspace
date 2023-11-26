@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "striped_road",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "diabolica:liminal_road"
+    },
+    "1": {
+      "item": "diabolica:liminal_road"
+    },
+    "2": {
+      "item": "diabolica:liminal_road"
+    },
+    "3": {
+      "item": "diabolica:liminal_road"
+    },
+    "4": {
+      "item": "minecraft:yellow_dye"
+    },
+    "5": {
+      "item": "diabolica:liminal_road"
+    },
+    "6": {
+      "item": "diabolica:liminal_road"
+    },
+    "7": {
+      "item": "diabolica:liminal_road"
+    },
+    "8": {
+      "item": "diabolica:liminal_road"
+    }
+  },
+  "result": {
+    "item": "diabolica:striped_liminal_road",
+    "count": 8
+  }
+}

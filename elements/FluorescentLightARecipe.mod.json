@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "recipeRetstackSize": 1,
+    "group": "fluorescent_light",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "TAG:diabolica:fluorescent_lights"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:FluorescentLightA"
+    },
+    "name": "fluorescent_light_a_recipe",
+    "namespace": "mod"
+  }
+}

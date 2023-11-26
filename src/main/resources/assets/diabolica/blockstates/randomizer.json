@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "diabolica:block/randomizer",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "diabolica:block/randomizer"
+    },
+    "axis=z": {
+      "model": "diabolica:block/randomizer",
+      "x": 90
+    }
+  }
+}

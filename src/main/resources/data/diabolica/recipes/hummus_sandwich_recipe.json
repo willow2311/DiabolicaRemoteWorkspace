@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hummus_sandwich",
+  "category": "misc",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bread"
+    },
+    "1": {
+      "item": "diabolica:canned_hummus"
+    },
+    "2": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "diabolica:hummus_sandwich",
+    "count": 1
+  }
+}

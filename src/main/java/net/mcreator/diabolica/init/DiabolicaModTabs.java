@@ -86,6 +86,11 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_DASH.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_EXCLAMATION.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_QUESTION.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_PLASTER.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_STAR.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
@@ -95,12 +100,14 @@ public class DiabolicaModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(DiabolicaModItems.SOULSNATCHER.get());
+			tabData.accept(DiabolicaModItems.FUNNY_HAMMER.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(DiabolicaModItems.AUGMENTED_TEAR.get());
 			tabData.accept(DiabolicaModItems.SCROLL.get());
 			tabData.accept(DiabolicaModItems.MAGIC_SNIFFER_EGG.get());
+			tabData.accept(DiabolicaModItems.SILLYITE.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {

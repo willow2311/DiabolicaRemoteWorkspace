@@ -2,13 +2,13 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "lightbulb"
+        "2": "lightbulb"
       },
       "name": "default"
     },
     "off": {
       "map": {
-        "1": "lightbulb_off"
+        "2": "lightbulb_off"
       },
       "name": "off"
     }

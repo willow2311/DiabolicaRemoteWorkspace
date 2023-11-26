@@ -1,0 +1,7 @@
+{
+  "parent": "diabolica:custom/funny_hammer",
+  "textures": {
+    "1": "diabolica:block/funny_hammer",
+    "particle": "diabolica:item/funny_hammer"
+  }
+}

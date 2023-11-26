@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "diabolica:diabolism_table",
+    "diabolica:liminal_road",
+    "diabolica:striped_liminal_road",
     "diabolica:plaster",
     "diabolica:tiles",
     "diabolica:tile_stairs",
@@ -64,6 +66,13 @@
     "diabolica:fluorescent_light_exclamation",
     "diabolica:fluorescent_light_question",
     "diabolica:lightbulb",
-    "diabolica:lightbulb_off"
+    "diabolica:lightbulb_off",
+    "diabolica:randomizer",
+    "diabolica:randomizer_on",
+    "diabolica:silly_tiles",
+    "diabolica:silly_tile_stairs",
+    "diabolica:silly_tile_slab",
+    "diabolica:silly_plaster",
+    "diabolica:silly_star"
   ]
 }
