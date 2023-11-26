@@ -45,9 +45,9 @@ public class PoolWaterMobplayerCollidesBlockProcedure {
 		}
 		{
 			Entity _ent = entity;
-			_ent.teleportTo(0, 25, 0);
+			_ent.teleportTo(0, 5, 0);
 			if (_ent instanceof ServerPlayer _serverPlayer)
-				_serverPlayer.connection.teleport(0, 25, 0, _ent.getYRot(), _ent.getXRot());
+				_serverPlayer.connection.teleport(0, 5, 0, _ent.getYRot(), _ent.getXRot());
 		}
 		if (world instanceof Level _level) {
 			if (!_level.isClientSide()) {

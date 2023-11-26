@@ -128,6 +128,7 @@ public class DiabolicaModVariables {
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "diabolica_worldvars";
 		public boolean StasisLoaded = false;
+		public boolean PoolsLoaded = false;
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -137,11 +138,13 @@ public class DiabolicaModVariables {
 
 		public void read(CompoundTag nbt) {
 			StasisLoaded = nbt.getBoolean("StasisLoaded");
+			PoolsLoaded = nbt.getBoolean("PoolsLoaded");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putBoolean("StasisLoaded", StasisLoaded);
+			nbt.putBoolean("PoolsLoaded", PoolsLoaded);
 			return nbt;
 		}
 
