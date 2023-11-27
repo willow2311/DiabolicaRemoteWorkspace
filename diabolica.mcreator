@@ -3,7 +3,7 @@
     {
       "name": "G",
       "type": "function",
-      "sortid": 80,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "registry_name": "g",
@@ -17,7 +17,7 @@
     {
       "name": "Gu",
       "type": "procedure",
-      "sortid": 81,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gu",
@@ -53,7 +53,7 @@
     {
       "name": "SPin",
       "type": "procedure",
-      "sortid": 82,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "registry_name": "s_pin",
@@ -85,7 +85,7 @@
     {
       "name": "KillCircle",
       "type": "procedure",
-      "sortid": 83,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "registry_name": "kill_circle",
@@ -117,7 +117,7 @@
     {
       "name": "RaisePlayer",
       "type": "procedure",
-      "sortid": 84,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raise_player",
@@ -153,7 +153,7 @@
     {
       "name": "LevitatePlayer",
       "type": "procedure",
-      "sortid": 85,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "registry_name": "levitate_player",
@@ -189,7 +189,7 @@
     {
       "name": "HoverPlayer",
       "type": "procedure",
-      "sortid": 86,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hover_player",
@@ -240,7 +240,7 @@
     {
       "name": "GubItemInHandTick",
       "type": "procedure",
-      "sortid": 87,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gub_item_in_hand_tick",
@@ -280,7 +280,7 @@
     {
       "name": "TotemEffects",
       "type": "procedure",
-      "sortid": 88,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "registry_name": "totem_effects",
@@ -316,7 +316,7 @@
     {
       "name": "DevilsContract",
       "type": "gui",
-      "sortid": 89,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devils_contract",
@@ -332,7 +332,7 @@
     {
       "name": "DevilsContractItemRightclicked",
       "type": "procedure",
-      "sortid": 90,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devils_contract_item_rightclicked",
@@ -383,7 +383,7 @@
     {
       "name": "XCLicked",
       "type": "procedure",
-      "sortid": 91,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xc_licked",
@@ -403,7 +403,7 @@
     {
       "name": "RedBoom",
       "type": "particle",
-      "sortid": 92,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_boom",
@@ -418,7 +418,7 @@
     {
       "name": "CheckCLicked",
       "type": "procedure",
-      "sortid": 93,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "registry_name": "check_c_licked",
@@ -454,7 +454,7 @@
     {
       "name": "BloodPact",
       "type": "potioneffect",
-      "sortid": 94,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact",
@@ -468,7 +468,7 @@
     {
       "name": "ApplyBloodPact",
       "type": "procedure",
-      "sortid": 95,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apply_blood_pact",
@@ -488,7 +488,7 @@
     {
       "name": "LimboBiome",
       "type": "biome",
-      "sortid": 96,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_biome",
@@ -518,7 +518,7 @@
     {
       "name": "LimboBlock",
       "type": "block",
-      "sortid": 97,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "registry_name": "limbo_block",
@@ -535,7 +535,7 @@
     {
       "name": "ExitLimbo",
       "type": "procedure",
-      "sortid": 98,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exit_limbo",
@@ -601,7 +601,7 @@
     {
       "name": "Soul",
       "type": "item",
-      "sortid": 99,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul",
@@ -616,7 +616,7 @@
     {
       "name": "Buttonpressed",
       "type": "procedure",
-      "sortid": 100,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "registry_name": "buttonpressed",
@@ -636,7 +636,7 @@
     {
       "name": "SpellOfRecombobulationRightclicked",
       "type": "procedure",
-      "sortid": 101,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spell_of_recombobulation_rightclicked",
@@ -676,7 +676,7 @@
     {
       "name": "RecombTooltip",
       "type": "procedure",
-      "sortid": 102,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recomb_tooltip",
@@ -700,7 +700,7 @@
     {
       "name": "MysticCrystal",
       "type": "item",
-      "sortid": 9,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_tear",
@@ -715,7 +715,7 @@
     {
       "name": "UpgradeTooltip",
       "type": "procedure",
-      "sortid": 103,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "registry_name": "upgrade_tooltip",
@@ -739,7 +739,7 @@
     {
       "name": "EnhcancedCraftingTable",
       "type": "block",
-      "sortid": 12,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table",
@@ -757,7 +757,7 @@
     {
       "name": "MysticCrystalRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 104,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mystic_crystal_rightclicked_on_block",
@@ -772,7 +772,7 @@
     {
       "name": "EnhancedCraftGUI",
       "type": "gui",
-      "sortid": 105,
+      "sortid": 126,
       "compiles": true,
       "locked_code": true,
       "registry_name": "enhanced_craft_gui",
@@ -788,7 +788,7 @@
     {
       "name": "RemoveItemFromOutput",
       "type": "procedure",
-      "sortid": 106,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remove_item_from_output",
@@ -808,7 +808,7 @@
     {
       "name": "WhenGUIClosed",
       "type": "procedure",
-      "sortid": 107,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "registry_name": "when_gui_closed",
@@ -844,7 +844,7 @@
     {
       "name": "EhancedGUIUpdateTick",
       "type": "procedure",
-      "sortid": 108,
+      "sortid": 129,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ehanced_gui_update_tick",
@@ -864,7 +864,7 @@
     {
       "name": "AnythingRecipe",
       "type": "procedure",
-      "sortid": 109,
+      "sortid": 130,
       "compiles": true,
       "locked_code": false,
       "registry_name": "anything_recipe",
@@ -884,7 +884,7 @@
     {
       "name": "ItemUpgradeProcedure",
       "type": "procedure",
-      "sortid": 110,
+      "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_upgrade_procedure",
@@ -908,7 +908,7 @@
     {
       "name": "ItemTakenSLot1",
       "type": "procedure",
-      "sortid": 111,
+      "sortid": 132,
       "compiles": true,
       "locked_code": false,
       "registry_name": "item_taken_s_lot_1",
@@ -928,7 +928,7 @@
     {
       "name": "ColorRarityTrue",
       "type": "procedure",
-      "sortid": 112,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "registry_name": "color_rarity_true",
@@ -948,7 +948,7 @@
     {
       "name": "ColorRarityFalses",
       "type": "procedure",
-      "sortid": 113,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "registry_name": "color_rarity_falses",
@@ -983,7 +983,7 @@
     {
       "name": "CraftRecom",
       "type": "procedure",
-      "sortid": 114,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_recom",
@@ -1003,7 +1003,7 @@
     {
       "name": "CraftDecomb",
       "type": "procedure",
-      "sortid": 115,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_decomb",
@@ -1023,7 +1023,7 @@
     {
       "name": "DropSoul",
       "type": "procedure",
-      "sortid": 116,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_soul",
@@ -1063,7 +1063,7 @@
     {
       "name": "BloodPactActiveTickCondition",
       "type": "procedure",
-      "sortid": 117,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_active_tick_condition",
@@ -1083,7 +1083,7 @@
     {
       "name": "BloodPactEffectExpires",
       "type": "procedure",
-      "sortid": 118,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_effect_expires",
@@ -1103,7 +1103,7 @@
     {
       "name": "BloodPactEffectStartedapplied",
       "type": "procedure",
-      "sortid": 119,
+      "sortid": 140,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_pact_effect_startedapplied",
@@ -1127,7 +1127,7 @@
     {
       "name": "WitherLoot",
       "type": "loottable",
-      "sortid": 120,
+      "sortid": 141,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wither_loot",
@@ -1141,7 +1141,7 @@
     {
       "name": "AugmentedEffectStartedapplied",
       "type": "procedure",
-      "sortid": 121,
+      "sortid": 142,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_effect_startedapplied",
@@ -1177,7 +1177,7 @@
     {
       "name": "AugmentedEffectExpired",
       "type": "procedure",
-      "sortid": 122,
+      "sortid": 143,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_effect_expired",
@@ -1197,7 +1197,7 @@
     {
       "name": "Augmented",
       "type": "potioneffect",
-      "sortid": 123,
+      "sortid": 144,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented",
@@ -1211,7 +1211,7 @@
     {
       "name": "SpawnAugmentedMob",
       "type": "procedure",
-      "sortid": 124,
+      "sortid": 145,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spawn_augmented_mob",
@@ -1235,7 +1235,7 @@
     {
       "name": "Lachrymose",
       "type": "enchantment",
-      "sortid": 125,
+      "sortid": 146,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lachrymose",
@@ -1249,7 +1249,7 @@
     {
       "name": "AugmentedKilledByLachrymose",
       "type": "procedure",
-      "sortid": 126,
+      "sortid": 147,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_killed_by_lachrymose",
@@ -1289,7 +1289,7 @@
     {
       "name": "SoulHovered",
       "type": "procedure",
-      "sortid": 127,
+      "sortid": 148,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soul_hovered",
@@ -1304,7 +1304,7 @@
     {
       "name": "Emptyidol",
       "type": "item",
-      "sortid": 128,
+      "sortid": 149,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_accursed_idol",
@@ -1319,7 +1319,7 @@
     {
       "name": "ChargeIdol",
       "type": "procedure",
-      "sortid": 129,
+      "sortid": 150,
       "compiles": true,
       "locked_code": false,
       "registry_name": "charge_idol",
@@ -1343,7 +1343,7 @@
     {
       "name": "EvilParticle",
       "type": "particle",
-      "sortid": 130,
+      "sortid": 151,
       "compiles": true,
       "locked_code": false,
       "registry_name": "evil_particle",
@@ -1358,7 +1358,7 @@
     {
       "name": "EmptyIdolTooltip",
       "type": "procedure",
-      "sortid": 131,
+      "sortid": 152,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_idol_tooltip",
@@ -1382,7 +1382,7 @@
     {
       "name": "CraftIdol",
       "type": "procedure",
-      "sortid": 132,
+      "sortid": 153,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_idol",
@@ -1402,7 +1402,7 @@
     {
       "name": "Soulsnatcher",
       "type": "tool",
-      "sortid": 13,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soulsnatcher",
@@ -1417,7 +1417,7 @@
     {
       "name": "SnatcherHit",
       "type": "procedure",
-      "sortid": 133,
+      "sortid": 154,
       "compiles": true,
       "locked_code": false,
       "registry_name": "snatcher_hit",
@@ -1449,7 +1449,7 @@
     {
       "name": "LaunchingEnchant",
       "type": "enchantment",
-      "sortid": 134,
+      "sortid": 155,
       "compiles": true,
       "locked_code": false,
       "registry_name": "launching_enchant",
@@ -1463,7 +1463,7 @@
     {
       "name": "LaunchingProc",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 156,
       "compiles": true,
       "locked_code": false,
       "registry_name": "launching_proc",
@@ -1491,7 +1491,7 @@
     {
       "name": "PlayerLeaves",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 157,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_leaves",
@@ -1526,7 +1526,7 @@
     {
       "name": "PlayerClicksBed",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 158,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_clicks_bed",
@@ -1562,7 +1562,7 @@
     {
       "name": "RecallCasted",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 159,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recall_casted",
@@ -1598,7 +1598,7 @@
     {
       "name": "Beds",
       "type": "tag",
-      "sortid": 139,
+      "sortid": 160,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beds",
@@ -1612,7 +1612,7 @@
     {
       "name": "PlayerJoins",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 161,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_joins",
@@ -1636,7 +1636,7 @@
     {
       "name": "Scroll",
       "type": "item",
-      "sortid": 10,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll",
@@ -1651,7 +1651,7 @@
     {
       "name": "CraftScroll",
       "type": "procedure",
-      "sortid": 141,
+      "sortid": 162,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_scroll",
@@ -1671,7 +1671,7 @@
     {
       "name": "CraftRecall",
       "type": "procedure",
-      "sortid": 142,
+      "sortid": 163,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_recall",
@@ -1691,7 +1691,7 @@
     {
       "name": "PaperTooltip",
       "type": "procedure",
-      "sortid": 143,
+      "sortid": 164,
       "compiles": true,
       "locked_code": false,
       "registry_name": "paper_tooltip",
@@ -1715,7 +1715,7 @@
     {
       "name": "DropSoulsnatcher",
       "type": "procedure",
-      "sortid": 144,
+      "sortid": 165,
       "compiles": true,
       "locked_code": false,
       "registry_name": "drop_soulsnatcher",
@@ -1755,7 +1755,7 @@
     {
       "name": "CancelContractProc",
       "type": "procedure",
-      "sortid": 145,
+      "sortid": 166,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cancel_contract_proc",
@@ -1775,7 +1775,7 @@
     {
       "name": "RecallTag",
       "type": "tag",
-      "sortid": 146,
+      "sortid": 167,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recall_tag",
@@ -1789,7 +1789,7 @@
     {
       "name": "Discombtag",
       "type": "tag",
-      "sortid": 147,
+      "sortid": 168,
       "compiles": true,
       "locked_code": false,
       "registry_name": "discombtag",
@@ -1803,7 +1803,7 @@
     {
       "name": "Recombtag",
       "type": "tag",
-      "sortid": 148,
+      "sortid": 169,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recombtag",
@@ -1817,7 +1817,7 @@
     {
       "name": "ContractTag",
       "type": "tag",
-      "sortid": 149,
+      "sortid": 170,
       "compiles": true,
       "locked_code": false,
       "registry_name": "contract_tag",
@@ -1831,7 +1831,7 @@
     {
       "name": "EmptyIdolTag",
       "type": "tag",
-      "sortid": 150,
+      "sortid": 171,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empty_idol_tag",
@@ -1845,7 +1845,7 @@
     {
       "name": "IdolTag",
       "type": "tag",
-      "sortid": 151,
+      "sortid": 172,
       "compiles": true,
       "locked_code": false,
       "registry_name": "idol_tag",
@@ -1859,7 +1859,7 @@
     {
       "name": "SoulsnatcherTag",
       "type": "tag",
-      "sortid": 152,
+      "sortid": 173,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soulsnatcher_tag",
@@ -1873,7 +1873,7 @@
     {
       "name": "Soultag",
       "type": "tag",
-      "sortid": 153,
+      "sortid": 174,
       "compiles": true,
       "locked_code": false,
       "registry_name": "soultag",
@@ -1887,7 +1887,7 @@
     {
       "name": "AugmentedTearTag",
       "type": "tag",
-      "sortid": 154,
+      "sortid": 175,
       "compiles": true,
       "locked_code": false,
       "registry_name": "augmented_tear_tag",
@@ -1901,7 +1901,7 @@
     {
       "name": "DiabolismTableBlockTag",
       "type": "tag",
-      "sortid": 155,
+      "sortid": 176,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table_block_tag",
@@ -1915,7 +1915,7 @@
     {
       "name": "DiabolismTableItemTag",
       "type": "tag",
-      "sortid": 156,
+      "sortid": 177,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diabolism_table_item_tag",
@@ -1929,7 +1929,7 @@
     {
       "name": "ScrollTag",
       "type": "tag",
-      "sortid": 157,
+      "sortid": 178,
       "compiles": true,
       "locked_code": false,
       "registry_name": "scroll_tag",
@@ -1943,7 +1943,7 @@
     {
       "name": "Candles",
       "type": "tag",
-      "sortid": 158,
+      "sortid": 179,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candles",
@@ -1957,7 +1957,7 @@
     {
       "name": "DragonKilled",
       "type": "procedure",
-      "sortid": 159,
+      "sortid": 180,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dragon_killed",
@@ -1980,7 +1980,7 @@
     {
       "name": "EraseThird",
       "type": "procedure",
-      "sortid": 160,
+      "sortid": 181,
       "compiles": true,
       "locked_code": false,
       "registry_name": "erase_third",
@@ -2000,7 +2000,7 @@
     {
       "name": "DiablismRecipe",
       "type": "recipe",
-      "sortid": 161,
+      "sortid": 182,
       "compiles": true,
       "locked_code": false,
       "registry_name": "diablism_recipe",
@@ -2014,7 +2014,7 @@
     {
       "name": "SkullTagBlock",
       "type": "tag",
-      "sortid": 163,
+      "sortid": 183,
       "compiles": true,
       "locked_code": false,
       "registry_name": "skull_tag_block",
@@ -2028,7 +2028,7 @@
     {
       "name": "ObtainDiablismTable",
       "type": "achievement",
-      "sortid": 164,
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_diablism_table",
@@ -2042,7 +2042,7 @@
     {
       "name": "Root",
       "type": "achievement",
-      "sortid": 165,
+      "sortid": 185,
       "compiles": true,
       "locked_code": false,
       "registry_name": "root",
@@ -2056,7 +2056,7 @@
     {
       "name": "ObtainSoulsnatcher",
       "type": "achievement",
-      "sortid": 166,
+      "sortid": 186,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_soulsnatcher",
@@ -2070,7 +2070,7 @@
     {
       "name": "ObtainIdol",
       "type": "achievement",
-      "sortid": 167,
+      "sortid": 187,
       "compiles": true,
       "locked_code": false,
       "registry_name": "obtain_idol",
@@ -2084,7 +2084,7 @@
     {
       "name": "LiminalRoad",
       "type": "block",
-      "sortid": 14,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road",
@@ -2101,7 +2101,7 @@
     {
       "name": "StripedLiminalRoad",
       "type": "block",
-      "sortid": 15,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "striped_liminal_road",
@@ -2118,7 +2118,7 @@
     {
       "name": "LiminalRoad1",
       "type": "structure",
-      "sortid": 168,
+      "sortid": 188,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_1",
@@ -2135,7 +2135,7 @@
     {
       "name": "RoadPlacer",
       "type": "block",
-      "sortid": 169,
+      "sortid": 189,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer",
@@ -2152,7 +2152,7 @@
     {
       "name": "RoadPlacerUpdateTick",
       "type": "procedure",
-      "sortid": 170,
+      "sortid": 190,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_update_tick",
@@ -2184,7 +2184,7 @@
     {
       "name": "LiminalRoad2",
       "type": "structure",
-      "sortid": 171,
+      "sortid": 191,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_2",
@@ -2201,7 +2201,7 @@
     {
       "name": "LiminalRoad3",
       "type": "structure",
-      "sortid": 172,
+      "sortid": 192,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_3",
@@ -2218,7 +2218,7 @@
     {
       "name": "RoadPlacer2",
       "type": "block",
-      "sortid": 173,
+      "sortid": 193,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_2",
@@ -2235,7 +2235,7 @@
     {
       "name": "RoadPlacer2UpdateTick",
       "type": "procedure",
-      "sortid": 174,
+      "sortid": 194,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_placer_2_update_tick",
@@ -2267,7 +2267,7 @@
     {
       "name": "BusStop",
       "type": "structure",
-      "sortid": 175,
+      "sortid": 195,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bus_stop",
@@ -2284,7 +2284,7 @@
     {
       "name": "StasisPlayerEntersDimension",
       "type": "procedure",
-      "sortid": 176,
+      "sortid": 196,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stasis_player_enters_dimension",
@@ -2304,7 +2304,7 @@
     {
       "name": "CannedHummus",
       "type": "item",
-      "sortid": 77,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "registry_name": "canned_hummus",
@@ -2319,7 +2319,7 @@
     {
       "name": "HummusSandwich",
       "type": "item",
-      "sortid": 79,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_sandwich",
@@ -2334,7 +2334,7 @@
     {
       "name": "ZedcoStoreFlipped",
       "type": "structure",
-      "sortid": 177,
+      "sortid": 197,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zedco_store_flipped",
@@ -2351,7 +2351,7 @@
     {
       "name": "HummusCanOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 178,
+      "sortid": 198,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_can_on_block_right_clicked",
@@ -2387,7 +2387,7 @@
     {
       "name": "FluorescentLightUpdateTick",
       "type": "procedure",
-      "sortid": 179,
+      "sortid": 199,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_update_tick",
@@ -2419,7 +2419,7 @@
     {
       "name": "FluorescentLightQuestion",
       "type": "block",
-      "sortid": 76,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_question",
@@ -2436,7 +2436,7 @@
     {
       "name": "FluorescentLight",
       "type": "block",
-      "sortid": 35,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light",
@@ -2453,7 +2453,7 @@
     {
       "name": "HummusCan",
       "type": "block",
-      "sortid": 78,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_can",
@@ -2470,7 +2470,7 @@
     {
       "name": "Tiles",
       "type": "block",
-      "sortid": 17,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiles",
@@ -2487,7 +2487,7 @@
     {
       "name": "FluorescentLightPeriod",
       "type": "block",
-      "sortid": 72,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_period",
@@ -2504,7 +2504,7 @@
     {
       "name": "ZedcoStore",
       "type": "structure",
-      "sortid": 180,
+      "sortid": 200,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zedco_store",
@@ -2521,7 +2521,7 @@
     {
       "name": "FluorescentLightZ",
       "type": "block",
-      "sortid": 61,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_z",
@@ -2538,7 +2538,7 @@
     {
       "name": "FluorescentLightDash",
       "type": "block",
-      "sortid": 74,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_dash",
@@ -2555,7 +2555,7 @@
     {
       "name": "FluorescentLightV",
       "type": "block",
-      "sortid": 57,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_v",
@@ -2572,7 +2572,7 @@
     {
       "name": "FluorescentLightW",
       "type": "block",
-      "sortid": 58,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_w",
@@ -2589,7 +2589,7 @@
     {
       "name": "FluorescentLightX",
       "type": "block",
-      "sortid": 59,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_x",
@@ -2606,7 +2606,7 @@
     {
       "name": "FluorescentLightY",
       "type": "block",
-      "sortid": 60,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_y",
@@ -2623,7 +2623,7 @@
     {
       "name": "FluorescentLightR",
       "type": "block",
-      "sortid": 53,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_r",
@@ -2640,7 +2640,7 @@
     {
       "name": "Plaster",
       "type": "block",
-      "sortid": 16,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plaster",
@@ -2657,7 +2657,7 @@
     {
       "name": "FluorescentLightS",
       "type": "block",
-      "sortid": 54,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_s",
@@ -2674,7 +2674,7 @@
     {
       "name": "FluorescentLightT",
       "type": "block",
-      "sortid": 55,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_t",
@@ -2691,7 +2691,7 @@
     {
       "name": "FluorescentLightU",
       "type": "block",
-      "sortid": 56,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_u",
@@ -2708,7 +2708,7 @@
     {
       "name": "FluorescentLightN",
       "type": "block",
-      "sortid": 49,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_n",
@@ -2725,7 +2725,7 @@
     {
       "name": "FluorescentLightO",
       "type": "block",
-      "sortid": 50,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_o",
@@ -2742,7 +2742,7 @@
     {
       "name": "FluorescentLightP",
       "type": "block",
-      "sortid": 51,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_p",
@@ -2759,7 +2759,7 @@
     {
       "name": "FluorescentLightQ",
       "type": "block",
-      "sortid": 52,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_q",
@@ -2776,7 +2776,7 @@
     {
       "name": "FluorescentLightJ",
       "type": "block",
-      "sortid": 45,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_j",
@@ -2793,7 +2793,7 @@
     {
       "name": "FluorescentLightK",
       "type": "block",
-      "sortid": 46,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_k",
@@ -2810,7 +2810,7 @@
     {
       "name": "FluorescentLightL",
       "type": "block",
-      "sortid": 47,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_l",
@@ -2827,7 +2827,7 @@
     {
       "name": "FluorescentLightM",
       "type": "block",
-      "sortid": 48,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_m",
@@ -2844,7 +2844,7 @@
     {
       "name": "FluorescentLightF",
       "type": "block",
-      "sortid": 41,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_f",
@@ -2861,7 +2861,7 @@
     {
       "name": "FluorescentLightG",
       "type": "block",
-      "sortid": 42,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_g",
@@ -2878,7 +2878,7 @@
     {
       "name": "FluorescentLightH",
       "type": "block",
-      "sortid": 43,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_h",
@@ -2895,7 +2895,7 @@
     {
       "name": "FluorescentLightI",
       "type": "block",
-      "sortid": 44,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_i",
@@ -2912,7 +2912,7 @@
     {
       "name": "DingyTiles",
       "type": "block",
-      "sortid": 20,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_tiles",
@@ -2929,7 +2929,7 @@
     {
       "name": "FluorescentLightB",
       "type": "block",
-      "sortid": 37,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_b",
@@ -2946,7 +2946,7 @@
     {
       "name": "FluorescentLightC",
       "type": "block",
-      "sortid": 38,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_c",
@@ -2963,7 +2963,7 @@
     {
       "name": "FluorescentLightD",
       "type": "block",
-      "sortid": 39,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_d",
@@ -2980,7 +2980,7 @@
     {
       "name": "FluorescentLightE",
       "type": "block",
-      "sortid": 40,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_e",
@@ -2997,7 +2997,7 @@
     {
       "name": "FluorescentLightExclamation",
       "type": "block",
-      "sortid": 75,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_exclamation",
@@ -3014,7 +3014,7 @@
     {
       "name": "FluorescentLightA",
       "type": "block",
-      "sortid": 36,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_a",
@@ -3031,7 +3031,7 @@
     {
       "name": "FluorescentLight6",
       "type": "block",
-      "sortid": 68,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_6",
@@ -3048,7 +3048,7 @@
     {
       "name": "FluorescentLight7",
       "type": "block",
-      "sortid": 69,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_7",
@@ -3065,7 +3065,7 @@
     {
       "name": "FluorescentLight8",
       "type": "block",
-      "sortid": 70,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_8",
@@ -3082,7 +3082,7 @@
     {
       "name": "FluorescentLight9",
       "type": "block",
-      "sortid": 71,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_9",
@@ -3099,7 +3099,7 @@
     {
       "name": "FluorescentLight2",
       "type": "block",
-      "sortid": 64,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_2",
@@ -3116,7 +3116,7 @@
     {
       "name": "FluorescentLight3",
       "type": "block",
-      "sortid": 65,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_3",
@@ -3133,7 +3133,7 @@
     {
       "name": "FluorescentLightComma",
       "type": "block",
-      "sortid": 73,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_comma",
@@ -3150,7 +3150,7 @@
     {
       "name": "FluorescentLight4",
       "type": "block",
-      "sortid": 66,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_4",
@@ -3167,7 +3167,7 @@
     {
       "name": "FluorescentLight5",
       "type": "block",
-      "sortid": 67,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_5",
@@ -3184,7 +3184,7 @@
     {
       "name": "FluorescentLight0",
       "type": "block",
-      "sortid": 62,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_0",
@@ -3201,7 +3201,7 @@
     {
       "name": "FluorescentLight1",
       "type": "block",
-      "sortid": 63,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_1",
@@ -3233,7 +3233,7 @@
     {
       "name": "CraftJoeSPell",
       "type": "procedure",
-      "sortid": 181,
+      "sortid": 201,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_joe_s_pell",
@@ -3253,7 +3253,7 @@
     {
       "name": "MagicSnifferEgg",
       "type": "item",
-      "sortid": 11,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magic_sniffer_egg",
@@ -3268,7 +3268,7 @@
     {
       "name": "CraftEgg",
       "type": "procedure",
-      "sortid": 182,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_egg",
@@ -3292,7 +3292,7 @@
     {
       "name": "WhiteTiles",
       "type": "block",
-      "sortid": 23,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tiles",
@@ -3309,7 +3309,7 @@
     {
       "name": "DingyWhiteTiles",
       "type": "block",
-      "sortid": 26,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_white_tiles",
@@ -3326,7 +3326,7 @@
     {
       "name": "BlackTiles",
       "type": "block",
-      "sortid": 29,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tiles",
@@ -3343,7 +3343,7 @@
     {
       "name": "DingyBlackTiles",
       "type": "block",
-      "sortid": 32,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_black_tiles",
@@ -3360,7 +3360,7 @@
     {
       "name": "AdventureModeLimbo",
       "type": "procedure",
-      "sortid": 183,
+      "sortid": 203,
       "compiles": true,
       "locked_code": false,
       "registry_name": "adventure_mode_limbo",
@@ -3396,7 +3396,7 @@
     {
       "name": "SetAdventureModeStasis",
       "type": "procedure",
-      "sortid": 184,
+      "sortid": 204,
       "compiles": true,
       "locked_code": false,
       "registry_name": "set_adventure_mode_stasis",
@@ -3432,7 +3432,7 @@
     {
       "name": "TileStairs",
       "type": "block",
-      "sortid": 18,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tile_stairs",
@@ -3451,7 +3451,7 @@
     {
       "name": "TileSlab",
       "type": "block",
-      "sortid": 19,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tile_slab",
@@ -3470,7 +3470,7 @@
     {
       "name": "DingyTileStairs",
       "type": "block",
-      "sortid": 21,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_tile_stairs",
@@ -3489,7 +3489,7 @@
     {
       "name": "DingyTileSlab",
       "type": "block",
-      "sortid": 22,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_tile_slab",
@@ -3508,7 +3508,7 @@
     {
       "name": "WhiteTileStairs",
       "type": "block",
-      "sortid": 24,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tile_stairs",
@@ -3527,7 +3527,7 @@
     {
       "name": "WhiteTileSlab",
       "type": "block",
-      "sortid": 25,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tile_slab",
@@ -3546,7 +3546,7 @@
     {
       "name": "EnterStasis",
       "type": "achievement",
-      "sortid": 185,
+      "sortid": 205,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enter_stasis",
@@ -3560,7 +3560,7 @@
     {
       "name": "DingyWhiteTileStairs",
       "type": "block",
-      "sortid": 27,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_white_tile_stairs",
@@ -3579,7 +3579,7 @@
     {
       "name": "DingyWhiteTileSlab",
       "type": "block",
-      "sortid": 28,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_white_tile_slab",
@@ -3598,7 +3598,7 @@
     {
       "name": "BlackTileStairs",
       "type": "block",
-      "sortid": 30,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tile_stairs",
@@ -3617,7 +3617,7 @@
     {
       "name": "BlackTileSlab",
       "type": "block",
-      "sortid": 31,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tile_slab",
@@ -3636,7 +3636,7 @@
     {
       "name": "DingyBlackTileStairs",
       "type": "block",
-      "sortid": 33,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_black_tile_stairs",
@@ -3655,7 +3655,7 @@
     {
       "name": "DingyBlackTileSlab",
       "type": "block",
-      "sortid": 34,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dingy_black_tile_slab",
@@ -3674,7 +3674,7 @@
     {
       "name": "SpellofResurrectionRightclickedOnBlock",
       "type": "procedure",
-      "sortid": 186,
+      "sortid": 206,
       "compiles": true,
       "locked_code": false,
       "registry_name": "spellof_resurrection_rightclicked_on_block",
@@ -3714,7 +3714,7 @@
     {
       "name": "ItsJoever",
       "type": "achievement",
-      "sortid": 187,
+      "sortid": 207,
       "compiles": true,
       "locked_code": false,
       "registry_name": "its_joever",
@@ -3728,7 +3728,7 @@
     {
       "name": "IfTestRingEnabled",
       "type": "procedure",
-      "sortid": 190,
+      "sortid": 208,
       "compiles": true,
       "locked_code": false,
       "registry_name": "if_test_ring_enabled",
@@ -3748,7 +3748,7 @@
     {
       "name": "EnchantedSatchelThisGUIIsClosed",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 209,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchanted_satchel_this_gui_is_closed",
@@ -3768,7 +3768,7 @@
     {
       "name": "ZeeAmulet",
       "type": "item",
-      "sortid": 196,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zee_amulet",
@@ -3783,7 +3783,7 @@
     {
       "name": "RingOfHaste",
       "type": "item",
-      "sortid": 192,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ring_of_haste",
@@ -3798,7 +3798,7 @@
     {
       "name": "WhenRingSlotChanges",
       "type": "procedure",
-      "sortid": 189,
+      "sortid": 210,
       "compiles": true,
       "locked_code": false,
       "registry_name": "when_ring_slot_changes",
@@ -3818,7 +3818,7 @@
     {
       "name": "TestForEnchantedSatchel",
       "type": "procedure",
-      "sortid": 198,
+      "sortid": 211,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test_for_enchanted_satchel",
@@ -3838,7 +3838,7 @@
     {
       "name": "RingSlotPlacement",
       "type": "procedure",
-      "sortid": 195,
+      "sortid": 212,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ring_slot_placement",
@@ -3859,7 +3859,7 @@
     {
       "name": "EnchantedSatchel",
       "type": "gui",
-      "sortid": 191,
+      "sortid": 213,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchanted_satchel",
@@ -3874,7 +3874,7 @@
     {
       "name": "AmuletSlotPlacement",
       "type": "procedure",
-      "sortid": 197,
+      "sortid": 214,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amulet_slot_placement",
@@ -3895,7 +3895,7 @@
     {
       "name": "StaticPools",
       "type": "biome",
-      "sortid": 188,
+      "sortid": 215,
       "compiles": true,
       "locked_code": false,
       "registry_name": "static_pools",
@@ -3909,7 +3909,7 @@
     {
       "name": "PoolWater",
       "type": "fluid",
-      "sortid": 186,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pool_water",
@@ -3929,7 +3929,7 @@
     {
       "name": "Pools",
       "type": "dimension",
-      "sortid": 187,
+      "sortid": 10,
       "compiles": true,
       "locked_code": true,
       "registry_name": "pools",
@@ -3945,7 +3945,7 @@
     {
       "name": "StasisPoolsEntrance",
       "type": "structure",
-      "sortid": 193,
+      "sortid": 216,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stasis_pools_entrance",
@@ -3962,7 +3962,7 @@
     {
       "name": "PoolWaterMobplayerCollidesBlock",
       "type": "procedure",
-      "sortid": 194,
+      "sortid": 217,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pool_water_mobplayer_collides_block",
@@ -3998,7 +3998,7 @@
     {
       "name": "Lightbulb",
       "type": "block",
-      "sortid": 199,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightbulb",
@@ -4015,7 +4015,7 @@
     {
       "name": "LightbulbOff",
       "type": "block",
-      "sortid": 200,
+      "sortid": 218,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightbulb_off",
@@ -4032,7 +4032,7 @@
     {
       "name": "LightbulbRedstoneOff",
       "type": "procedure",
-      "sortid": 201,
+      "sortid": 219,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightbulb_redstone_off",
@@ -4064,7 +4064,7 @@
     {
       "name": "LightbulbOffRedstoneOn",
       "type": "procedure",
-      "sortid": 202,
+      "sortid": 220,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightbulb_off_redstone_on",
@@ -4096,7 +4096,7 @@
     {
       "name": "StasisLoop",
       "type": "procedure",
-      "sortid": 203,
+      "sortid": 221,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stasis_loop",
@@ -4124,7 +4124,7 @@
     {
       "name": "PoolPlacer",
       "type": "block",
-      "sortid": 204,
+      "sortid": 222,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pool_placer",
@@ -4141,7 +4141,7 @@
     {
       "name": "PoolPlacerUpdateTick",
       "type": "procedure",
-      "sortid": 206,
+      "sortid": 223,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pool_placer_update_tick",
@@ -4173,7 +4173,7 @@
     {
       "name": "PoolsCreateStructures",
       "type": "procedure",
-      "sortid": 207,
+      "sortid": 224,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pools_create_structures",
@@ -4193,7 +4193,7 @@
     {
       "name": "Randomizer",
       "type": "block",
-      "sortid": 208,
+      "sortid": 225,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomizer",
@@ -4210,7 +4210,7 @@
     {
       "name": "RandomizerOn",
       "type": "block",
-      "sortid": 209,
+      "sortid": 226,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomizer_on",
@@ -4227,7 +4227,7 @@
     {
       "name": "RandomizerUpdateTick",
       "type": "procedure",
-      "sortid": 210,
+      "sortid": 227,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomizer_update_tick",
@@ -4259,7 +4259,7 @@
     {
       "name": "RandomizerOnUpdateTick",
       "type": "procedure",
-      "sortid": 211,
+      "sortid": 228,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomizer_on_update_tick",
@@ -4291,7 +4291,7 @@
     {
       "name": "FunnyHammer",
       "type": "tool",
-      "sortid": 212,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funny_hammer",
@@ -4306,7 +4306,7 @@
     {
       "name": "FunnyHammerLivingEntityIsHitWithTool",
       "type": "procedure",
-      "sortid": 213,
+      "sortid": 229,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funny_hammer_living_entity_is_hit_with_tool",
@@ -4322,6 +4322,10 @@
           {
             "name": "sourceentity",
             "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
           },
           {
             "name": "x",
@@ -4346,7 +4350,7 @@
     {
       "name": "SillyTiles",
       "type": "block",
-      "sortid": 214,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tiles",
@@ -4363,7 +4367,7 @@
     {
       "name": "SillyTileStairs",
       "type": "block",
-      "sortid": 215,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tile_stairs",
@@ -4382,7 +4386,7 @@
     {
       "name": "SillyTileSlab",
       "type": "block",
-      "sortid": 216,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tile_slab",
@@ -4401,7 +4405,7 @@
     {
       "name": "SillyPlaster",
       "type": "block",
-      "sortid": 217,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_plaster",
@@ -4418,7 +4422,7 @@
     {
       "name": "SillyStar",
       "type": "block",
-      "sortid": 218,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_star",
@@ -4435,7 +4439,7 @@
     {
       "name": "Sillyite",
       "type": "item",
-      "sortid": 219,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sillyite",
@@ -4450,7 +4454,7 @@
     {
       "name": "RoadRecipe",
       "type": "recipe",
-      "sortid": 220,
+      "sortid": 230,
       "compiles": true,
       "locked_code": false,
       "registry_name": "road_recipe",
@@ -4464,7 +4468,7 @@
     {
       "name": "StripedRoadRecipe",
       "type": "recipe",
-      "sortid": 221,
+      "sortid": 231,
       "compiles": true,
       "locked_code": false,
       "registry_name": "striped_road_recipe",
@@ -4478,7 +4482,7 @@
     {
       "name": "TilesRecipe",
       "type": "recipe",
-      "sortid": 222,
+      "sortid": 232,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tiles_recipe",
@@ -4492,7 +4496,7 @@
     {
       "name": "TileStairsRecipe",
       "type": "recipe",
-      "sortid": 223,
+      "sortid": 233,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tile_stairs_recipe",
@@ -4506,7 +4510,7 @@
     {
       "name": "TileSlabRecipe",
       "type": "recipe",
-      "sortid": 224,
+      "sortid": 234,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tile_slab_recipe",
@@ -4520,7 +4524,7 @@
     {
       "name": "PlasterRecipe",
       "type": "recipe",
-      "sortid": 225,
+      "sortid": 235,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plaster_recipe",
@@ -4534,7 +4538,7 @@
     {
       "name": "WhiteTilesRecipe",
       "type": "recipe",
-      "sortid": 226,
+      "sortid": 236,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tiles_recipe",
@@ -4548,7 +4552,7 @@
     {
       "name": "WhiteTileStairsRecipe",
       "type": "recipe",
-      "sortid": 227,
+      "sortid": 237,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tile_stairs_recipe",
@@ -4562,7 +4566,7 @@
     {
       "name": "WhiteTileSlabRecipe",
       "type": "recipe",
-      "sortid": 228,
+      "sortid": 238,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_tile_slab_recipe",
@@ -4576,7 +4580,7 @@
     {
       "name": "BlackTilesRecipe",
       "type": "recipe",
-      "sortid": 229,
+      "sortid": 239,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tiles_recipe",
@@ -4590,7 +4594,7 @@
     {
       "name": "BlackTileStairsRecipe",
       "type": "recipe",
-      "sortid": 230,
+      "sortid": 240,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tile_stairs_recipe",
@@ -4604,7 +4608,7 @@
     {
       "name": "BlackTileSlabRecipe",
       "type": "recipe",
-      "sortid": 231,
+      "sortid": 241,
       "compiles": true,
       "locked_code": false,
       "registry_name": "black_tile_slab_recipe",
@@ -4618,7 +4622,7 @@
     {
       "name": "LightbulbRecipe",
       "type": "recipe",
-      "sortid": 232,
+      "sortid": 242,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lightbulb_recipe",
@@ -4632,7 +4636,7 @@
     {
       "name": "RandomizerRecipe",
       "type": "recipe",
-      "sortid": 233,
+      "sortid": 243,
       "compiles": true,
       "locked_code": false,
       "registry_name": "randomizer_recipe",
@@ -4646,7 +4650,7 @@
     {
       "name": "HummusSandwichRecipe",
       "type": "recipe",
-      "sortid": 234,
+      "sortid": 244,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hummus_sandwich_recipe",
@@ -4660,7 +4664,7 @@
     {
       "name": "SillyiteRecipe",
       "type": "recipe",
-      "sortid": 235,
+      "sortid": 245,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sillyite_recipe",
@@ -4674,7 +4678,7 @@
     {
       "name": "SillyTilesRecipe",
       "type": "recipe",
-      "sortid": 236,
+      "sortid": 246,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tiles_recipe",
@@ -4688,7 +4692,7 @@
     {
       "name": "SillyTileStairsRecipe",
       "type": "recipe",
-      "sortid": 237,
+      "sortid": 247,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tile_stairs_recipe",
@@ -4702,7 +4706,7 @@
     {
       "name": "SillyTileSlabRecipe",
       "type": "recipe",
-      "sortid": 238,
+      "sortid": 248,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_tile_slab_recipe",
@@ -4716,7 +4720,7 @@
     {
       "name": "SillyPlasterRecipe",
       "type": "recipe",
-      "sortid": 239,
+      "sortid": 249,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_plaster_recipe",
@@ -4730,7 +4734,7 @@
     {
       "name": "SillyStarRecipe",
       "type": "recipe",
-      "sortid": 240,
+      "sortid": 250,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_star_recipe",
@@ -4744,7 +4748,7 @@
     {
       "name": "FunnyHammerRecipe",
       "type": "recipe",
-      "sortid": 241,
+      "sortid": 251,
       "compiles": true,
       "locked_code": false,
       "registry_name": "funny_hammer_recipe",
@@ -4758,7 +4762,7 @@
     {
       "name": "FluorescentLightRecipe",
       "type": "recipe",
-      "sortid": 242,
+      "sortid": 252,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe",
@@ -4772,7 +4776,7 @@
     {
       "name": "FluorescentLightTag",
       "type": "tag",
-      "sortid": 243,
+      "sortid": 253,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_tag",
@@ -4786,7 +4790,7 @@
     {
       "name": "FluorescentLightARecipe",
       "type": "recipe",
-      "sortid": 244,
+      "sortid": 254,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_a_recipe",
@@ -4800,7 +4804,7 @@
     {
       "name": "FluorescentLightRecipeB",
       "type": "recipe",
-      "sortid": 245,
+      "sortid": 255,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_b",
@@ -4814,7 +4818,7 @@
     {
       "name": "FluorescentLightRecipeC",
       "type": "recipe",
-      "sortid": 246,
+      "sortid": 256,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_c",
@@ -4828,7 +4832,7 @@
     {
       "name": "FluorescentLightRecipeD",
       "type": "recipe",
-      "sortid": 247,
+      "sortid": 257,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_d",
@@ -4842,7 +4846,7 @@
     {
       "name": "FluorescentLightRecipeE",
       "type": "recipe",
-      "sortid": 248,
+      "sortid": 258,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_e",
@@ -4856,7 +4860,7 @@
     {
       "name": "FluorescentLightRecipeF",
       "type": "recipe",
-      "sortid": 249,
+      "sortid": 259,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_f",
@@ -4870,7 +4874,7 @@
     {
       "name": "FluorescentLightRecipeG",
       "type": "recipe",
-      "sortid": 250,
+      "sortid": 260,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_g",
@@ -4884,7 +4888,7 @@
     {
       "name": "FluorescentLightRecipeH",
       "type": "recipe",
-      "sortid": 251,
+      "sortid": 261,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_h",
@@ -4898,7 +4902,7 @@
     {
       "name": "FluorescentLightRecipeI",
       "type": "recipe",
-      "sortid": 252,
+      "sortid": 262,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_i",
@@ -4912,7 +4916,7 @@
     {
       "name": "FluorescentLightRecipeJ",
       "type": "recipe",
-      "sortid": 253,
+      "sortid": 263,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_j",
@@ -4926,7 +4930,7 @@
     {
       "name": "FluorescentLightRecipeK",
       "type": "recipe",
-      "sortid": 254,
+      "sortid": 264,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_k",
@@ -4940,7 +4944,7 @@
     {
       "name": "FluorescentLightRecipeL",
       "type": "recipe",
-      "sortid": 255,
+      "sortid": 265,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_l",
@@ -4954,7 +4958,7 @@
     {
       "name": "FluorescentLightRecipeM",
       "type": "recipe",
-      "sortid": 256,
+      "sortid": 266,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_m",
@@ -4968,7 +4972,7 @@
     {
       "name": "FluorescentLightRecipeN",
       "type": "recipe",
-      "sortid": 257,
+      "sortid": 267,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_n",
@@ -4982,7 +4986,7 @@
     {
       "name": "FluorescentLightRecipeO",
       "type": "recipe",
-      "sortid": 258,
+      "sortid": 268,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_o",
@@ -4996,7 +5000,7 @@
     {
       "name": "FluorescentLightRecipeP",
       "type": "recipe",
-      "sortid": 259,
+      "sortid": 269,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_p",
@@ -5010,7 +5014,7 @@
     {
       "name": "FluorescentLightRecipeQ",
       "type": "recipe",
-      "sortid": 260,
+      "sortid": 270,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_q",
@@ -5024,7 +5028,7 @@
     {
       "name": "FluorescentLightRecipeR",
       "type": "recipe",
-      "sortid": 261,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_r",
@@ -5038,7 +5042,7 @@
     {
       "name": "FluorescentLightRecipeS",
       "type": "recipe",
-      "sortid": 262,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_s",
@@ -5052,7 +5056,7 @@
     {
       "name": "FluorescentLightRecipeT",
       "type": "recipe",
-      "sortid": 263,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_t",
@@ -5066,7 +5070,7 @@
     {
       "name": "FluorescentLightRecipeU",
       "type": "recipe",
-      "sortid": 264,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_u",
@@ -5080,7 +5084,7 @@
     {
       "name": "FluorescentLightRecipeV",
       "type": "recipe",
-      "sortid": 265,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_v",
@@ -5094,7 +5098,7 @@
     {
       "name": "FluorescentLightRecipeW",
       "type": "recipe",
-      "sortid": 266,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_w",
@@ -5108,7 +5112,7 @@
     {
       "name": "FluorescentLightRecipeX",
       "type": "recipe",
-      "sortid": 267,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_x",
@@ -5122,7 +5126,7 @@
     {
       "name": "FluorescentLightRecipeY",
       "type": "recipe",
-      "sortid": 268,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_y",
@@ -5136,7 +5140,7 @@
     {
       "name": "FluorescentLightRecipeZ",
       "type": "recipe",
-      "sortid": 269,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_z",
@@ -5150,7 +5154,7 @@
     {
       "name": "FluorescentLightRecipe1",
       "type": "recipe",
-      "sortid": 270,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_1",
@@ -5164,7 +5168,7 @@
     {
       "name": "FluorescentLightRecipe2",
       "type": "recipe",
-      "sortid": 271,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_2",
@@ -5178,7 +5182,7 @@
     {
       "name": "FluorescentLightRecipe3",
       "type": "recipe",
-      "sortid": 272,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_3",
@@ -5192,7 +5196,7 @@
     {
       "name": "FluorescentLightRecipe4",
       "type": "recipe",
-      "sortid": 273,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_4",
@@ -5206,7 +5210,7 @@
     {
       "name": "FluorescentLightRecipe5",
       "type": "recipe",
-      "sortid": 274,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_5",
@@ -5220,7 +5224,7 @@
     {
       "name": "FluorescentLightRecipe6",
       "type": "recipe",
-      "sortid": 275,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_6",
@@ -5234,7 +5238,7 @@
     {
       "name": "FluorescentLightRecipe7",
       "type": "recipe",
-      "sortid": 276,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_7",
@@ -5248,7 +5252,7 @@
     {
       "name": "FluorescentLightRecipe8",
       "type": "recipe",
-      "sortid": 277,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_8",
@@ -5262,7 +5266,7 @@
     {
       "name": "FluorescentLightRecipe9",
       "type": "recipe",
-      "sortid": 278,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_9",
@@ -5276,7 +5280,7 @@
     {
       "name": "FluorescentLightRecipe0",
       "type": "recipe",
-      "sortid": 279,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_0",
@@ -5290,7 +5294,7 @@
     {
       "name": "FluorescentLightRecipeQuestion",
       "type": "recipe",
-      "sortid": 280,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_question",
@@ -5304,7 +5308,7 @@
     {
       "name": "FluorescentLightRecipeExclamation",
       "type": "recipe",
-      "sortid": 281,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_exclamation",
@@ -5318,7 +5322,7 @@
     {
       "name": "FluorescentLightRecipePeriod",
       "type": "recipe",
-      "sortid": 282,
+      "sortid": 292,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_period",
@@ -5332,7 +5336,7 @@
     {
       "name": "FluorescentLightRecipeComma",
       "type": "recipe",
-      "sortid": 283,
+      "sortid": 293,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_comma",
@@ -5346,7 +5350,7 @@
     {
       "name": "FluorescentLightRecipeDash",
       "type": "recipe",
-      "sortid": 284,
+      "sortid": 294,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fluorescent_light_recipe_dash",
@@ -5360,7 +5364,7 @@
     {
       "name": "LiminalBiomes",
       "type": "tag",
-      "sortid": 285,
+      "sortid": 295,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_biomes",
@@ -5374,7 +5378,7 @@
     {
       "name": "Crowbar",
       "type": "item",
-      "sortid": 286,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crowbar",
@@ -5389,7 +5393,7 @@
     {
       "name": "PryableBlocks",
       "type": "tag",
-      "sortid": 287,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pryable_blocks",
@@ -5403,7 +5407,7 @@
     {
       "name": "LiminalAsphalt",
       "type": "item",
-      "sortid": 289,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_asphalt",
@@ -5418,7 +5422,7 @@
     {
       "name": "BabelCodex",
       "type": "item",
-      "sortid": 290,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "babel_codex",
@@ -5433,7 +5437,7 @@
     {
       "name": "SillyStarSticker",
       "type": "item",
-      "sortid": 291,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_star_sticker",
@@ -5448,7 +5452,7 @@
     {
       "name": "PoolsRift",
       "type": "procedure",
-      "sortid": 292,
+      "sortid": 297,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pools_rift",
@@ -5468,7 +5472,7 @@
     {
       "name": "LiminalRoadOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 293,
+      "sortid": 298,
       "compiles": true,
       "locked_code": false,
       "registry_name": "liminal_road_on_block_right_clicked",
@@ -5504,7 +5508,7 @@
     {
       "name": "SillyStarOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 294,
+      "sortid": 299,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_star_on_block_right_clicked",
@@ -5540,7 +5544,7 @@
     {
       "name": "SillyStarStarless",
       "type": "block",
-      "sortid": 295,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "silly_star_starless",
@@ -5550,6 +5554,113 @@
           "src/main/java/net/mcreator/diabolica/block/SillyStarStarlessBlock.java",
           "src/main/resources/assets/diabolica/blockstates/silly_star_starless.json",
           "src/main/resources/assets/diabolica/models/block/silly_star_starless.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "EnterPools",
+      "type": "achievement",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enter_pools",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/diabolica/advancements/enter_pools.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PlasterStairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/plaster_stairs.json",
+          "src/main/resources/assets/diabolica/models/item/plaster_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_stairs_outer.json",
+          "src/main/java/net/mcreator/diabolica/block/PlasterStairsBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/plaster_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_stairs_inner.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PlasterSlab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/diabolica/block/PlasterSlabBlock.java",
+          "src/main/resources/assets/diabolica/blockstates/plaster_slab.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_slab_full.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_slab.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_slab_top.json",
+          "src/main/resources/assets/diabolica/models/item/plaster_slab.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PlasterBricks",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/plaster_bricks.json",
+          "src/main/resources/assets/diabolica/blockstates/plaster_bricks.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_bricks.json",
+          "src/main/java/net/mcreator/diabolica/block/PlasterBricksBlock.java"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PlasterBrickStairs",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_brick_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_stairs_inner.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_stairs.json",
+          "src/main/resources/assets/diabolica/blockstates/plaster_brick_stairs.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_stairs_outer.json",
+          "src/main/java/net/mcreator/diabolica/block/PlasterBrickStairsBlock.java",
+          "src/main/resources/assets/diabolica/models/item/plaster_brick_stairs.json"
+        ]
+      },
+      "path": "~/Limbo/Blocks"
+    },
+    {
+      "name": "PlasterBrickSlab",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plaster_brick_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/diabolica/models/item/plaster_brick_slab.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_slab.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_slab_top.json",
+          "src/main/resources/assets/diabolica/models/block/plaster_brick_slab_full.json",
+          "src/main/resources/assets/diabolica/blockstates/plaster_brick_slab.json",
+          "src/main/java/net/mcreator/diabolica/block/PlasterBrickSlabBlock.java"
         ]
       },
       "path": "~/Limbo/Blocks"
@@ -5903,6 +6014,7 @@
       "enchantment.diabolicaa.lachrymose": "Lachrymose",
       "item.diabolicaa.devils_contract": "Devil\u0027s Contract ",
       "block.diabolica.dingy_black_tile_slab": "Dingy Black Tile Slab",
+      "block.diabolica.plaster_brick_slab": "Plaster Brick Slab",
       "item.diabolica.liminal_asphalt": "Chunk of Asphalt",
       "gui.eviladdons.dark_guide_first_quest.label_i_do_not_want_to_talk_to_you_mo": "I do not want to talk to you, mortal.",
       "item.eviladdons.spell_of_discombobulation": "Spell Of Discombobulation",
@@ -5913,6 +6025,7 @@
       "gui.eviladdons.devils_contract.label_sign_and_recieve_my_guarantee_of": "Sign and recieve my guarantee of",
       "block.diabolica.black_tile_stairs": "Black Tile Stairs",
       "block.diabolica.tile_slab": "Tile Slab",
+      "block.diabolica.plaster_stairs": "Plaster Stairs",
       "gui.eviladdons.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
       "block.diabolica.limbo_block": "Static Snow",
       "gui.diabolicaa.devils_contract.label_destruction_upon_using_the_idol": "destruction upon use of the Idol.",
@@ -5944,12 +6057,14 @@
       "item.diabolica.spell_of_recall": "Spell Of Recall",
       "block.diabolica.dingy_black_tile_stairs": "Dingy Black Tile Stairs",
       "gui.eviladdons.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
+      "block.diabolica.plaster_slab": "Plaster Slab",
       "item.diabolica.accursed_idol": "Accursed Idol",
       "item.diabolicaa.soulsnatcher": "Soulsnatcher",
       "block.diabolica.fluorescent_light": "Fluorescent Light",
       "block.diabolica.fluorescent_light_comma": "Fluorescent Light",
       "item.diabolica.sillyite": "Sillyite",
       "gui.eviladdons.quest_2.label_i_do_not_want_to_talk_to_you_mo": "You want something from me, don\u0027t you?",
+      "advancements.enter_pools.title": "Submechanophobia",
       "subtitles.ashes_fall": "",
       "block.diabolicaa.forgotten_one_skull": "The Forgotten One",
       "gui.diabolica.enhanced_craft_gui.label_enhanced_crafting_table": "Table of Diabolism",
@@ -5961,6 +6076,7 @@
       "subtitles.item.funny_hammer.bonk": "BONK!",
       "gui.diabolicaa.dark_guide_first_quest.label_and_then_i_may_reconsider": "Death, and then I may reconsider.",
       "item.diabolica.spell_of_discombobulation": "Spell Of Discombobulation",
+      "block.diabolica.plaster_brick_stairs": "Plaster Brick Stairs",
       "gui.eviladdons.devils_contract.label_but_prepare_for_the_consequences": "But prepare for the consequences.",
       "enchantment.eviladdons.lachrymose": "Lachrymose",
       "item.diabolicaa.dark_guide_spawn_egg": "Dark Trader Spawn Egg",
@@ -5994,6 +6110,7 @@
       "block.eviladdons.diabolism_table": "Table of Diabolism",
       "gui.eviladdons.devils_contract.button_empty": " ",
       "block.diabolica.randomizer_on": "Randomizer",
+      "advancements.enter_pools.descr": "Going deeper...",
       "effect.diabolicaa.augmented": "Augmented",
       "item.diabolica.ring_of_haste": "Ring Of Haste",
       "effect.diabolica.augmented": "Augmented",
@@ -6008,6 +6125,7 @@
       "advancements.root.title": "Diabolica",
       "item.diabolica.devils_contract": "Devil\u0027s Contract ",
       "enchantment.diabolica.launching_enchant": "Launching",
+      "block.diabolica.plaster_bricks": "Plaster Bricks",
       "item.eviladdons.augmented_tear": "Augmented Tear",
       "item.diabolicaa.void_parcel": "Void Parcel",
       "gui.eviladdons.dark_guide_first_quest.label_bring_me_something_more_powerful": "Bring me something more powerful than",

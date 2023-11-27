@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water"
+    },
+    "title": {
+      "translate": "advancements.enter_pools.title"
+    },
+    "description": {
+      "translate": "advancements.enter_pools.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "enter_pools": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "diabolica:pools"
+      }
+    }
+  },
+  "parent": "diabolica:enter_stasis"
+}

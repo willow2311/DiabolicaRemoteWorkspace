@@ -36,7 +36,7 @@ public class FunnyHammerItem extends Item {
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
-		FunnyHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, sourceentity);
+		FunnyHammerLivingEntityIsHitWithToolProcedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity, sourceentity, itemstack);
 		return true;
 	}
 
@@ -50,8 +50,8 @@ public class FunnyHammerItem extends Item {
 		if (equipmentSlot == EquipmentSlot.MAINHAND) {
 			ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 			builder.putAll(super.getDefaultAttributeModifiers(equipmentSlot));
-			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 9f, AttributeModifier.Operation.ADDITION));
-			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3.8, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_DAMAGE, new AttributeModifier(BASE_ATTACK_DAMAGE_UUID, "Tool modifier", 0f, AttributeModifier.Operation.ADDITION));
+			builder.put(Attributes.ATTACK_SPEED, new AttributeModifier(BASE_ATTACK_SPEED_UUID, "Tool modifier", -3, AttributeModifier.Operation.ADDITION));
 			return builder.build();
 		}
 		return super.getDefaultAttributeModifiers(equipmentSlot);

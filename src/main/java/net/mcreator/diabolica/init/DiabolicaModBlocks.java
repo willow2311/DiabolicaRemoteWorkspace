@@ -29,6 +29,11 @@ import net.mcreator.diabolica.block.RandomizerOnBlock;
 import net.mcreator.diabolica.block.RandomizerBlock;
 import net.mcreator.diabolica.block.PoolWaterBlock;
 import net.mcreator.diabolica.block.PoolPlacerBlock;
+import net.mcreator.diabolica.block.PlasterStairsBlock;
+import net.mcreator.diabolica.block.PlasterSlabBlock;
+import net.mcreator.diabolica.block.PlasterBricksBlock;
+import net.mcreator.diabolica.block.PlasterBrickStairsBlock;
+import net.mcreator.diabolica.block.PlasterBrickSlabBlock;
 import net.mcreator.diabolica.block.PlasterBlock;
 import net.mcreator.diabolica.block.LiminalRoadBlock;
 import net.mcreator.diabolica.block.LimboBlockBlock;
@@ -94,10 +99,17 @@ import net.mcreator.diabolica.DiabolicaMod;
 
 public class DiabolicaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, DiabolicaMod.MODID);
+	public static final RegistryObject<Block> POOL_WATER = REGISTRY.register("pool_water", () -> new PoolWaterBlock());
 	public static final RegistryObject<Block> DIABOLISM_TABLE = REGISTRY.register("diabolism_table", () -> new EnhcancedCraftingTableBlock());
+	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
 	public static final RegistryObject<Block> LIMINAL_ROAD = REGISTRY.register("liminal_road", () -> new LiminalRoadBlock());
 	public static final RegistryObject<Block> STRIPED_LIMINAL_ROAD = REGISTRY.register("striped_liminal_road", () -> new StripedLiminalRoadBlock());
 	public static final RegistryObject<Block> PLASTER = REGISTRY.register("plaster", () -> new PlasterBlock());
+	public static final RegistryObject<Block> PLASTER_STAIRS = REGISTRY.register("plaster_stairs", () -> new PlasterStairsBlock());
+	public static final RegistryObject<Block> PLASTER_SLAB = REGISTRY.register("plaster_slab", () -> new PlasterSlabBlock());
+	public static final RegistryObject<Block> PLASTER_BRICKS = REGISTRY.register("plaster_bricks", () -> new PlasterBricksBlock());
+	public static final RegistryObject<Block> PLASTER_BRICK_STAIRS = REGISTRY.register("plaster_brick_stairs", () -> new PlasterBrickStairsBlock());
+	public static final RegistryObject<Block> PLASTER_BRICK_SLAB = REGISTRY.register("plaster_brick_slab", () -> new PlasterBrickSlabBlock());
 	public static final RegistryObject<Block> TILES = REGISTRY.register("tiles", () -> new TilesBlock());
 	public static final RegistryObject<Block> TILE_STAIRS = REGISTRY.register("tile_stairs", () -> new TileStairsBlock());
 	public static final RegistryObject<Block> TILE_SLAB = REGISTRY.register("tile_slab", () -> new TileSlabBlock());
@@ -116,6 +128,11 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> DINGY_BLACK_TILES = REGISTRY.register("dingy_black_tiles", () -> new DingyBlackTilesBlock());
 	public static final RegistryObject<Block> DINGY_BLACK_TILE_STAIRS = REGISTRY.register("dingy_black_tile_stairs", () -> new DingyBlackTileStairsBlock());
 	public static final RegistryObject<Block> DINGY_BLACK_TILE_SLAB = REGISTRY.register("dingy_black_tile_slab", () -> new DingyBlackTileSlabBlock());
+	public static final RegistryObject<Block> SILLY_TILES = REGISTRY.register("silly_tiles", () -> new SillyTilesBlock());
+	public static final RegistryObject<Block> SILLY_TILE_STAIRS = REGISTRY.register("silly_tile_stairs", () -> new SillyTileStairsBlock());
+	public static final RegistryObject<Block> SILLY_TILE_SLAB = REGISTRY.register("silly_tile_slab", () -> new SillyTileSlabBlock());
+	public static final RegistryObject<Block> SILLY_PLASTER = REGISTRY.register("silly_plaster", () -> new SillyPlasterBlock());
+	public static final RegistryObject<Block> SILLY_STAR = REGISTRY.register("silly_star", () -> new SillyStarBlock());
 	public static final RegistryObject<Block> FLUORESCENT_LIGHT = REGISTRY.register("fluorescent_light", () -> new FluorescentLightBlock());
 	public static final RegistryObject<Block> FLUORESCENT_LIGHT_A = REGISTRY.register("fluorescent_light_a", () -> new FluorescentLightABlock());
 	public static final RegistryObject<Block> FLUORESCENT_LIGHT_B = REGISTRY.register("fluorescent_light_b", () -> new FluorescentLightBBlock());
@@ -162,16 +179,9 @@ public class DiabolicaModBlocks {
 	public static final RegistryObject<Block> LIMBO_BLOCK = REGISTRY.register("limbo_block", () -> new LimboBlockBlock());
 	public static final RegistryObject<Block> ROAD_PLACER = REGISTRY.register("road_placer", () -> new RoadPlacerBlock());
 	public static final RegistryObject<Block> ROAD_PLACER_2 = REGISTRY.register("road_placer_2", () -> new RoadPlacer2Block());
-	public static final RegistryObject<Block> POOL_WATER = REGISTRY.register("pool_water", () -> new PoolWaterBlock());
-	public static final RegistryObject<Block> LIGHTBULB = REGISTRY.register("lightbulb", () -> new LightbulbBlock());
 	public static final RegistryObject<Block> LIGHTBULB_OFF = REGISTRY.register("lightbulb_off", () -> new LightbulbOffBlock());
 	public static final RegistryObject<Block> POOL_PLACER = REGISTRY.register("pool_placer", () -> new PoolPlacerBlock());
 	public static final RegistryObject<Block> RANDOMIZER = REGISTRY.register("randomizer", () -> new RandomizerBlock());
 	public static final RegistryObject<Block> RANDOMIZER_ON = REGISTRY.register("randomizer_on", () -> new RandomizerOnBlock());
-	public static final RegistryObject<Block> SILLY_TILES = REGISTRY.register("silly_tiles", () -> new SillyTilesBlock());
-	public static final RegistryObject<Block> SILLY_TILE_STAIRS = REGISTRY.register("silly_tile_stairs", () -> new SillyTileStairsBlock());
-	public static final RegistryObject<Block> SILLY_TILE_SLAB = REGISTRY.register("silly_tile_slab", () -> new SillyTileSlabBlock());
-	public static final RegistryObject<Block> SILLY_PLASTER = REGISTRY.register("silly_plaster", () -> new SillyPlasterBlock());
-	public static final RegistryObject<Block> SILLY_STAR = REGISTRY.register("silly_star", () -> new SillyStarBlock());
 	public static final RegistryObject<Block> SILLY_STAR_STARLESS = REGISTRY.register("silly_star_starless", () -> new SillyStarStarlessBlock());
 }

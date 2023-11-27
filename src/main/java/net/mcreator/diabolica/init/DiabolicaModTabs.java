@@ -26,6 +26,11 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModBlocks.LIMINAL_ROAD.get().asItem());
 			tabData.accept(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD.get().asItem());
 			tabData.accept(DiabolicaModBlocks.PLASTER.get().asItem());
+			tabData.accept(DiabolicaModBlocks.PLASTER_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.PLASTER_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.PLASTER_BRICKS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.PLASTER_BRICK_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.PLASTER_BRICK_SLAB.get().asItem());
 			tabData.accept(DiabolicaModBlocks.TILES.get().asItem());
 			tabData.accept(DiabolicaModBlocks.TILE_STAIRS.get().asItem());
 			tabData.accept(DiabolicaModBlocks.TILE_SLAB.get().asItem());
@@ -44,6 +49,11 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILES.get().asItem());
 			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILE_STAIRS.get().asItem());
 			tabData.accept(DiabolicaModBlocks.DINGY_BLACK_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILES.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILE_STAIRS.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_TILE_SLAB.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_PLASTER.get().asItem());
+			tabData.accept(DiabolicaModBlocks.SILLY_STAR.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_A.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_B.get().asItem());
@@ -86,11 +96,6 @@ public class DiabolicaModTabs {
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_DASH.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_EXCLAMATION.get().asItem());
 			tabData.accept(DiabolicaModBlocks.FLUORESCENT_LIGHT_QUESTION.get().asItem());
-			tabData.accept(DiabolicaModBlocks.SILLY_TILES.get().asItem());
-			tabData.accept(DiabolicaModBlocks.SILLY_TILE_STAIRS.get().asItem());
-			tabData.accept(DiabolicaModBlocks.SILLY_TILE_SLAB.get().asItem());
-			tabData.accept(DiabolicaModBlocks.SILLY_PLASTER.get().asItem());
-			tabData.accept(DiabolicaModBlocks.SILLY_STAR.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
