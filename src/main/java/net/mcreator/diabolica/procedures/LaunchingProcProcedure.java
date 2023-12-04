@@ -37,7 +37,7 @@ public class LaunchingProcProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if ((sourceentity.getCapability(DiabolicaModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new DiabolicaModVariables.PlayerVariables())).launch_used == false
-				&& (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DiabolicaModItems.SOULSNATCHER.get()) {
+				&& (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DiabolicaModItems.SOULSNATCHER_SCYTHE.get()) {
 			if (EnchantmentHelper.getItemEnchantmentLevel(DiabolicaModEnchantments.LAUNCHING_ENCHANT.get(), (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 				if (sourceentity instanceof Player _player)
 					_player.getCooldowns().addCooldown((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(), 100);

@@ -38,7 +38,7 @@ public class DropSoulProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (sourceentity instanceof Player) {
-			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DiabolicaModItems.SOULSNATCHER.get()) {
+			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == DiabolicaModItems.SOULSNATCHER_SCYTHE.get()) {
 				if (world instanceof ServerLevel _level)
 					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 							("summon item ~ ~ ~ {Tags:[\"" + "" + entity.getDisplayName().getString() + "\"],Item:{id:\"eviladdons:soul\",Count:1b,tag:{display:{Lore:['{\"text\":\"" + entity.getDisplayName().getString() + "\\'s Soul"

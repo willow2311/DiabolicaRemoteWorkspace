@@ -60,7 +60,7 @@ public class DiabolicaModItems {
 	public static final RegistryObject<Item> SILLY_STAR_STICKER = REGISTRY.register("silly_star_sticker", () -> new SillyStarStickerItem());
 	public static final RegistryObject<Item> DIABOLISM_TABLE = block(DiabolicaModBlocks.DIABOLISM_TABLE);
 	public static final RegistryObject<Item> LIGHTBULB = block(DiabolicaModBlocks.LIGHTBULB);
-	public static final RegistryObject<Item> SOULSNATCHER = REGISTRY.register("soulsnatcher", () -> new SoulsnatcherItem());
+	public static final RegistryObject<Item> SOULSNATCHER_SCYTHE = REGISTRY.register("soulsnatcher_scythe", () -> new SoulsnatcherItem());
 	public static final RegistryObject<Item> FUNNY_HAMMER = REGISTRY.register("funny_hammer", () -> new FunnyHammerItem());
 	public static final RegistryObject<Item> LIMINAL_ROAD = block(DiabolicaModBlocks.LIMINAL_ROAD);
 	public static final RegistryObject<Item> STRIPED_LIMINAL_ROAD = block(DiabolicaModBlocks.STRIPED_LIMINAL_ROAD);

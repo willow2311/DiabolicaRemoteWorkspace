@@ -104,7 +104,7 @@ public class DiabolicaModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
-			tabData.accept(DiabolicaModItems.SOULSNATCHER.get());
+			tabData.accept(DiabolicaModItems.SOULSNATCHER_SCYTHE.get());
 			tabData.accept(DiabolicaModItems.FUNNY_HAMMER.get());
 		}
 

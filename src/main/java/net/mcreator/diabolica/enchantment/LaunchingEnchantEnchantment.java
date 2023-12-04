@@ -16,6 +16,6 @@ public class LaunchingEnchantEnchantment extends Enchantment {
 
 	@Override
 	public boolean canApplyAtEnchantingTable(ItemStack itemstack) {
-		return Ingredient.of(new ItemStack(DiabolicaModItems.SOULSNATCHER.get())).test(itemstack);
+		return Ingredient.of(new ItemStack(DiabolicaModItems.SOULSNATCHER_SCYTHE.get())).test(itemstack);
 	}
 }

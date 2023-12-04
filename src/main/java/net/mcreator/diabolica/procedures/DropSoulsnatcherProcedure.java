@@ -55,7 +55,7 @@ public class DropSoulsnatcherProcedure {
 					if (world instanceof ServerLevel _level)
 						_level.sendParticles(ParticleTypes.REVERSE_PORTAL, x, y, z, 50, 0.5, 0.5, 0.5, 1);
 					if (world instanceof ServerLevel _level) {
-						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(DiabolicaModItems.SOULSNATCHER.get()));
+						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(DiabolicaModItems.SOULSNATCHER_SCYTHE.get()));
 						entityToSpawn.setPickUpDelay(10);
 						_level.addFreshEntity(entityToSpawn);
 					}
